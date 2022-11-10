@@ -259,7 +259,7 @@ a.close-chat {
   padding: 20px 20px 20px 10px;
   background-color: rgb(230, 221, 212);
   position: relative;
-  background-image: url("images/patterns/whatsapp-bg-20.webp");
+  background-image: url("./images/patterns/whatsapp-bg-20.webp");
   &::before {
     display: block;
     position: absolute;
