@@ -166,7 +166,7 @@ img { border-radius: 6px; }
    border-radius: 3px;
 }
 #sidebar .widget .submit-search {
-	background:url(../images/search-icon.png) no-repeat;
+	background:url(../images/search-icon.webp) no-repeat;
 	border:none;
 	cursor:pointer;
 	width:18px;
@@ -545,14 +545,14 @@ ul#nav ul li a {
 
 .flex-direction-nav .flex-next {
 	right: 0px;
-	background: #1f2024 url(../images/direction-nav-right.png) no-repeat 47% 50%;
+	background: #1f2024 url(../images/direction-nav-right.webp) no-repeat 47% 50%;
 	position: absolute;
 
 	border-radius: 3px 0 0 3px;
 }
 .flex-direction-nav .flex-prev {
 	left: 0px;
-	background: #1f2024 url(../images/direction-nav-left.png) no-repeat 53% 50%;
+	background: #1f2024 url(../images/direction-nav-left.webp) no-repeat 53% 50%;
 	position: absolute;
 
 	border-radius: 0 3px 3px 0;
