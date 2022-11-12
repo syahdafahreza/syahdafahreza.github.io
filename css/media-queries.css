@@ -127,17 +127,15 @@
 		text-align: left;
 		background-color: #1f2024;
 		position: relative;
-
       border: none;
       float: right;
-
       font: 0/0 a;
       text-shadow: none;
       color: transparent;
-
       position: relative;
       top: 30px;
       right: 36px;
+      border-radius: 6px;
    }
 
 	#nav-wrap > a:before,
@@ -177,7 +175,7 @@
       background: #1f2024;
       margin: 0 20px;
       clear: both;
-      border-radius: 3px;
+      border-radius: 6px;
    }
 
    ul#nav li {
