@@ -293,12 +293,16 @@
    .slider-text-pt1 {
      margin-top: 42px;
      margin-bottom: 30px;
+     text-align: center;
+     float: unset;
      width: 95%;
      transform: translateY(0%);
    }
    .slider-text-pt2 {
      margin-top: 42px;
      margin-bottom: 30px;
+     text-align: center;
+     float: unset;
      width: 95%;
      transform: translateY(0%);
    }
