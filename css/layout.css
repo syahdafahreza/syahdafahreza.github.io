@@ -236,7 +236,7 @@ header .logo a {
 /* hide toggle button */
 #nav-wrap > a.mobile-btn {
    display: none;
-   border-radius: 3px;
+   border-radius: 6px;
 }
 
 ul#nav {
