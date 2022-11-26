@@ -513,26 +513,41 @@
          <div class="twelve columns">
 
             <ul class="footer-nav">
-               <li><a href="#">Home.</a></li>
-               <li><a href="#">Blog.</a></li>
-               <li><a href="#">Portfolio.</a></li>
-               <li><a href="#">About.</a></li>
-               <li><a href="#">Contact.</a></li>
-               <li><a href="#">Features.</a></li>
+               <li class="current"><a href="/">Beranda.</a></li>
+               <li><a href="https://umarkovweb.site">Blog.</a></li>
+               <!--<li><a href="/product/category.html">Produk.</a></li>-->
+               <li><a href="/about.html">Tentang.</a></li>
+               <li><a href="/contact-me.html">Hubungi.</a></li>
+               <li><a href="#" id="myLimodal">Password RAR.</a></li>
             </ul>
 
             <ul class="footer-social">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
-               <li><a href="#"><i class="fa fa-rss"></i></a></li>
+               <li>
+                  <a href="https://web.facebook.com/syahda.fahreza/"><i class="fa fa-facebook"></i></a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/umarkoverse/"><i class="fa fa-instagram"></i></a>
+               </li>
+               <li>
+                  <a href="https://wa.me/6281916436208"><i class="fa fa-whatsapp"></i></a>
+               </li>
+               <li>
+                  <a href="https://twitter.com/UmarkoVerse"><i class="fa fa-twitter"></i></a>
+               </li>
+               <li>
+                  <a href="https://www.youtube.com/c/UGChannelOfficial"><i class="fa fa-youtube-play"></i></a>
+               </li>
             </ul>
 
             <ul class="copyright">
-               <li>Copyright &copy; 2014 Sparrow</li>
-               <li>Design by <a href="http://www.styleshout.com/">Styleshout</a></li>
+               <li>
+                  Copyright &#169;
+                  <script type="text/javascript">
+                     var creditsyear = new Date();
+                     document.write(creditsyear.getFullYear());
+                  </script>
+                  <a href="javascript:window.location.href=window.location.href">Syahda Fahreza</a>.
+               </li>
             </ul>
 
          </div>
@@ -546,12 +561,21 @@
    <!-- Java Script
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script>
+      window.jQuery ||
+         document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
+   </script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="/js/jquery.flexslider.js"></script>
+   <script src="/js/doubletaptogo.js"></script>
+   <script src="/js/init.js"></script>
+   <script src="/js/modal-core.js"></script>
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/doubletaptogo.js"></script>
-   <script src="js/init.js"></script>
+   <script>
+      AOS.init();
+   </script>
 
 </body>
 
