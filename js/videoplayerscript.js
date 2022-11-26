@@ -24,7 +24,7 @@ const playbackSpeedOptions = document.querySelector(".playback-options");
 
 function slider() {
   valPercent = (volumeRange.value / volumeRange.max) * 100;
-  volumeRange.style.background = `linear-gradient(to right, #2887e3 ${valPercent}%, #000000 ${valPercent}%)`;
+  volumeRange.style.background = `linear-gradient(to right, #FC6076 ${valPercent}%, #000000 ${valPercent}%)`;
 }
 
 //events object
