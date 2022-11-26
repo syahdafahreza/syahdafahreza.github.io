@@ -751,11 +751,11 @@ input[type="reset"]:active,
 input[type="button"]:active {
    background: white;
    color: #3f3f3f;
-   border: 3px solid #3f3f3f;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
-   -khtml-border-radius: 3px;
-   border-radius: 3px;
+   /* border: 3px solid #3f3f3f; */
+   -moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -khtml-border-radius: 6px;
+   border-radius: 6px;
 }
 
 .button.full-width,
