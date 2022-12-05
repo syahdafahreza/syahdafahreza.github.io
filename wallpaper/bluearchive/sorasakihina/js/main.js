@@ -15,8 +15,8 @@ const ATLAS_PATH = window.location.protocol === 'file:' ? location.href.replace(
 const WELCOME_ANIMATION = 'Start_Idle_01';
 const LOOPING_ANIMATION = 'Idle_01';
 
-let customScale = 1.76;
-let targetFps = 30;
+let customScale = 2.2;
+let targetFps = 60;
 
 function init() {
 	// Wallpaper Engine settings
