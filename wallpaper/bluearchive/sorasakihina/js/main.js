@@ -10,8 +10,8 @@ let lastFrameTime;
 let spineData;
 let fps;
 
-const BINARY_PATH = window.location.protocol === 'file:' ? location.href.replace('/index.html', '/assets/Hina_home.skel') : '../assets/Hina_home.skel';
-const ATLAS_PATH = window.location.protocol === 'file:' ? location.href.replace('/index.html', '/assets/Hina_home.atlas') : '../assets/Hina_home.atlas';
+const BINARY_PATH = window.location.protocol === 'file:' ? location.href.replace('./index.html', './assets/Hina_home.skel') : './assets/Hina_home.skel';
+const ATLAS_PATH = window.location.protocol === 'file:' ? location.href.replace('./index.html', './assets/Hina_home.atlas') : './assets/Hina_home.atlas';
 const WELCOME_ANIMATION = 'Start_Idle_01';
 const LOOPING_ANIMATION = 'Idle_01';
 
