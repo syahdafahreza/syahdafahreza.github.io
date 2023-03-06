@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 06, 2023 at 11:16 AM
--- Server version: 10.4.25-MariaDB
--- PHP Version: 7.4.30
+-- Generation Time: Mar 06, 2023 at 06:26 PM
+-- Server version: 10.4.27-MariaDB
+-- PHP Version: 7.4.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -29,17 +29,19 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `notes` (
   `id` int(11) NOT NULL,
+  `user` varchar(128) NOT NULL,
   `title` varchar(128) NOT NULL,
   `text` longtext NOT NULL,
   `date` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `notes`
 --
 
-INSERT INTO `notes` (`id`, `title`, `text`, `date`) VALUES
-(1, 'Contoh Teks', 'Lorem ipsum dolor sit amet', '2023-03-06 05:31:02');
+INSERT INTO `notes` (`id`, `user`, `title`, `text`, `date`) VALUES
+(1, 'test', 'Contoh Teks', 'Lorem ipsum dolor sit amet', '2023-03-06 05:31:02'),
+(2, 'test', 'Dolor', 'lrm ips dlr st amt', '2023-03-06 17:33:50');
 
 -- --------------------------------------------------------
 
@@ -52,7 +54,7 @@ CREATE TABLE `users` (
   `username` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
@@ -86,7 +88,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `notes`
 --
 ALTER TABLE `notes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `users`
