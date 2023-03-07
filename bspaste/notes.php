@@ -355,7 +355,7 @@ if (!$result) {
                             echo '</div>';
                             echo '</div>';
                             echo '</div>';
-                            echo '<div class="card-body overflow-hidden-alt">' . $user_data['text'] . '</div>';
+                            echo '<div class="card-body h-200px overflow-hidden-alt">' . $user_data['text'] . '</div>';
                             echo '</div>';
                             echo '</div>';
                         }
