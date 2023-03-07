@@ -13,7 +13,7 @@ $databasePassword = '';
 
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
 
-$result = mysqli_query($mysqli, "SELECT * FROM `notes` where user='test'");
+$result = mysqli_query($mysqli, "SELECT * FROM `notes` where user=".'\''.$_SESSION['username']."'");
 if (!$result) {
     trigger_error(mysqli_error($mysqli), E_USER_ERROR);
 }
@@ -271,7 +271,7 @@ if (!$result) {
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">
-                                    <?php echo "Hi, " . $_SESSION['username'] . "!"; ?>
+                                    <?php echo "Halo, " . $_SESSION['username'] . "!"; ?>
                                 </span>
                                 <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
                             </a>
@@ -280,15 +280,15 @@ if (!$result) {
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Profile
+                                    Profil
                                 </a>
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
+                                    Pengaturan
                                 </a>
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
+                                    Log Aktivitas
                                 </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
@@ -321,45 +321,45 @@ if (!$result) {
                     <div class="row">
 
                         <!-- <div class="col-lg-6"> -->
-                            <!-- <div class="card shadow mb-4"> -->
-                                <!-- <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"> -->
-                                    <!-- <h6 class="m-0 font-weight-bold text-primary">Dropdown Card Example</h6> -->
-                                    <!-- <div class="dropdown no-arrow"> -->
-                                        <!-- <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a> -->
-                                        <!-- <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"> -->
-                                            <!-- <div class="dropdown-header">Dropdown Header:</div> -->
-                                            <!-- <a class="dropdown-item" href="#">Action</a> -->
-                                            <!-- <a class="dropdown-item" href="#">Another action</a> -->
-                                            <!-- <div class="dropdown-divider"></div> -->
-                                            <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-                                        <!-- </div> -->
-                                    <!-- </div> -->
-                                <!-- </div> -->
-                                <!-- <div class="card-body">Dropdown menus can be placed in the card header in order to extend the functionality of a basic card. In this dropdown card example, the Font Awesome vertical ellipsis icon in the card header can be clicked on in order to toggle a dropdown menu.</div> -->
-                            <!-- </div> -->
+                        <!-- <div class="card shadow mb-4"> -->
+                        <!-- <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"> -->
+                        <!-- <h6 class="m-0 font-weight-bold text-primary">Dropdown Card Example</h6> -->
+                        <!-- <div class="dropdown no-arrow"> -->
+                        <!-- <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a> -->
+                        <!-- <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"> -->
+                        <!-- <div class="dropdown-header">Dropdown Header:</div> -->
+                        <!-- <a class="dropdown-item" href="#">Action</a> -->
+                        <!-- <a class="dropdown-item" href="#">Another action</a> -->
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                        <!-- </div> -->
+                        <!-- </div> -->
+                        <!-- </div> -->
+                        <!-- <div class="card-body">Dropdown menus can be placed in the card header in order to extend the functionality of a basic card. In this dropdown card example, the Font Awesome vertical ellipsis icon in the card header can be clicked on in order to toggle a dropdown menu.</div> -->
+                        <!-- </div> -->
 
-                            <?php
-                            while ($user_data = mysqli_fetch_array($result)) {
+                        <?php
+                        while ($user_data = mysqli_fetch_array($result)) {
                             echo '<div class="col-lg-6">';
                             echo '<div class="card shadow mb-4">';
                             echo '<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">';
-                            echo '<h6 class="m-0 font-weight-bold text-primary">'.$user_data['title'].'</h6>';
+                            echo '<h6 class="m-0 font-weight-bold text-primary">' . $user_data['title'] . '</h6>';
                             echo '<div class="dropdown no-arrow">';
                             echo '<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a>';
                             echo '<div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">';
-                            echo '<div class="dropdown-header">Dropdown Header:</div>';
-                            echo '<a class="dropdown-item" href="#">Action</a>';
-                            echo '<a class="dropdown-item" href="#">Another action</a>';
+                            echo '<div class="dropdown-header">Aksi:</div>';
+                            echo '<a class="dropdown-item" href="#"><i class="fas fa-eye fa-sm text-black-50"></i> Buka</a>';
+                            echo '<a class="dropdown-item" href="#" data-toggle="modal" data-target="#editModal" data-whatever="lorem ipsum"><i class="fas fa-pen fa-sm text-black-50"></i> Edit</a>';
                             echo '<div class="dropdown-divider"></div>';
-                            echo '<a class="dropdown-item" href="#">Something else here</a>';
+                            echo '<a class="dropdown-item di-danger" href="#"><i class="fas fa-trash fa-sm text-danger-50"></i> Hapus Catatan</a>';
                             echo '</div>';
                             echo '</div>';
                             echo '</div>';
-                            echo '<div class="card-body">'.$user_data['text'].'</div>';
+                            echo '<div class="card-body overflow-hidden-alt">' . $user_data['text'] . '</div>';
                             echo '</div>';
                             echo '</div>';
-                            }
-                            ?>
+                        }
+                        ?>
 
                     </div>
 
@@ -373,7 +373,10 @@ if (!$result) {
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
+                        <span>Copyright &copy;
+                            <script
+                                type="text/javascript">var creditsyear = new Date(); document.write(creditsyear.getFullYear());</script>
+                        </span>
                     </div>
                 </div>
             </footer>
@@ -396,16 +399,51 @@ if (!$result) {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Yakin ingin Logout?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Pilih "Logout" di bawah jika Anda siap untuk mengakhiri sesi Anda saat ini.
+                </div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
                     <form action="" method="POST">
                         <a class="btn btn-primary" href="auth/logout.php">Logout</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Modal -->
+    
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Catatan</h5>
+                    <!-- <?php echo '\''.$_SESSION['username']."'"; ?> -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="POST" class="">
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Judul</label>
+                            <input type="text" class="form-control" id="recipient-name" value="<?php $user_data['title'] ?>">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Teks</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                    <button type="submit" class="btn btn-primary">Simpan</button>
                     </form>
                 </div>
             </div>
