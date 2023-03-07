@@ -2274,7 +2274,8 @@ select.form-control[size] {
 }
 
 textarea.form-control {
-    height: auto
+    /* height: auto */
+    height: 200px;
 }
 
 .form-group {
@@ -12149,13 +12150,13 @@ a:focus {
 }
 
 .bg-login-image {
-    background: url(https://source.unsplash.com/K4mSJ7kc0As/600x800);
+    background: url(/images/bg-login-image-171i2omcmm.webp);
     background-position: center;
     background-size: cover
 }
 
 .bg-register-image {
-    background: url(https://source.unsplash.com/Mv9hjnEUHR4/600x800);
+    background: url(/images/bg-register-image-jzyr5qou8d.webp);
     background-position: center;
     background-size: cover
 }
