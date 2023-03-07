@@ -458,26 +458,29 @@ if (!$result) {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Buat Catatan</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form role="form" action="createnote.php?act=tambahnotes" method="post">
+                    <input type="hidden" name="nama_user" value="<?php echo $_SESSION['username']; ?>"></input>
+                    <input type="hidden" name="tanggal_dibuat" value=""><script>var dt = new Date();document.getElementById("datetime").innerHTML = dt.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });</script></input>
                         <div class="form-group">
-                            <label for="recipient-name" class="col-form-label">Recipient:</label>
-                            <input type="text" class="form-control" id="recipient-name">
+                            <label for="recipient-name" class="col-form-label">Judul</label>
+                            <input type="text" name="judul_note_baru" class="form-control" id="recipient-name">
                         </div>
                         <div class="form-group">
-                            <label for="message-text" class="col-form-label">Message:</label>
-                            <textarea class="form-control" id="message-text"></textarea>
+                            <label for="message-text" class="col-form-label">Teks</label>
+                            <textarea class="form-control" name="isi_note_baru" id="message-text"></textarea>
                         </div>
-                    </form>
+                    
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Send message</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                    <button type="submit" class="btn btn-primary">Simpan</button>
+                    </form>
                 </div>
             </div>
         </div>
