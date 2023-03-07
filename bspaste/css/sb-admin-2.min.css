@@ -8459,6 +8459,10 @@ button.bg-dark:hover {
     height: 100% !important
 }
 
+.h-200px {
+    height: 200px !important;
+  }
+
 .h-auto {
     height: auto !important
 }
