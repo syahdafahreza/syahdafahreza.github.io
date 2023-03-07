@@ -311,10 +311,8 @@ if (!$result) {
                         <h1 class="h3 mb-0 text-gray-800">Catatan Saya</h1>
                         <!-- style="flex: 0 0 27%;max-width: 27%;" -->
                         <div class="d-sm-flex justify-content-center">
-                            <a href="#" class="mr-4 d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i
-                                    class="fas fa-plus fa-sm text-white-50"></i> Buat Catatan Baru</a>
-                            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"><i
-                                    class="fas fa-trash fa-sm text-white-50"></i> Hapus Semua Catatan</a>
+                            <a href="#" class="mr-4 d-none d-sm-inline-block btn btn-sm btn-success shadow-sm" data-toggle="modal" data-target="#newnoteModal"><i class="fas fa-plus fa-sm text-white-50"></i> Buat Catatan Baru</a>
+                            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"><i class="fas fa-trash fa-sm text-white-50"></i> Hapus Semua Catatan</a>
                         </div>
                     </div>
 
@@ -349,7 +347,7 @@ if (!$result) {
                             echo '<div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">';
                             echo '<div class="dropdown-header">Aksi:</div>';
                             echo '<a class="dropdown-item" href="#"><i class="fas fa-eye fa-sm text-black-50"></i> Buka</a>';
-                            echo '<a class="dropdown-item" href="#" data-toggle="modal" data-target="#editModal' . $user_data['id'] . '" data-whatever="lorem ipsum"><i class="fas fa-pen fa-sm text-black-50"></i> Edit</a>';
+                            echo '<a class="dropdown-item" href="#" data-toggle="modal" data-target="#editModal' . $user_data['id'] . '"><i class="fas fa-pen fa-sm text-black-50"></i> Edit</a>';
                             echo '<div class="dropdown-divider"></div>';
                             echo '<a class="dropdown-item di-danger" href="#"><i class="fas fa-trash fa-sm text-danger-50"></i> Hapus Catatan</a>';
                             echo '</div>';
@@ -454,7 +452,36 @@ if (!$result) {
         </div>
     </div>
 
-
+    <!-- New Note Modal -->
+    <div class="modal fade" id="newnoteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Recipient:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
