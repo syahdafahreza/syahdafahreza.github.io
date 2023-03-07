@@ -13,7 +13,7 @@ $databasePassword = '';
 
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
 
-$result = mysqli_query($mysqli, "SELECT * FROM `notes` where user=".'\''.$_SESSION['username']."'");
+$result = mysqli_query($mysqli, "SELECT * FROM `notes` where user=" . '\'' . $_SESSION['username'] . "'");
 if (!$result) {
     trigger_error(mysqli_error($mysqli), E_USER_ERROR);
 }
@@ -349,7 +349,7 @@ if (!$result) {
                             echo '<div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">';
                             echo '<div class="dropdown-header">Aksi:</div>';
                             echo '<a class="dropdown-item" href="#"><i class="fas fa-eye fa-sm text-black-50"></i> Buka</a>';
-                            echo '<a class="dropdown-item" href="#" data-toggle="modal" data-target="#editModal" data-whatever="lorem ipsum"><i class="fas fa-pen fa-sm text-black-50"></i> Edit</a>';
+                            echo '<a class="dropdown-item" href="#" data-toggle="modal" data-target="#editModal' . $user_data['id'] . '" data-whatever="lorem ipsum"><i class="fas fa-pen fa-sm text-black-50"></i> Edit</a>';
                             echo '<div class="dropdown-divider"></div>';
                             echo '<a class="dropdown-item di-danger" href="#"><i class="fas fa-trash fa-sm text-danger-50"></i> Hapus Catatan</a>';
                             echo '</div>';
@@ -358,6 +358,44 @@ if (!$result) {
                             echo '<div class="card-body h-200px overflow-hidden-alt">' . $user_data['text'] . '</div>';
                             echo '</div>';
                             echo '</div>';
+
+                            ?>
+
+                            <!-- Edit Modal -->
+                            <div class="modal fade" id="editModal<?php echo $user_data['id'] ?>" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Edit Catatan</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form role="form" action="editnote.php" method="get">
+                                                <input type="hidden" name="id_note" value="<?php echo $user_data['id']; ?>">
+                                                <div class="form-group">
+                                                    <label for="recipient-name" class="col-form-label">Judul</label>
+                                                    <input type="text" name="judul_note" class="form-control"
+                                                        id="recipient-name" value="<?php echo $user_data['title'] ?>">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="message-text" class="col-form-label">Teks</label>
+                                                    <textarea class="form-control" name="isi_note"
+                                                        id="message-text"><?php echo $user_data['text'] ?></textarea>
+                                                </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Batal</button>
+                                            <button type="submit" class="btn btn-primary">Simpan</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <?php
                         }
                         ?>
 
@@ -416,39 +454,7 @@ if (!$result) {
         </div>
     </div>
 
-    <!-- Edit Modal -->
-    
-    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Edit Catatan</h5>
-                    <!-- <?php echo '\''.$_SESSION['username']."'"; ?> -->
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="" method="POST" class="">
-                        <div class="form-group">
-                            <label for="recipient-name" class="col-form-label">Judul</label>
-                            <input type="text" class="form-control" id="recipient-name" value="<?php $user_data['title'] ?>">
-                        </div>
-                        <div class="form-group">
-                            <label for="message-text" class="col-form-label">Teks</label>
-                            <textarea class="form-control" id="message-text"></textarea>
-                        </div>
-                    
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                    <button type="submit" class="btn btn-primary">Simpan</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
