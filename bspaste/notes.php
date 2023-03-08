@@ -50,8 +50,10 @@ if (!$result) {
     <div class="zoom" style="/*display: inline;*/">
         <a class="zoom-fab zoom-btn-large" id="zoomBtn"><i class="fa fa-bars"></i></a>
         <ul class="zoom-menu">
-            <li><a class="zoom-fab-create zoom-btn-sm zoom-btn-success scale-transition scale-out" data-toggle="modal" data-target="#newnoteModal"><i class="fa fa-plus"></i></a></li>
-            <li><a class="zoom-fab zoom-btn-sm zoom-btn-danger scale-transition scale-out"><i class="fa fa-trash"></i></a></li>
+            <li><a class="zoom-fab-create zoom-btn-sm zoom-btn-success scale-transition scale-out" data-toggle="modal"
+                    data-target="#newnoteModal"><i class="fa fa-plus"></i></a></li>
+            <li><a class="zoom-fab zoom-btn-sm zoom-btn-danger scale-transition scale-out"><i
+                        class="fa fa-trash"></i></a></li>
         </ul>
     </div>
 
@@ -320,8 +322,11 @@ if (!$result) {
                         <h1 class="h3 mb-0 text-gray-800">Catatan Saya</h1>
                         <!-- style="flex: 0 0 27%;max-width: 27%;" -->
                         <div class="d-sm-flex justify-content-center">
-                            <a href="#" class="mr-4 d-none d-sm-inline-block btn btn-sm btn-success shadow-sm" data-toggle="modal" data-target="#newnoteModal"><i class="fas fa-plus fa-sm text-white"></i> Buat Catatan Baru</a>
-                            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"><i class="fas fa-trash fa-sm text-white"></i> Hapus Semua Catatan</a>
+                            <a href="#" class="mr-4 d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"
+                                data-toggle="modal" data-target="#newnoteModal"><i
+                                    class="fas fa-plus fa-sm text-white"></i> Buat Catatan Baru</a>
+                            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"><i
+                                    class="fas fa-trash fa-sm text-white"></i> Hapus Semua Catatan</a>
                         </div>
                     </div>
 
@@ -358,7 +363,7 @@ if (!$result) {
                             echo '<a class="dropdown-item" href="#"><i class="fas fa-eye fa-sm text-black-50"></i> Buka</a>';
                             echo '<a class="dropdown-item" href="#" data-toggle="modal" data-target="#editModal' . $user_data['id'] . '"><i class="fas fa-pen fa-sm text-black-50"></i> Edit</a>';
                             echo '<div class="dropdown-divider"></div>';
-                            echo '<a class="dropdown-item di-danger" href="#"><i class="fas fa-trash fa-sm text-danger-50"></i> Hapus Catatan</a>';
+                            echo '<a class="dropdown-item di-danger" href="#" data-toggle="modal" data-target="#delconfirmModalCenter' . $user_data['id'] . '"><i class="fas fa-trash fa-sm text-danger-50"></i> Hapus Catatan</a>';
                             echo '</div>';
                             echo '</div>';
                             echo '</div>';
@@ -402,6 +407,32 @@ if (!$result) {
                                 </div>
                             </div>
 
+                            <!-- Delete Confirmation Modal -->
+                            <div class="modal fade" id="delconfirmModalCenter<?php echo $user_data['id'] ?>" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Cuma mengingatkan :)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Catatan ini akan hilang selama-lamanya, sama seperti kenangan indah sang mantan. Ingin tetap menghapus catatan ini?
+                                        </div>
+                                        <form role="form" action="deletenote.php" method="get">
+                                        <input type="hidden" name="id_note" value="<?php echo $user_data['id']; ?>">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Batal</button>
+                                            <button type="submit" class="btn btn-danger">Hapus</button>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
                             <?php
                         }
                         ?>
@@ -421,7 +452,7 @@ if (!$result) {
                         <span>Copyright &copy;
                             <script
                                 type="text/javascript">var creditsyear = new Date(); document.write(creditsyear.getFullYear());</script>
-                        </span>
+                        </span> UmarkoVerse
                     </div>
                 </div>
             </footer>
