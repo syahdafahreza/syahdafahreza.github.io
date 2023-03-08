@@ -46,6 +46,15 @@ if (!$result) {
 
 <body id="page-top">
 
+    <!-- <a href="#" class="act-btn"><i class="fas fa-plus fa-sm text-white"></i></a> -->
+    <div class="zoom" style="/*display: inline;*/">
+        <a class="zoom-fab zoom-btn-large" id="zoomBtn"><i class="fa fa-bars"></i></a>
+        <ul class="zoom-menu">
+            <li><a class="zoom-fab-create zoom-btn-sm zoom-btn-success scale-transition scale-out" data-toggle="modal" data-target="#newnoteModal"><i class="fa fa-plus"></i></a></li>
+            <li><a class="zoom-fab zoom-btn-sm zoom-btn-danger scale-transition scale-out"><i class="fa fa-trash"></i></a></li>
+        </ul>
+    </div>
+
     <!-- Page Wrapper -->
     <div id="wrapper">
 
@@ -311,8 +320,8 @@ if (!$result) {
                         <h1 class="h3 mb-0 text-gray-800">Catatan Saya</h1>
                         <!-- style="flex: 0 0 27%;max-width: 27%;" -->
                         <div class="d-sm-flex justify-content-center">
-                            <a href="#" class="mr-4 d-none d-sm-inline-block btn btn-sm btn-success shadow-sm" data-toggle="modal" data-target="#newnoteModal"><i class="fas fa-plus fa-sm text-white-50"></i> Buat Catatan Baru</a>
-                            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"><i class="fas fa-trash fa-sm text-white-50"></i> Hapus Semua Catatan</a>
+                            <a href="#" class="mr-4 d-none d-sm-inline-block btn btn-sm btn-success shadow-sm" data-toggle="modal" data-target="#newnoteModal"><i class="fas fa-plus fa-sm text-white"></i> Buat Catatan Baru</a>
+                            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"><i class="fas fa-trash fa-sm text-white"></i> Hapus Semua Catatan</a>
                         </div>
                     </div>
 
@@ -425,7 +434,7 @@ if (!$result) {
     <!-- End of Page Wrapper -->
 
     <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
+    <a class="scroll-to-top rounded-circle" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
 
@@ -458,15 +467,17 @@ if (!$result) {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Buat Catatan</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Buat Catatan Baru</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <form role="form" action="createnote.php?act=tambahnotes" method="post">
-                    <input type="hidden" name="nama_user" value="<?php echo $_SESSION['username']; ?>"></input>
-                    <input type="hidden" name="tanggal_dibuat" value=""><script>var dt = new Date();document.getElementById("datetime").innerHTML = dt.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });</script></input>
+                        <input type="hidden" name="nama_user" value="<?php echo $_SESSION['username']; ?>"></input>
+                        <input type="hidden" name="tanggal_dibuat" value="">
+                        <script>var dt = new Date(); document.getElementById("datetime").innerHTML = dt.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });</script>
+                        </input>
                         <div class="form-group">
                             <label for="recipient-name" class="col-form-label">Judul</label>
                             <input type="text" name="judul_note_baru" class="form-control" id="recipient-name">
@@ -475,7 +486,7 @@ if (!$result) {
                             <label for="message-text" class="col-form-label">Teks</label>
                             <textarea class="form-control" name="isi_note_baru" id="message-text"></textarea>
                         </div>
-                    
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
@@ -495,6 +506,16 @@ if (!$result) {
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Zoom FAB Button Scripts -->
+    <script>
+        $('#zoomBtn').click(function () {
+            $('.zoom-btn-sm').toggleClass('scale-out');
+            if (!$('.zoom-card').hasClass('scale-out')) {
+                $('.zoom-card').toggleClass('scale-out');
+            }
+        });
+    </script>
 
 </body>
 
