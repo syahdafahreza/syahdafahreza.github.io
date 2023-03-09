@@ -352,10 +352,41 @@ if (!$result) {
 
                         <?php
                         while ($user_data = mysqli_fetch_array($result)) {
+
+                            //decrypt judul
+                            $key = 'pass';
+                            $c = base64_decode($user_data['title']);
+                            $ivlen = openssl_cipher_iv_length($cipher = "AES-128-CBC");
+                            $iv = substr($c, 0, $ivlen);
+                            $hmac = substr($c, $ivlen, $sha2len = 32);
+                            $ciphertext_raw = substr($c, $ivlen + $sha2len);
+                            $original_judul = openssl_decrypt($ciphertext_raw, $cipher, $key, $options = OPENSSL_RAW_DATA, $iv);
+                            $calcmac = hash_hmac('sha256', $ciphertext_raw, $key, $as_binary = true);
+                            if (hash_equals($hmac, $calcmac)) // timing attack safe comparison
+                            {
+                                // echo "\n";
+                                // echo $original_plaintext . "\n";
+                            }
+
+                            //decrypt isi teks
+                            $key = 'pass';
+                            $c = base64_decode($user_data['text']);
+                            $ivlen = openssl_cipher_iv_length($cipher = "AES-128-CBC");
+                            $iv = substr($c, 0, $ivlen);
+                            $hmac = substr($c, $ivlen, $sha2len = 32);
+                            $ciphertext_raw = substr($c, $ivlen + $sha2len);
+                            $original_isitext = openssl_decrypt($ciphertext_raw, $cipher, $key, $options = OPENSSL_RAW_DATA, $iv);
+                            $calcmac = hash_hmac('sha256', $ciphertext_raw, $key, $as_binary = true);
+                            if (hash_equals($hmac, $calcmac)) // timing attack safe comparison
+                            {
+                                // echo "\n";
+                                // echo $original_plaintext . "\n";
+                            }
+
                             echo '<div class="col-lg-6">';
                             echo '<div class="card shadow mb-4">';
                             echo '<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">';
-                            echo '<h6 class="m-0 font-weight-bold text-primary">' . $user_data['title'] . '</h6>';
+                            echo '<h6 class="m-0 font-weight-bold text-primary overflow-hidden-alt">' . $original_judul . '</h6>';
                             echo '<div class="dropdown no-arrow">';
                             echo '<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a>';
                             echo '<div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">';
@@ -367,7 +398,7 @@ if (!$result) {
                             echo '</div>';
                             echo '</div>';
                             echo '</div>';
-                            echo '<div class="card-body h-200px overflow-hidden-alt">' . $user_data['text'] . '</div>';
+                            echo '<div class="card-body h-200px overflow-hidden-alt">' . $original_isitext . '</div>';
                             echo '</div>';
                             echo '</div>';
 
@@ -389,12 +420,12 @@ if (!$result) {
                                                 <div class="form-group">
                                                     <label for="recipient-name" class="col-form-label">Judul</label>
                                                     <input type="text" name="judul_note" class="form-control"
-                                                        id="recipient-name" value="<?php echo $user_data['title'] ?>">
+                                                        id="recipient-name" value="<?php echo $original_judul ?>">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="message-text" class="col-form-label">Teks</label>
                                                     <textarea class="form-control" name="isi_note"
-                                                        id="message-text"><?php echo $user_data['text'] ?></textarea>
+                                                        id="message-text"><?php echo $original_isitext ?></textarea>
                                                 </div>
                                         </div>
                                         <div class="modal-footer">
@@ -408,8 +439,8 @@ if (!$result) {
                             </div>
 
                             <!-- Delete Confirmation Modal -->
-                            <div class="modal fade" id="delconfirmModalCenter<?php echo $user_data['id'] ?>" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal fade" id="delconfirmModalCenter<?php echo $user_data['id'] ?>" tabindex="-1"
+                                role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -419,15 +450,16 @@ if (!$result) {
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            Catatan ini akan hilang selama-lamanya, sama seperti kenangan indah sang mantan. Ingin tetap menghapus catatan ini?
+                                            Catatan ini akan hilang selama-lamanya, sama seperti kenangan indah sang mantan.
+                                            Ingin tetap menghapus catatan ini?
                                         </div>
                                         <form role="form" action="deletenote.php" method="get">
-                                        <input type="hidden" name="id_note" value="<?php echo $user_data['id']; ?>">
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Batal</button>
-                                            <button type="submit" class="btn btn-danger">Hapus</button>
-                                        </div>
+                                            <input type="hidden" name="id_note" value="<?php echo $user_data['id']; ?>">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Batal</button>
+                                                <button type="submit" class="btn btn-danger">Hapus</button>
+                                            </div>
                                         </form>
                                     </div>
                                 </div>
@@ -517,7 +549,6 @@ if (!$result) {
                             <label for="message-text" class="col-form-label">Teks</label>
                             <textarea class="form-control" name="isi_note_baru" id="message-text"></textarea>
                         </div>
-
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
