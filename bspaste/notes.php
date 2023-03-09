@@ -484,7 +484,7 @@ if (!$result) {
                         <span>Copyright &copy;
                             <script
                                 type="text/javascript">var creditsyear = new Date(); document.write(creditsyear.getFullYear());</script>
-                        </span> UmarkoVerse
+                        </span> Syahda Fahreza
                     </div>
                 </div>
             </footer>
@@ -504,7 +504,7 @@ if (!$result) {
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Yakin ingin Logout?</h5>
@@ -527,7 +527,7 @@ if (!$result) {
     <!-- New Note Modal -->
     <div class="modal fade" id="newnoteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Buat Catatan Baru</h5>
