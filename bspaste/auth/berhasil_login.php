@@ -1,5 +1,6 @@
 <?php 
- 
+
+include 'configdb-login.php';
 session_start();
  
 if (!isset($_SESSION['username'])) {

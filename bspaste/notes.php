@@ -1,17 +1,11 @@
 <?php
 
+include 'configdb-main.php';
 session_start();
 
 if (!isset($_SESSION['username'])) {
     header("Location: auth/index.php");
 }
-
-$databaseHost = 'localhost';
-$databaseName = 'np';
-$databaseUsername = 'root';
-$databasePassword = '';
-
-$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
 
 $result = mysqli_query($mysqli, "SELECT * FROM `notes` where user=" . '\'' . $_SESSION['username'] . "'");
 if (!$result) {
