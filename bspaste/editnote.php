@@ -1,10 +1,5 @@
 <?php
-$databaseHost = 'localhost';
-$databaseName = 'np';
-$databaseUsername = 'root';
-$databasePassword = '';
-
-$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
+include 'configdb-main.php';
 
 $id = $_GET['id_note'];
 $judul = $_GET['judul_note'];

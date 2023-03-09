@@ -1,6 +1,6 @@
 <?php 
  
-include 'config.php';
+include 'configdb-login.php';
  
 error_reporting(0);
 

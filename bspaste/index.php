@@ -1,11 +1,12 @@
-<?php 
- 
+<?php
+
+include 'configdb-main.php';
 session_start();
- 
+
 if (!isset($_SESSION['username'])) {
     header("Location: auth/index.php");
 }
- 
+
 ?>
 
 <!DOCTYPE html>
@@ -82,9 +83,9 @@ if (!isset($_SESSION['username'])) {
 
             <!-- Sidebar Message -->
             <!-- <div class="sidebar-card d-none d-lg-flex"> -->
-                <!-- <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="..."> -->
-                <!-- <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p> -->
-                <!-- <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a> -->
+            <!-- <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="..."> -->
+            <!-- <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p> -->
+            <!-- <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a> -->
             <!-- </div> -->
 
         </ul>
@@ -106,16 +107,16 @@ if (!isset($_SESSION['username'])) {
 
                     <!-- Topbar Search -->
                     <!-- <form -->
-                        <!-- class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search"> -->
-                        <!-- <div class="input-group"> -->
-                            <!-- <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." -->
-                                <!-- aria-label="Search" aria-describedby="basic-addon2"> -->
-                            <!-- <div class="input-group-append"> -->
-                                <!-- <button class="btn btn-primary" type="button"> -->
-                                    <!-- <i class="fas fa-search fa-sm"></i> -->
-                                <!-- </button> -->
-                            <!-- </div> -->
-                        <!-- </div> -->
+                    <!-- class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search"> -->
+                    <!-- <div class="input-group"> -->
+                    <!-- <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." -->
+                    <!-- aria-label="Search" aria-describedby="basic-addon2"> -->
+                    <!-- <div class="input-group-append"> -->
+                    <!-- <button class="btn btn-primary" type="button"> -->
+                    <!-- <i class="fas fa-search fa-sm"></i> -->
+                    <!-- </button> -->
+                    <!-- </div> -->
+                    <!-- </div> -->
                     <!-- </form> -->
 
                     <!-- Topbar Navbar -->
@@ -212,8 +213,7 @@ if (!isset($_SESSION['username'])) {
                                 </h6>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_1.svg"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/undraw_profile_1.svg" alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div class="font-weight-bold">
@@ -224,8 +224,7 @@ if (!isset($_SESSION['username'])) {
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/undraw_profile_2.svg" alt="...">
                                         <div class="status-indicator"></div>
                                     </div>
                                     <div>
@@ -236,8 +235,7 @@ if (!isset($_SESSION['username'])) {
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_3.svg"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/undraw_profile_3.svg" alt="...">
                                         <div class="status-indicator bg-warning"></div>
                                     </div>
                                     <div>
@@ -268,9 +266,10 @@ if (!isset($_SESSION['username'])) {
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo "Halo, " . $_SESSION['username'] ."!"; ?></span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">
+                                    <?php echo "Halo, " . $_SESSION['username'] . "!"; ?>
+                                </span>
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -288,9 +287,10 @@ if (!isset($_SESSION['username'])) {
                                     Log Aktivitas
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Keluar</a>
-                                
+
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"><i
+                                        class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Keluar</a>
+
                             </div>
                         </li>
 
@@ -306,7 +306,7 @@ if (!isset($_SESSION['username'])) {
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Selama Datang!</h1>
                         <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i -->
-                                <!-- class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
+                        <!-- class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
                     </div>
 
                     <!-- Content Row -->
@@ -323,7 +323,10 @@ if (!isset($_SESSION['username'])) {
                                         <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
                                             src="img/undraw_posting_photo.svg" alt="...">
                                     </div>
-                                    <p>Apa itu Bootstrap Paste? Bootstrap Paste adalah situs salin dan tempel catatan sederhana. Ini dirancang untuk membantu Anda melacak pemikiran dan ide Anda dengan menawarkan cara mudah untuk menyimpan dan mengakses catatan Anda secara online.</p>
+                                    <p>Apa itu Bootstrap Paste? Bootstrap Paste adalah situs salin dan tempel catatan
+                                        sederhana. Ini dirancang untuk membantu Anda melacak pemikiran dan ide Anda
+                                        dengan menawarkan cara mudah untuk menyimpan dan mengakses catatan Anda secara
+                                        online.</p>
                                     <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on
                                         unDraw &rarr;</a>
                                 </div>
@@ -335,7 +338,9 @@ if (!isset($_SESSION['username'])) {
                                     <h6 class="m-0 font-weight-bold text-primary">Dalam Pengembangan</h6>
                                 </div>
                                 <div class="card-body">
-                                    <p>Perlu diingat, pengembangan situs web ini masih terus berlangsung, jadi mohon bersabarlah karena kami terus meningkatkan situs ini agar menjadi lebih baik lagi. Terima kasih atas pengertian Anda!</p>
+                                    <p>Perlu diingat, pengembangan situs web ini masih terus berlangsung, jadi mohon
+                                        bersabarlah karena kami terus meningkatkan situs ini agar menjadi lebih baik
+                                        lagi. Terima kasih atas pengertian Anda!</p>
                                 </div>
                             </div>
 
@@ -352,7 +357,10 @@ if (!isset($_SESSION['username'])) {
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy;<script type="text/javascript">var creditsyear = new Date(); document.write(creditsyear.getFullYear());</script></span>
+                        <span>Copyright &copy;
+                            <script
+                                type="text/javascript">var creditsyear = new Date(); document.write(creditsyear.getFullYear());</script>
+                        </span>
                         <a href="javascript:window.location.href=window.location.href">Syahda Fahreza</a>.
                     </div>
                 </div>
@@ -381,11 +389,12 @@ if (!isset($_SESSION['username'])) {
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Pilih "Logout" di bawah jika Anda siap untuk mengakhiri sesi Anda saat ini.</div>
+                <div class="modal-body">Pilih "Logout" di bawah jika Anda siap untuk mengakhiri sesi Anda saat ini.
+                </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
                     <form action="" method="POST">
-                    <a class="btn btn-primary" href="auth/logout.php">Logout</a>
+                        <a class="btn btn-primary" href="auth/logout.php">Logout</a>
                     </form>
                 </div>
             </div>
