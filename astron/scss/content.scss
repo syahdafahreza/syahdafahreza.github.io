@@ -1,0 +1,682 @@
+// =====================================
+//  content.scss
+//   |
+//   |-> Content
+// =====================================
+
+
+@import "_variables";
+@import "helpers-placeholders";
+
+
+
+ /**
+  * -------------------------------------------------------------------------------
+  * ( 04 ) - Content
+  * -------------------------------------------------------------------------------
+  *
+  *  This part contains all content sections in main content
+  *
+  * ------
+  *
+  *  Content is divided to the following sections:
+  *
+  *    |
+  *    |-->  [ 01 ] - Content
+  *    |-->  [ 02 ] - Sidebar
+  *    |-->  [ 03 ] - Section Our Services 1
+  *    |-->  [ 04 ] - Section Our Services 2
+  *    |-->  [ 05 ] - Section Some Facts 1
+  *    |-->  [ 06 ] - Section Customers Testimonials 1
+  *    |-->  [ 07 ] - Section Clients 1
+  *    |-->  [ 08 ] - Section CTA 1
+  *
+  */
+
+
+#content {
+  position: relative;
+  // overflow: hidden;
+  line-height: $line-height-content;
+  background-color: #fff;
+  z-index: 5; /* Important for icons animations */
+
+  h1,h2,h3,h4,h5,h6 {
+
+  }
+}
+
+#content-wrap {
+  position: relative;
+}
+
+
+/*  [ 01 ] - Content
+====================== */
+
+.content {
+  &.sidebar-left {
+    padding: 0 0 0 10px;
+  }
+}
+
+.page-single {
+  .section-content {
+    padding-top: 0 !important;
+    background-color: #fafafa;
+  }
+
+  .page-single-content {
+    padding: 0 40px;
+    box-shadow: 0 1px 4px rgba(#000, 0.15);
+    background-color: #fff;
+
+    .content {
+      padding: 50px 0;
+    }
+  }
+
+  .content {
+    padding: 30px;
+  }
+
+  &.with-sidebar {
+    .content {
+      // padding: 50px 40px 10px 0;
+      padding-right: 40px;
+      border-right: 1px solid #ccc;
+    }
+  }
+
+  // &:not(.with-sidebar) {
+  //   .content {
+  //     margin-bottom: -40px;
+  //   }
+  // }
+}
+
+@media (max-width: 992px) {
+  .page-single {
+    &.with-sidebar {
+      .content {
+        padding-right: 0;
+        border-right: none;
+      }
+    }
+  }
+} // width < 992px
+
+
+
+/*  [ 02 ] - Sidebar
+====================== */
+
+.sidebar {
+  padding: 50px 0 50px 10px;
+}
+
+.box-widget {
+  & + .box-widget {
+    margin-top: 40px;
+  }
+
+  .box-title {
+    margin-bottom: 20px;
+
+    &::before {
+      content: "";
+      position: relative;
+      top: 3px;
+      display: inline-block;
+      margin-left: 10px;
+      width: 5px;
+      height: 20px;
+      background-color: var(--theme-color-1);
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  .sidebar {
+    padding-top: 20px;
+  }
+} // width < 992px
+
+
+/*  [ 03 ] - Section Our Services 1
+===================================== */
+
+#section-our-services-1 {
+  background-color: #f9f9f9;
+  .section-content {
+
+  }
+}
+
+/* Box Service 1 */
+.box-service-1 {
+  display: flex;
+  flex-direction: column;
+
+  .box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+    flex: 0 0 70px;
+    font-size: 30px;
+    border-radius: 999px;
+    background-color: #e9e9e9;
+    color: #333;
+    transition: all 0.25s;
+  }
+
+  .box-content {
+
+  }
+
+  // hover box-service-1
+  &:hover {
+    .box-icon {
+      color: #fff;
+      box-shadow: inset 0 0 0 40px $theme-color-1;
+    }
+  }
+}
+
+
+
+
+/*  [ 04 ] - Section Our Services 2
+===================================== */
+
+#section-our-services-2 {
+  .section-content {
+
+  }
+
+  .pl-55 {
+    padding-left: 55px !important;
+
+    @media (max-width: 768px) {
+      padding-left: 15px !important;
+    } // width < 768px
+  }
+}
+
+/* List Info */
+.list-info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+  .text-white & {
+    a {
+      font-size: 12px;
+      font-weight: 700;
+      font-family: $heading-font;
+      color: $body-color;
+
+      &:hover {
+        color: #ddd;
+      }
+    }
+  }
+
+  li {
+    margin-bottom: 1px;
+  
+    + li {
+      // margin-top: 8px;
+    }
+
+    &::before {
+      font-family: "Font Awesome 5 Free", "et-line";
+      font-size: 16px;
+      font-weight: 900;
+      margin-right: 10px;
+      color: $theme-color-1;
+      display: inline-block;
+      position: relative;
+      top: 1px;
+    }
+  }
+
+  // arrow-right
+  &.arrow-right li::before {
+    content: "\f0a9";
+    font-weight: 900;
+  }
+}
+
+/* Img Featured 1 */
+.img-featured-1 {
+  width: 100%;
+  height: 425px;
+  border-radius: 10px;
+  box-shadow: 0 7px 27px 5px rgba(#222, 0.18);
+
+  @media (max-width: 480px) {
+    height: 270px;
+  } // width < 480px
+
+  .img-1 {
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+
+    @media (max-width: 480px) {
+      left: 50px;
+    } // < 480px width
+  }
+
+  .img-2 {
+    position: relative;
+    top: 40px;
+  }
+}
+
+
+
+/*  [ 05 ] - Section Some Facts 1
+=================================== */
+
+#section-some-facts-1 {
+  background-color: $theme-color-1;
+
+  .section-content {
+
+  }
+}
+
+/* List Some Facts */
+.list-some-facts {
+  li {
+    @media (max-width: 600px) {
+      width: 100% !important;
+    } // width < 600px
+  }
+}
+
+
+/* Box Some Fact 1 */
+.box-some-fact-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: rgba(#fff, 0.1);
+
+  .box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+    font-size: 48px;
+    color: #fff;
+    transition: all 0.25s;
+  }
+  
+  .box-content {
+    width: 100%;
+
+    h2 {
+      margin-bottom: 2px;
+      color: #fff;
+    }
+
+    h5 {
+      margin-bottom: 0;
+      font-weight: 300;
+      color: rgba(#fff, 0.6);
+    }
+  }
+}
+
+/* Counter Stats */
+.counter-stats {
+  // height: 50px;
+  line-height: 0.95;
+}
+
+.counter-stats .main {
+  display: none;
+}
+
+.counter-stats .digit {
+  position:relative;
+  // overflow:hidden;
+  display: inline-block !important;
+}
+
+.counter-stats .digit > .digit-value {
+  visibility:hidden;
+  display: inline-block;
+}
+  
+.counter-stats .digit .counter-animator {
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  overflow:hidden;
+}
+  
+.counter-stats .digit .counter-animator ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position:relative;
+  transition: all 2s cubic-bezier(0.19, 1, 0.4, 1);
+  // transition: all 1.5s ease;
+}
+  
+.counter-stats .digit .counter-animator ul li {
+  margin-top:0;
+}
+
+/* List Items */
+.list-boxes {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -15px -30px;
+
+  &.boxes-2 {
+    > li {
+      width: 50%;
+
+      @media (max-width: 992px) {
+        @at-root .boxes-2-md-2#{&} {
+          width: 50%;
+        }
+      } // < 992px width
+
+      @media (max-width: 768px) {
+        @at-root .boxes-2-md-2#{&} {
+          width: 100%;
+        }
+      } // < 768px width
+    }
+  }
+
+  &.boxes-3 {
+    > li {
+      width: 33.33333%;
+
+      @media (max-width: 992px) {
+        width: 50%;
+      } // width < 992px
+    }
+  }
+
+  &.boxes-4 {
+    > li {
+      width: 25%;
+
+      @media (max-width: 992px) {
+        width: 50%;
+      } // width < 992px
+    }
+  }
+
+  > li {
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 768px) {
+    &.boxes-3,
+    &.boxes-4 {
+      > li { width: 100%; }
+      
+      &.mq-768 {
+        > li {
+          width: 100%;
+        }
+      }
+    }
+  } // < 768px width
+}
+
+
+
+
+
+/*  [ 06 ] - Section Customers Testimonials 1
+=============================================== */
+
+#section-customers-testimonials-1 {
+  .section-content {
+
+  }
+}
+
+/* Rating */
+.rating {
+  display: flex;
+  position: relative;
+  color: #ff9831;
+  font-size: 14px;
+
+  i + i {
+    margin-left: 2px;
+  }
+}
+
+/* Testimonial Single 1 */
+.testimonial-single-1 {
+  position: relative;
+  top: 0;
+  padding: 40px;
+  border: 3px solid #eeee;
+  border-radius: 10px;
+  transition: all 0.2s;
+  
+  .highlighted & {
+    border-color: $theme-color-1;
+    box-shadow: 0 0 50px 15px rgba($dark-color, 0.05);
+    background-color: #fff;
+  }
+
+  & + .testimonial-single-1 {
+    // margin-top: 45px;
+  }
+
+  .rating {
+    margin-bottom: 15px;
+  }
+
+  &:hover {
+
+  }
+
+  &.text-white {
+    color: #fff;
+
+    .ts-content {
+
+    }
+  }
+
+  .ts-content {
+    overflow: hidden;
+    position: relative;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 300;
+
+  }
+  
+  .ts-person {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+
+    h5 {
+      display: block;
+      margin-bottom: 0;
+      text-transform: capitalize;
+    }
+
+    span {
+      display: block;
+      margin-top: 3px;
+      font-size: 12px;
+      color: $body-color;
+    }
+  }
+
+  .ts-img {
+    overflow: hidden;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .ts-name {
+    margin-top: 10px;
+  }
+}
+
+/* Slider Testimonials */
+.slider-testimonials {
+  .slick-slider {
+    overflow: hidden;
+
+    .slick-list {
+      // margin: 0 -15px;
+    }
+    
+    .slick-slide {
+      // padding: 0 15px;
+      // margin: 0;
+      transition: all 0.4s;
+
+      &:not(.slick-active) {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+
+
+/*  [ 07 ] - Section Clients 1
+================================ */
+
+#section-clients-1 {
+  background-color: #f9f9f9;
+
+  .section-content {
+
+  }
+}
+
+/* Client Single */
+.client-single {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  // height: 60px;
+  // padding: 30px;
+
+  img {
+    position: relative;
+    top: 0;
+    width: auto !important;
+    opacity: 1;
+    transition: all 0.15s;
+  }
+
+  a:hover img {
+    opacity: 0.6;
+    // top: -2px;
+  }
+}
+
+/* Slider Clients */
+.slider-clients {
+  .slick-slider {
+    overflow: hidden;
+
+    .slick-track {
+      display: flex;
+      align-items: center;
+    }
+    
+    .slick-list {
+      margin: 0 -15px; // 15px padding + 15px of slick-slide
+    }
+    
+    .slick-slide {
+      padding: 0 15px;
+      transition: all 0.4s;
+    }
+  }
+}
+
+
+
+
+
+/*  [ 08 ] - Section CTA 1
+============================ */
+
+#section-cta-1 {
+  .section-content {
+    padding: 140px 0;
+
+    @media (max-width: 768px) {
+      padding: 120px 0;
+    } // width < 768px
+  }
+
+  h4 {
+    font-weight: 500;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 1.2;
+
+    @media (max-width: 480px) {
+      font-size: 35px;
+    } // width < 480px
+  }
+
+  .description {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.65;
+
+    @media (max-width: 480px) {
+      // font-size: 18px;
+    } // width < 480px
+  }
+
+  &.text-white {
+    h4 {
+      opacity: 0.8;
+    }
+
+    .description {
+      color: #fff;
+    }
+  }
+}
+
+
