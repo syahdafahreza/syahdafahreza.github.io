@@ -1,0 +1,29 @@
+<html data-ng-app>
+
+<head>
+    <script src="/angularjs/lib/angular.js"></script>
+    <style type="text/css">
+        .tengah{
+		position:absolute;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		}
+    </style>
+</head>
+
+<body>
+    <div class="tengah" style="width: 800px; height: 800px;">
+        <label>Tulis disini :</label>
+        <input type="text" data-ng-model="hasilTulisan">
+        <hr>
+        <h1>{{hasilTulisan}}</h1>
+    </div>
+</body>
+
+</html>
