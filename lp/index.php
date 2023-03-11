@@ -48,8 +48,8 @@ include 'config-pg.php';
     <source src="/videos/bg.mp4" type="video/mp4">
   </video>
   <div class="container">
-    <h1 class="jumbotron-heading">Album example</h1>
-    <p class="lead text-muted">Something short </p>
+    <h1 class="jumbotron-heading">Contoh Jumbotron</h1>
+    <p class="lead text-muted">Card sudah dinamis, sdh pake database PostgreSQL</p>
     <p>
       <a href="#" class="btn btn-primary my-2">Main call to action</a>
       <a href="#" class="btn btn-secondary my-2">Secondary action</a>
