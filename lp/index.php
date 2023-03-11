@@ -12,7 +12,7 @@ include 'config-pg.php';
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coba Landing Page</title>
+  <title>Contoh Landing Page</title>
 
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
@@ -37,7 +37,7 @@ include 'config-pg.php';
     <a class="navbar-brand" href="#">
       <img src="/images/lp-icon-02.svg" width="30" height="30" class="d-inline-block align-top"
         alt="">
-      Coba Landing Page
+      Contoh Landing Page
     </a>
     <a class="btn btn-primary btn-lg" href="#" role="button">Masuk</a>
   </nav>
@@ -48,11 +48,11 @@ include 'config-pg.php';
     <source src="/videos/bg.mp4" type="video/mp4">
   </video>
   <div class="container">
-    <h1 class="jumbotron-heading">Contoh Jumbotron</h1>
-    <p class="lead text-muted">Card sudah dinamis, sdh pake database PostgreSQL</p>
+    <h1 class="jumbotron-heading">Contoh Video Jumbotron</h1>
+    <p class="lead text-muted">Card sdh pake database PostgreSQL</p>
     <p>
-      <a href="#" class="btn btn-primary my-2">Main call to action</a>
-      <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+      <a href="#" class="btn btn-primary my-2">Opsi pertama</a>
+      <a href="#" class="btn btn-secondary my-2">Opsi kedua</a>
     </p>
   </div>
 </section>
