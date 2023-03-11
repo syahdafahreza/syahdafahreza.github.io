@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="readApp">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="ilmu-detil.blogspot.com">
+	<title>Tutorial AngularJS Display Data</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/ilmudetil.css">
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<script src="assets/js/angular.min.js"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">
+			Pusat Ilmu Secara Detil</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-left">
+				<li class="clr1 active"><a href="index.html">Home</a></li>
+				<li class="clr2"><a href="">Programming</a></li>
+				<li class="clr3"><a href="">English</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</br></br></br></br>
+
+<div class="container" ng-controller="DbController">
+	<div class="row">
+		<div class="col-md-6">
+			<caption >Tabel.1 Data Mahasiswa</caption>
+			<div class="table-responsive">
+				<table class="table table-hover  table-bordered">
+					<tr class="success">
+						<th>No.</th>
+						<th>NIM</th>
+						<th>Nama</th>
+						<th>Jurusan</th>
+					</tr>
+					<tr ng-repeat="data in database">
+						<td>{{data.no}}</td>
+						<td>{{data.nim}}</td>
+						<td>{{data.nama}}</td>
+						<td>{{data.jurusan}}</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Bagian controller -->
+<script src="readController.js"></script>
+</body>
+</html>
