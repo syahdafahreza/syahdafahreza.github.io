@@ -13,43 +13,47 @@ if (!isset($_SESSION['userrole'])) {
     $userrole = $_SESSION['userrole'];
 }
 
-$adalahadmin = mysqli_query($mysqli, "SELECT * FROM `users` where userrole='1'");
-if (!$adalahadmin) {
-    trigger_error(mysqli_error($mysqli), E_USER_ERROR);
-}
-
 $cektoken = mysqli_query($mysqli, "SELECT * FROM `tokens` where claimby=''");
 if (!$cektoken) {
     trigger_error(mysqli_error($mysqli), E_USER_ERROR);
 }
 
 $hasilkueritoken = $cektoken;
-    if ($hasilkueritoken) {
-        $rowtoken = mysqli_fetch_array($hasilkueritoken);
-        echo "<script>alert('Tokens: ".$rowtoken['tokens']." Claim By: ".$rowtoken['claimby']."')</script>";
+if ($hasilkueritoken) {
+    $rowtoken = mysqli_fetch_array($hasilkueritoken);
+    // echo "<script>alert('Tokens: ".$rowtoken['tokens']." Claim By: ".$rowtoken['claimby']."')</script>";
+} else {
+    // echo "<script>alert('Tokens: ".$rowtoken['tokens']." Claim By: ".$rowtoken['claimby']."')</script>";
+    // echo $rowtoken['tokens'];
+}
+
+if (isset($_GET['token'])) {
+    $namauser = '\'' . $_SESSION['username'] . "'";
+    $token = $_GET['token'];
+    // echo "<script>alert('".$inputtokenQ."')</script>";
+    $hasilkueritokenQ = mysqli_query($mysqli, "SELECT * FROM tokens WHERE tokens='$token' AND claimby is null;");
+    $rowtokenQ = mysqli_fetch_row($hasilkueritokenQ);
+    if (!$hasilkueritokenQ) {
+        trigger_error(mysqli_error($mysqli), E_USER_ERROR);
     } else {
-        // echo "<script>alert('Tokens: ".$rowtoken['tokens']." Claim By: ".$rowtoken['claimby']."')</script>";
-        echo $rowtoken['tokens'];
-    }
-
-    if (isset($_POST['submit'])) {
-        $inputtokenQ = $_POST['inputtoken'];
-        // echo "<script>alert('".$inputtokenQ."')</script>";
-        $hasilkueritokenQ = mysqli_query($mysqli, "SELECT * FROM tokens WHERE tokens=\'2N8GZVL07A\' AND claimby=\'\';");
-        if ($hasilkueritokenQ) {
-            $rowtokenQ = mysqli_fetch_array($hasilkueritokenQ);
-
-            if ($rowtokenQ['tokens'] == $inputtokenQ) {
-                echo "<script>alert('Selamat, token anda berhasil di redeem!')</script>";
-            }else {
-
+        if ($rowtokenQ[1] == $token) {
+            //query update
+            $query = mysqli_query($mysqli, "UPDATE `tokens` SET `claimby`=$namauser WHERE `tokens`='$token'");
+            if ($query) {
+                # credirect ke page index
+                // header("location: notes.php");
+            } else {
+                trigger_error(mysqli_error($mysqli), E_USER_ERROR);
             }
-            
-            // header("Location: /tog/redeem.php");
+            echo "<script>alert('" . $rowtokenQ[1] . "');window.location = 'redeem.php';</script>";
+            header_remove();
         } else {
-            echo "<script>alert('Token telah kedaluwarsa, tidak valid, atau sudah di-claim. Silahkan input token lain!')</script>";
+            echo "<script>alert('Token telah kedaluwarsa, tidak valid, atau sudah di-claim. Silahkan input token lain!');window.location = 'redeem.php';</script>";
+            header_remove();
         }
     }
+    // echo "<script>alert('".$rowtokenQ[1]."')</script>";
+}
 
 ?>
 
@@ -407,20 +411,20 @@ $hasilkueritoken = $cektoken;
                             <div class="col-xl col-md-6 mb-4">
                                 <div class="card border-bottom-primary shadow h-100 py-2">
                                     <div class="card-body">
-                                        <form action="" method="POST">
-                                        <div class="row no-gutters align-items-center">
-                                            
-                                            <div class="col mr-2">
-                                                
-                                                <input type="text" name="inputtoken" class="form-control"
-                                                    placeholder="Redeem token Anda disini" required>
+                                        <form action="redeemT.php" method="POST">
+                                            <div class="row no-gutters align-items-center">
+
+                                                <div class="col mr-2">
+
+                                                    <input type="text" name="inputtoken" class="form-control"
+                                                        placeholder="Redeem token Anda disini" required>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-primary" name="submit">Redeem</button>
+
+                                                </div>
+
                                             </div>
-                                            <div class="col-auto">
-                                                <button class="btn btn-primary" name="submit">Redeem</button>
-                                                
-                                            </div>
-                                            
-                                        </div>
                                         </form>
                                     </div>
                                 </div>
@@ -456,9 +460,9 @@ $hasilkueritoken = $cektoken;
                                     </tfoot>
                                     <tbody>
                                         <!-- <tr> -->
-                                            <!-- <td>01</td> -->
-                                            <!-- <td>2N8GZVL07A</td> -->
-                                            <!-- <td>01-01-2018</td> -->
+                                        <!-- <td>01</td> -->
+                                        <!-- <td>2N8GZVL07A</td> -->
+                                        <!-- <td>01-01-2018</td> -->
                                         <!-- </tr> -->
                                     </tbody>
                                 </table>
