@@ -6,12 +6,12 @@ error_reporting(0);
 
 session_start();
 
-if (isset($_SESSION['username'])) {
+if (isset($_SESSION['usernametog'])) {
     header("Location: index.php");
 }
  
 if (isset($_POST['submit'])) {
-    $username = $_POST['username'];
+    $username = $_POST['usernametog'];
     $email = $_POST['email'];
     $password = md5($_POST['password']);
     $cpassword = md5($_POST['cpassword']);
