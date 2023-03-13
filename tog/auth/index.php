@@ -6,7 +6,7 @@ error_reporting(0);
 
 session_start();
 
-if (isset($_SESSION['username'])) {
+if (isset($_SESSION['usernametog'])) {
     header("Location: /tog/index.php");
 }
 
@@ -18,8 +18,8 @@ if (isset($_POST['submit'])) {
     $result = mysqli_query($conn, $sql);
     if ($result->num_rows > 0) {
         $row = mysqli_fetch_assoc($result);
-        $_SESSION['username'] = $row['username'];
-        $_SESSION['userrole'] = $row['userrole'];
+        $_SESSION['usernametog'] = $row['username'];
+        $_SESSION['userroletog'] = $row['userrole'];
         header("Location: /tog/index.php");
     } else {
         echo "<script>alert('Email atau password Anda salah. Silahkan coba lagi!')</script>";

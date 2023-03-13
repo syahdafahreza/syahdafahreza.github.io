@@ -3,14 +3,14 @@
 include 'configdb-main.php';
 session_start();
 
-if (!isset($_SESSION['username'])) {
+if (!isset($_SESSION['usernametog'])) {
     // header("Location: auth/index.php");
 }
 
-if (!isset($_SESSION['userrole'])) {
+if (!isset($_SESSION['userroletog'])) {
     $userrole = 0;
 } else {
-    $userrole = $_SESSION['userrole'];
+    $userrole = $_SESSION['userroletog'];
 }
 
 $adalahadmin = mysqli_query($mysqli, "SELECT * FROM `users` where userrole='1'");
@@ -299,10 +299,10 @@ if (!$adalahadmin) {
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">
                                     <?php
                                     // Check apakah user login. Kalau tidak maka akan tampil "Sign in"
-                                    if (!isset($_SESSION['username'])) {
+                                    if (!isset($_SESSION['usernametog'])) {
                                         echo 'Sign in';
                                     } else {
-                                        echo $_SESSION['username'];
+                                        echo $_SESSION['usernametog'];
                                     }
 
                                     ?>
@@ -310,7 +310,7 @@ if (!$adalahadmin) {
 
                                 <?php
                                 // Check apakah user login. Kalau tidak maka akan tampil "Sign in"
-                                if (!isset($_SESSION['username'])) {
+                                if (!isset($_SESSION['usernametog'])) {
                                     echo '<img class="img-profile rounded-circle" src="/images/nouser.svg">';
                                 } else {
                                     echo '<img class="img-profile rounded-circle" src="img/undraw_profile.svg">';
@@ -320,7 +320,7 @@ if (!$adalahadmin) {
                             </a>
                             <?php
 
-                            if (!isset($_SESSION['username'])) {
+                            if (!isset($_SESSION['usernametog'])) {
                                 echo '<!-- Dropdown - User Information -->';
                                 echo '<div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">';
                                 echo '<a class="dropdown-item" href="/tog/auth/"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Login</a>';
