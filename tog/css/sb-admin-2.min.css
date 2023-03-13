@@ -11901,6 +11901,10 @@ a:focus {
     font-size: 2rem
 }
 
+.sidebar-brand-icon svg {
+    fill: var(--white);
+}
+
 .sidebar .sidebar-brand .sidebar-brand-text {
     display: none
 }
