@@ -104,7 +104,23 @@ if (isset($_GET['token'])) {
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon">
                     <!-- <i class="fas fa-laugh-wink"></i> -->
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 300" id="mainlogo"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M91.66,138.71,41.31,116.25C19.73,106.66,5.36,93.86,1.25,78.51A34.31,34.31,0,0,0,0,87.17c.27,19.24,15.78,35.08,41.31,46.42l50.35,22.46c21.58,9.57,35.94,22.39,40.06,37.73a34.76,34.76,0,0,0,1.24-8.66C132.7,165.89,117.19,150.05,91.66,138.71Z"/><path class="cls-1" d="M42.51,40.16c-19.4,9.82-27,21.17-26.82,29.67a18.1,18.1,0,0,0,2.23,8.65c3.92-7.61,13.2-16.1,29.75-23.45L132.9,17,133,0S66.77,29.41,42.51,40.16Z"/><path class="cls-1" d="M83.45,90.52c-10.08,5.1-13.41,10.59-13.2,13.6-.15,2,1.32,5.23,5.44,8.65a44.87,44.87,0,0,1,10.67-6.32L133,85.66v-17Z"/><path class="cls-1" d="M90.46,232.14c19.4-9.82,27-21.18,26.82-29.68a18.28,18.28,0,0,0-2.23-8.66c-3.92,7.62-13.21,16.11-29.76,23.47-2.58,1.13-85.22,38-85.22,38l-.07,17S66.21,242.87,90.46,232.14Z"/><path class="cls-1" d="M49.52,181.77c10.08-5.09,13.42-10.59,13.2-13.59.14-2-1.32-5.24-5.44-8.66a44.73,44.73,0,0,1-10.67,6.33L0,186.62v17Z"/></g></g></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 300" id="mainlogo">
+                        <defs></defs>
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <path class="cls-1"
+                                    d="M91.66,138.71,41.31,116.25C19.73,106.66,5.36,93.86,1.25,78.51A34.31,34.31,0,0,0,0,87.17c.27,19.24,15.78,35.08,41.31,46.42l50.35,22.46c21.58,9.57,35.94,22.39,40.06,37.73a34.76,34.76,0,0,0,1.24-8.66C132.7,165.89,117.19,150.05,91.66,138.71Z" />
+                                <path class="cls-1"
+                                    d="M42.51,40.16c-19.4,9.82-27,21.17-26.82,29.67a18.1,18.1,0,0,0,2.23,8.65c3.92-7.61,13.2-16.1,29.75-23.45L132.9,17,133,0S66.77,29.41,42.51,40.16Z" />
+                                <path class="cls-1"
+                                    d="M83.45,90.52c-10.08,5.1-13.41,10.59-13.2,13.6-.15,2,1.32,5.23,5.44,8.65a44.87,44.87,0,0,1,10.67-6.32L133,85.66v-17Z" />
+                                <path class="cls-1"
+                                    d="M90.46,232.14c19.4-9.82,27-21.18,26.82-29.68a18.28,18.28,0,0,0-2.23-8.66c-3.92,7.62-13.21,16.11-29.76,23.47-2.58,1.13-85.22,38-85.22,38l-.07,17S66.21,242.87,90.46,232.14Z" />
+                                <path class="cls-1"
+                                    d="M49.52,181.77c10.08-5.09,13.42-10.59,13.2-13.59.14-2-1.32-5.24-5.44-8.66a44.73,44.73,0,0,1-10.67,6.33L0,186.62v17Z" />
+                            </g>
+                        </g>
+                    </svg>
                 </div>
                 <div class="sidebar-brand-text mx-3">Token of Gratitude</div>
             </a>
@@ -205,26 +221,26 @@ if (isset($_GET['token'])) {
 
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
                         <!-- <li class="nav-item dropdown no-arrow d-sm-none"> -->
-                            <!-- <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" -->
-                                <!-- data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-                                <!-- <i class="fas fa-search fa-fw"></i> -->
-                            <!-- </a> -->
-                            <!-- Dropdown - Messages -->
-                            <!-- <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" -->
-                                <!-- aria-labelledby="searchDropdown"> -->
-                                <!-- <form class="form-inline mr-auto w-100 navbar-search"> -->
-                                    <!-- <div class="input-group"> -->
-                                        <!-- <input type="text" class="form-control bg-light border-0 small" -->
-                                            <!-- placeholder="Search for..." aria-label="Search" -->
-                                            <!-- aria-describedby="basic-addon2"> -->
-                                        <!-- <div class="input-group-append"> -->
-                                            <!-- <button class="btn btn-primary" type="button"> -->
-                                                <!-- <i class="fas fa-search fa-sm"></i> -->
-                                            <!-- </button> -->
-                                        <!-- </div> -->
-                                    <!-- </div> -->
-                                <!-- </form> -->
-                            <!-- </div> -->
+                        <!-- <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" -->
+                        <!-- data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+                        <!-- <i class="fas fa-search fa-fw"></i> -->
+                        <!-- </a> -->
+                        <!-- Dropdown - Messages -->
+                        <!-- <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" -->
+                        <!-- aria-labelledby="searchDropdown"> -->
+                        <!-- <form class="form-inline mr-auto w-100 navbar-search"> -->
+                        <!-- <div class="input-group"> -->
+                        <!-- <input type="text" class="form-control bg-light border-0 small" -->
+                        <!-- placeholder="Search for..." aria-label="Search" -->
+                        <!-- aria-describedby="basic-addon2"> -->
+                        <!-- <div class="input-group-append"> -->
+                        <!-- <button class="btn btn-primary" type="button"> -->
+                        <!-- <i class="fas fa-search fa-sm"></i> -->
+                        <!-- </button> -->
+                        <!-- </div> -->
+                        <!-- </div> -->
+                        <!-- </form> -->
+                        <!-- </div> -->
                         <!-- </li> -->
 
                         <!-- Nav Item - Alerts -->
@@ -474,17 +490,61 @@ if (isset($_GET['token'])) {
                                     </tfoot>
                                     <tbody>
                                         <?php
-                                        
-                                        while ($querytokenR = mysqli_fetch_array($querytoken)){
-                                            echo '<tr>';
-                                            echo '<td>'.$querytokenR['@count:=@count+1'].'</td>';
-                                            echo '<td>'.$querytokenR['tokens'].'</td>';
-                                            echo '<td>'.$querytokenR['validuntil'].'</td>';
-                                            echo '<td><button class="btn btn-primary" name="">Gunakan Token</button></td>';
-                                            echo '</tr>';
-                                        }
 
+                                        while ($querytokenR = mysqli_fetch_array($querytoken)) {
+                                            echo '<tr>';
+                                            echo '<td>' . $querytokenR['@count:=@count+1'] . '</td>';
+                                            echo '<td>' . $querytokenR['tokens'] . '</td>';
+                                            echo '<td>' . $querytokenR['validuntil'] . '</td>';
+                                            if (date('Y-m-d') >= $querytokenR['validuntil']) {
+                                                echo '<td><button class="btn btn-danger" name="" disabled>Token Kedaluwarsa</button></td>';
+                                            } else {
+                                                echo '<td><button class="btn btn-success" name="" data-toggle="modal" data-target="#inquiryModal'.$querytokenR['id'].'">Gunakan Token</button></td>';
+                                            }
+                                            ;
+                                            echo '</tr>';
                                         ?>
+                                        <!-- Inquiry Modal -->
+                                        <div class="modal fade" id="inquiryModal<?php echo $querytokenR['id'] ?>"
+                                            tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Ajukan Support</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close"><span
+                                                                aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form role="form" action="kirimpesanwa.php" method="GET">
+                                                            <input type="hidden" name="usertoken"
+                                                                value="<?php echo $querytokenR['tokens']; ?>">
+                                                            <div class="form-group">
+                                                                <label for="recipient-name"
+                                                                    class="col-form-label">Nama Anda</label>
+                                                                <input type="text" name="namauser"
+                                                                    class="form-control" id="recipient-name"
+                                                                    value="" placeholder="Nama Anda..." required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="message-text"
+                                                                    class="col-form-label">Pesan</label>
+                                                                <textarea class="form-control" name="pesanuser"
+                                                                    id="message-text" placeholder="Silahkan tulis pesan Anda..." required></textarea>
+                                                            </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Batal</button>
+                                                        <button type="submit" class="btn btn-success">Kirim</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <?php } ?>
+
                                         <!-- <tr> -->
                                         <!-- <td>01</td> -->
                                         <!-- <td>2N8GZVL07A</td> -->
