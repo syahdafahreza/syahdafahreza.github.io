@@ -4,7 +4,9 @@ include 'configdb-main.php';
 session_start();
 
 if (!isset($_SESSION['usernametog'])) {
-    // header("Location: auth/index.php");
+    header("Location: auth/index.php");
+} else {
+    $namauser = '\'' . $_SESSION['usernametog'] . "'";
 }
 
 if (!isset($_SESSION['userroletog'])) {
@@ -13,8 +15,15 @@ if (!isset($_SESSION['userroletog'])) {
     $userrole = $_SESSION['userroletog'];
 }
 
-$cektoken = mysqli_query($mysqli, "SELECT * FROM `tokens` where claimby=''");
+// Cek token apakah token ini masih fresh apa tidak
+$cektoken = mysqli_query($mysqli, "SELECT * FROM `tokens` where claimby is null and validuntil is null");
 if (!$cektoken) {
+    trigger_error(mysqli_error($mysqli), E_USER_ERROR);
+}
+
+// Query token berdasarkan current user. Dan dimiliki oleh current user atau tidak
+$querytoken = mysqli_query($mysqli, "SELECT @count:=@count+1, t. * FROM (SELECT * FROM `tokens` where claimby=$namauser) t, (SELECT @count:=0) z");
+if (!$querytoken) {
     trigger_error(mysqli_error($mysqli), E_USER_ERROR);
 }
 
@@ -28,7 +37,7 @@ if ($hasilkueritoken) {
 }
 
 if (isset($_GET['token'])) {
-    $namauser = '\'' . $_SESSION['usernametog'] . "'";
+
     $token = $_GET['token'];
     // echo "<script>alert('".$inputtokenQ."')</script>";
     $hasilkueritokenQ = mysqli_query($mysqli, "SELECT * FROM tokens WHERE tokens='$token' AND claimby is null;");
@@ -38,7 +47,7 @@ if (isset($_GET['token'])) {
     } else {
         if ($rowtokenQ[1] == $token) {
             //query update
-            $query = mysqli_query($mysqli, "UPDATE `tokens` SET `claimby`=$namauser WHERE `tokens`='$token'");
+            $query = mysqli_query($mysqli, "UPDATE `tokens` SET `claimby`=$namauser, `validuntil`=DATE_ADD(NOW(), INTERVAL 1 DAY) WHERE `tokens`='$token'");
             if ($query) {
                 # credirect ke page index
                 // header("location: notes.php");
@@ -408,7 +417,7 @@ if (isset($_GET['token'])) {
                     <div class="row">
                         <div class="col-lg mb-4">
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl col-md-6 mb-4">
+                            <div class="mb-4">
                                 <div class="card border-bottom-primary shadow h-100 py-2">
                                     <div class="card-body">
                                         <form action="redeemT.php" method="POST">
@@ -449,6 +458,7 @@ if (isset($_GET['token'])) {
                                             <th>#</th>
                                             <th>Token</th>
                                             <th>Valid Sampai</th>
+                                            <th>Aksi</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
@@ -456,9 +466,22 @@ if (isset($_GET['token'])) {
                                             <th>#</th>
                                             <th>Token</th>
                                             <th>Valid Sampai</th>
+                                            <th>Aksi</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
+                                        <?php
+                                        
+                                        while ($querytokenR = mysqli_fetch_array($querytoken)){
+                                            echo '<tr>';
+                                            echo '<td>'.$querytokenR['@count:=@count+1'].'</td>';
+                                            echo '<td>'.$querytokenR['tokens'].'</td>';
+                                            echo '<td>'.$querytokenR['validuntil'].'</td>';
+                                            echo '<td><button class="btn btn-primary" name="">Gunakan</button></td>';
+                                            echo '</tr>';
+                                        }
+
+                                        ?>
                                         <!-- <tr> -->
                                         <!-- <td>01</td> -->
                                         <!-- <td>2N8GZVL07A</td> -->
