@@ -1,0 +1,1 @@
+SELECT @count:=@count+1, t. * FROM (SELECT * FROM `tokens` where claimby='Test User') t, (SELECT @count:=0) z;
