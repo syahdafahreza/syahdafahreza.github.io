@@ -477,7 +477,7 @@ if (isset($_GET['token'])) {
                                             echo '<td>'.$querytokenR['@count:=@count+1'].'</td>';
                                             echo '<td>'.$querytokenR['tokens'].'</td>';
                                             echo '<td>'.$querytokenR['validuntil'].'</td>';
-                                            echo '<td><button class="btn btn-primary" name="">Gunakan</button></td>';
+                                            echo '<td><button class="btn btn-primary" name="">Gunakan Token</button></td>';
                                             echo '</tr>';
                                         }
 
