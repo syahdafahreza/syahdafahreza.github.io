@@ -27,6 +27,11 @@ $listalltoken = mysqli_query($mysqli, "SELECT @count:=@count+1, t. * FROM (SELEC
 if (!$listalltoken) {
     trigger_error(mysqli_error($mysqli), E_USER_ERROR);
 }
+// List all tokens 2
+$listalltoken2 = mysqli_query($mysqli, "SELECT @count:=@count+1, t. * FROM (SELECT * FROM `tokens`) t, (SELECT @count:=0) z");
+if (!$listalltoken2) {
+    trigger_error(mysqli_error($mysqli), E_USER_ERROR);
+}
 
 
 ?>
@@ -46,7 +51,8 @@ if (!$listalltoken) {
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"
+        type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -408,7 +414,7 @@ if (!$listalltoken) {
                             <div class="mb-4">
                                 <div class="card border-bottom-success shadow h-100 py-2">
                                     <div class="card-body">
-                                        <form action="createtoken.php" method="POST">
+                                        <form role="form" action="createtoken.php?act=tambahtoken" method="POST">
                                             <div class="row no-gutters align-items-center">
 
                                                 <div class="col mr-2">
@@ -468,7 +474,7 @@ if (!$listalltoken) {
                                             echo '<td>' . $listalltokenR['tokens'] . '</td>';
                                             echo '<td>' . $listalltokenR['claimby'] . '</td>';
                                             echo '<td>' . $listalltokenR['validuntil'] . '</td>';
-                                            echo '<td><button class="btn btn-warning mr-2 mb-2" name="" data-toggle="modal" data-target="#edittokenModal' . $listalltokenR['id'] . '"><i class="fa-solid fa-pen-to-square"></i></button><button class="btn btn-danger mr-2 mb-2" name="" data-toggle="modal" data-target="#edittokenModal' . $listalltokenR['id'] . '"><i class="fa-solid fa-trash"></i></button></td>';
+                                            echo '<td><button class="btn btn-warning mr-2 mb-2" name="" data-toggle="modal" data-target="#edittokenModal' . $listalltokenR['id'] . '"><i class="fa-solid fa-pen-to-square"></i></button><button class="btn btn-danger mr-2 mb-2" name="" data-toggle="modal" data-target="#deletetokenModal' . $listalltokenR['id'] . '"><i class="fa-solid fa-trash"></i></button></td>';
                                             echo '</tr>';
                                         } ?>
 
@@ -513,6 +519,51 @@ if (!$listalltoken) {
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
+
+    <?php
+
+    while ($listalltokenR2 = mysqli_fetch_array($listalltoken2)) {
+
+        ?>
+
+        <!-- Edit Modal -->
+        <div class="modal fade" id="edittokenModal<?php echo $listalltokenR2['id'] ?>" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Edit Token</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" action="edittoken.php" method="get">
+                            <input type="hidden" name="id_token" value="<?php echo $listalltokenR2['id']; ?>">
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Token</label>
+                                <input type="text" name="inputtokenedit" class="form-control" id="recipient-name"
+                                    value="<?php echo $listalltokenR2['tokens'] ?>">
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for following text input">
+                                        </div>
+                                    </div>
+                                    <input name="inputclaimby" type="date" class="form-control" aria-label="Text input with checkbox" value="<?php echo $listalltokenR2['claimby'] ?>">
+                                </div>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                        <button type="submit" class="btn btn-primary">Simpan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php } ?>
 
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
