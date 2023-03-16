@@ -1,0 +1,6 @@
+a:active, a:focus, a:hover{outline:none !important;}
+.control-box{max-width:300px; width:100%; margin:0px auto;}
+#wave-timeline{border-bottom:1px solid #ddd; margin-bottom:15px;}
+.control-box .nav-tabs.nav-justified > li > a{ background:#e5e5e5; color:#444; border-radius:4px; margin-right:5px;}
+.control-box .nav > li > a:hover, .control-box .nav > li > a:active, .control-box .nav > li > a:focus{background:#367FA9; color:#fff; box-shadow:0px 0px 1px #367FA9 inset; border:1px solid #367FA9;}
+.player-active{background:#367FA9; color:#FFF; border:1px solid #367FA9;}
