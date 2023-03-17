@@ -17,7 +17,8 @@ if (!isset($_SESSION['userroletog'])) {
 
 // Cek apakah user administrator. Klo bukan ya error lah bgsd :v
 if ($userrole != 1) {
-    echo "<script>alert('Maaf, anda bukan administrator!');window.location = '404.php';</script>";
+    // echo "<script>alert('Maaf, anda bukan administrator!');window.location = '404.php';</script>";
+    header("Location: 404.php");
 } else {
 
 }
@@ -61,9 +62,6 @@ if (!$listalltoken2) {
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <!-- Custom styles for this page -->
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/b2e4954604.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -648,7 +646,7 @@ if (!$listalltoken2) {
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Cuma mengingatkan :)</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">Hapus Token</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
