@@ -69,6 +69,16 @@ if (!$listalltoken2) {
 
 <body id="page-top" class="sidebar-toggled">
 
+    <!-- <a href="#" class="act-btn"><i class="fas fa-plus fa-sm text-white"></i></a> -->
+    <div class="zoom" style="/*display: inline;*/">
+        <a class="zoom-fab zoom-btn-large" id="zoomBtn"><i class="fa fa-bars"></i></a>
+        <ul class="zoom-menu">
+            <!-- <li><a class="zoom-fab-create zoom-btn-sm zoom-btn-success scale-transition scale-out" data-toggle="modal"data-target="#newnoteModal"><i class="fa fa-plus"></i></a></li> -->
+            <li><a class="zoom-fab zoom-btn-sm zoom-btn-danger scale-transition scale-out"><i
+                        class="fa fa-trash"></i></a></li>
+        </ul>
+    </div>
+
     <!-- Page Wrapper -->
     <div id="wrapper">
 
@@ -441,11 +451,12 @@ if (!$listalltoken2) {
                             <h1 class="h3 mb-2 text-gray-800">Token Terdaftar</h1>
                             <p class="mb-4">Di bawah ini adalah daftar token yang telah dibuat</p>
                         </div>
-                    
 
-                    <button href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</button>
+
+                        <button href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"><i
+                                class="fas fa-trash fa-sm text-white"></i> Hapus Semua Token</button>
                     </div>
-                    
+
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
@@ -524,7 +535,7 @@ if (!$listalltoken2) {
     <!-- End of Page Wrapper -->
 
     <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
+    <a class="scroll-to-top rounded-circle" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
 
@@ -557,11 +568,12 @@ if (!$listalltoken2) {
                                     <div class="input-group-prepend">
                                         <div class="input-group-text">
                                             <input type="checkbox" id="checkboxCB<?php echo $listalltokenR2['id']; ?>"
-                                                aria-label="Checkbox for following text input" onclick="myFunctionCB<?php echo $listalltokenR2['id']; ?>()">
+                                                aria-label="Checkbox for following text input"
+                                                onclick="myFunctionCB<?php echo $listalltokenR2['id']; ?>()">
                                         </div>
                                     </div>
-                                    <input name="input_claimby" type="text" class="form-control" id="inpCB<?php echo $listalltokenR2['id']; ?>"
-                                        aria-label="Text input with checkbox"
+                                    <input name="input_claimby" type="text" class="form-control"
+                                        id="inpCB<?php echo $listalltokenR2['id']; ?>" aria-label="Text input with checkbox"
                                         value="<?php echo $listalltokenR2['claimby'] ?>" placeholder="Nama User...">
                                 </div>
                             </div>
@@ -570,11 +582,12 @@ if (!$listalltoken2) {
                                     <div class="input-group-prepend">
                                         <div class="input-group-text">
                                             <input type="checkbox" id="checkboxVU<?php echo $listalltokenR2['id']; ?>"
-                                                aria-label="Checkbox for following text input" onclick="myFunctionVU<?php echo $listalltokenR2['id']; ?>()">
+                                                aria-label="Checkbox for following text input"
+                                                onclick="myFunctionVU<?php echo $listalltokenR2['id']; ?>()">
                                         </div>
                                     </div>
-                                    <input name="input_validuntil" type="date" class="form-control" id="inpVU<?php echo $listalltokenR2['id']; ?>"
-                                        aria-label="Text input with checkbox"
+                                    <input name="input_validuntil" type="date" class="form-control"
+                                        id="inpVU<?php echo $listalltokenR2['id']; ?>" aria-label="Text input with checkbox"
                                         value="<?php echo $listalltokenR2['validuntil'] ?>">
                                 </div>
                             </div>
@@ -587,6 +600,7 @@ if (!$listalltoken2) {
                 </div>
             </div>
         </div>
+
         <!-- Token Input Disabler -->
         <script>
             function myFunctionCB<?php echo $listalltokenR2['id']; ?>() {
@@ -627,6 +641,32 @@ if (!$listalltoken2) {
                 }
             }
         </script>
+
+        <!-- Delete Confirmation Modal -->
+        <div class="modal fade" id="deletetokenModal<?php echo $listalltokenR2['id'] ?>" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Cuma mengingatkan :)</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Token ini akan hilang selama-lamanya, sama seperti kenangan indah sang mantan.
+                        Ingin tetap menghapus token ini?
+                    </div>
+                    <form role="form" action="deletetoken.php" method="get">
+                        <input type="hidden" name="id_token" value="<?php echo $listalltokenR2['id']; ?>">
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                            <button type="submit" class="btn btn-danger">Hapus</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     <?php } ?>
 
     <!-- Logout Modal-->
@@ -671,6 +711,16 @@ if (!$listalltoken2) {
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/b2e4954604.js" crossorigin="anonymous"></script>
+
+    <!-- Zoom FAB Button Scripts -->
+    <script>
+        $('#zoomBtn').click(function () {
+            $('.zoom-btn-sm').toggleClass('scale-out');
+            if (!$('.zoom-card').hasClass('scale-out')) {
+                $('.zoom-card').toggleClass('scale-out');
+            }
+        });
+    </script>
 
 </body>
 
