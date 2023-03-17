@@ -499,50 +499,53 @@ if (isset($_GET['token'])) {
                                             if (date('Y-m-d') >= $querytokenR['validuntil']) {
                                                 echo '<td><button class="btn btn-danger" name="" disabled>Token Kedaluwarsa</button></td>';
                                             } else {
-                                                echo '<td><button class="btn btn-success" name="" data-toggle="modal" data-target="#inquiryModal'.$querytokenR['id'].'">Gunakan Token</button></td>';
+                                                echo '<td><button class="btn btn-success" name="" data-toggle="modal" data-target="#inquiryModal' . $querytokenR['id'] . '">Gunakan Token</button></td>';
                                             }
                                             ;
                                             echo '</tr>';
-                                        ?>
-                                        <!-- Inquiry Modal -->
-                                        <div class="modal fade" id="inquiryModal<?php echo $querytokenR['id'] ?>"
-                                            tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                                            aria-hidden="true">
-                                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h5 class="modal-title" id="exampleModalLabel">Ajukan Support</h5>
-                                                        <button type="button" class="close" data-dismiss="modal"
-                                                            aria-label="Close"><span
-                                                                aria-hidden="true">&times;</span></button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <form role="form" action="kirimpesanwa.php" method="GET">
-                                                            <input type="hidden" name="usertoken"
-                                                                value="<?php echo $querytokenR['tokens']; ?>">
-                                                            <div class="form-group">
-                                                                <label for="recipient-name"
-                                                                    class="col-form-label">Nama Anda</label>
-                                                                <input type="text" name="namauser"
-                                                                    class="form-control" id="recipient-name"
-                                                                    value="" placeholder="Nama Anda..." required>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label for="message-text"
-                                                                    class="col-form-label">Pesan</label>
-                                                                <textarea class="form-control" name="pesanuser"
-                                                                    id="message-text" placeholder="Silahkan tulis pesan Anda..." required></textarea>
-                                                            </div>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary"
-                                                            data-dismiss="modal">Batal</button>
-                                                        <button type="submit" class="btn btn-success">Kirim</button>
-                                                        </form>
+                                            ?>
+                                            <!-- Inquiry Modal -->
+                                            <div class="modal fade" id="inquiryModal<?php echo $querytokenR['id'] ?>"
+                                                tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                                aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">Ajukan Support
+                                                            </h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close"><span
+                                                                    aria-hidden="true">&times;</span></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form role="form" action="kirimpesanwa.php" method="GET">
+                                                                <input type="hidden" name="usertoken"
+                                                                    value="<?php echo $querytokenR['tokens']; ?>">
+                                                                <div class="form-group">
+                                                                    <label for="recipient-name" class="col-form-label">Nama
+                                                                        Anda</label>
+                                                                    <input type="text" name="namauser" class="form-control"
+                                                                        id="recipient-name" value=""
+                                                                        placeholder="Nama Anda..." required>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="message-text"
+                                                                        class="col-form-label">Pesan</label>
+                                                                    <textarea class="form-control" name="pesanuser"
+                                                                        id="message-text"
+                                                                        placeholder="Silahkan tulis pesan Anda..."
+                                                                        required></textarea>
+                                                                </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">Batal</button>
+                                                            <button type="submit" class="btn btn-success">Kirim</button>
+                                                            </form>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
                                         <?php } ?>
 
                                         <!-- <tr> -->
