@@ -526,7 +526,7 @@ if (!$listalltoken2) {
 
         ?>
 
-        <!-- Edit Modal -->
+        <!-- Edit Token Modal -->
         <div class="modal fade" id="edittokenModal<?php echo $listalltokenR2['id'] ?>" tabindex="-1" role="dialog"
             aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -548,10 +548,26 @@ if (!$listalltoken2) {
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
                                         <div class="input-group-text">
-                                            <input type="checkbox" aria-label="Checkbox for following text input">
+                                            <input type="checkbox" id="checkboxCB<?php echo $listalltokenR2['id']; ?>"
+                                                aria-label="Checkbox for following text input" onclick="myFunctionCB<?php echo $listalltokenR2['id']; ?>()">
                                         </div>
                                     </div>
-                                    <input name="inputclaimby" type="date" class="form-control" aria-label="Text input with checkbox" value="<?php echo $listalltokenR2['claimby'] ?>">
+                                    <input name="inputclaimby" type="text" class="form-control" id="inpCB<?php echo $listalltokenR2['id']; ?>"
+                                        aria-label="Text input with checkbox"
+                                        value="<?php echo $listalltokenR2['claimby'] ?>" placeholder="Nama User...">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" id="checkboxVU<?php echo $listalltokenR2['id']; ?>"
+                                                aria-label="Checkbox for following text input" onclick="myFunctionVU<?php echo $listalltokenR2['id']; ?>()">
+                                        </div>
+                                    </div>
+                                    <input name="inputvaliduntil" type="date" class="form-control" id="inpVU<?php echo $listalltokenR2['id']; ?>"
+                                        aria-label="Text input with checkbox"
+                                        value="<?php echo $listalltokenR2['validuntil'] ?>">
                                 </div>
                             </div>
                     </div>
@@ -563,6 +579,46 @@ if (!$listalltoken2) {
                 </div>
             </div>
         </div>
+        <!-- Token Input Disabler -->
+        <script>
+            function myFunctionCB<?php echo $listalltokenR2['id']; ?>() {
+                // Get the checkbox
+                var checkBoxCB<?php echo $listalltokenR2['id']; ?> = document.getElementById("checkboxCB<?php echo $listalltokenR2['id']; ?>");
+                // Get the output text
+                var textinpCB<?php echo $listalltokenR2['id']; ?> = document.getElementById("inpCB<?php echo $listalltokenR2['id']; ?>");
+
+                // If the checkbox is checked, display the output text
+                if (checkBoxCB<?php echo $listalltokenR2['id']; ?>.checked == true) {
+                    // alert('Checked!');
+                    textinpCB<?php echo $listalltokenR2['id']; ?>.disabled = true;
+                    textinpCB<?php echo $listalltokenR2['id']; ?>.placeholder = "NULL";
+                    textinpCB<?php echo $listalltokenR2['id']; ?>.value = null;
+                } else {
+                    textinpCB<?php echo $listalltokenR2['id']; ?>.disabled = false;
+                    textinpCB<?php echo $listalltokenR2['id']; ?>.placeholder = "Nama User...";
+                }
+            }
+        </script>
+
+        <!-- Date Input Disabler -->
+        <script>
+            function myFunctionVU<?php echo $listalltokenR2['id']; ?>() {
+                // Get the checkbox
+                var checkBoxVU<?php echo $listalltokenR2['id']; ?> = document.getElementById("checkboxVU<?php echo $listalltokenR2['id']; ?>");
+                // Get the output text
+                var textinpVU<?php echo $listalltokenR2['id']; ?> = document.getElementById("inpVU<?php echo $listalltokenR2['id']; ?>");
+
+                // If the checkbox is checked, display the output text
+                if (checkBoxVU<?php echo $listalltokenR2['id']; ?>.checked == true) {
+                    textinpVU<?php echo $listalltokenR2['id']; ?>.disabled = true;
+                    textinpVU<?php echo $listalltokenR2['id']; ?>.placeholder = "NULL";
+                    textinpVU<?php echo $listalltokenR2['id']; ?>.value = null;
+
+                } else {
+                    textinpVU<?php echo $listalltokenR2['id']; ?>.disabled = false;
+                }
+            }
+        </script>
     <?php } ?>
 
     <!-- Logout Modal-->
