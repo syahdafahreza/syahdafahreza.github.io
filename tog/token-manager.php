@@ -436,8 +436,16 @@ if (!$listalltoken2) {
                     </div>
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Token Terdaftar</h1>
-                    <p class="mb-4">Di bawah ini adalah daftar token yang telah dibuat</p>
+                    <div class="d-sm-flex align-items-center justify-content-between">
+                        <div>
+                            <h1 class="h3 mb-2 text-gray-800">Token Terdaftar</h1>
+                            <p class="mb-4">Di bawah ini adalah daftar token yang telah dibuat</p>
+                        </div>
+                    
+
+                    <button href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</button>
+                    </div>
+                    
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
@@ -541,8 +549,8 @@ if (!$listalltoken2) {
                             <input type="hidden" name="id_token" value="<?php echo $listalltokenR2['id']; ?>">
                             <div class="form-group">
                                 <label for="recipient-name" class="col-form-label">Token</label>
-                                <input type="text" name="inputtokenedit" class="form-control" id="recipient-name"
-                                    value="<?php echo $listalltokenR2['tokens'] ?>">
+                                <input type="text" name="input_token" class="form-control" id="recipient-name"
+                                    value="<?php echo $listalltokenR2['tokens'] ?>" required>
                             </div>
                             <div class="form-group">
                                 <div class="input-group mb-3">
@@ -552,7 +560,7 @@ if (!$listalltoken2) {
                                                 aria-label="Checkbox for following text input" onclick="myFunctionCB<?php echo $listalltokenR2['id']; ?>()">
                                         </div>
                                     </div>
-                                    <input name="inputclaimby" type="text" class="form-control" id="inpCB<?php echo $listalltokenR2['id']; ?>"
+                                    <input name="input_claimby" type="text" class="form-control" id="inpCB<?php echo $listalltokenR2['id']; ?>"
                                         aria-label="Text input with checkbox"
                                         value="<?php echo $listalltokenR2['claimby'] ?>" placeholder="Nama User...">
                                 </div>
@@ -565,7 +573,7 @@ if (!$listalltoken2) {
                                                 aria-label="Checkbox for following text input" onclick="myFunctionVU<?php echo $listalltokenR2['id']; ?>()">
                                         </div>
                                     </div>
-                                    <input name="inputvaliduntil" type="date" class="form-control" id="inpVU<?php echo $listalltokenR2['id']; ?>"
+                                    <input name="input_validuntil" type="date" class="form-control" id="inpVU<?php echo $listalltokenR2['id']; ?>"
                                         aria-label="Text input with checkbox"
                                         value="<?php echo $listalltokenR2['validuntil'] ?>">
                                 </div>
