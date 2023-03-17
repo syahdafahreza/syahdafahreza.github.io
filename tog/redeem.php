@@ -84,6 +84,8 @@ if (isset($_GET['token'])) {
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"
+        type="text/css">
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -150,14 +152,14 @@ if (isset($_GET['token'])) {
             <!-- Nav Item -->
             <li class="nav-item">
                 <a class="nav-link" href="/faq.php">
-                    <i class="fas fa-fw fa-question"></i>
+                    <i class="fa-solid fa-circle-question"></i>
                     <span>FaQ</span></a>
             </li>
 
             <!-- Nav Item -->
             <li class="nav-item">
                 <a class="nav-link" href="/tog/tos.php">
-                    <i class="fas fa-fw fa-exclamation"></i>
+                    <i class="fa-solid fa-triangle-exclamation"></i>
                     <span>Syarat & Ketentuan</span></a>
             </li>
 
