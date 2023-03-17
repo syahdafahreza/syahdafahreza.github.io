@@ -537,7 +537,7 @@ if (!$result) {
                         </input>
                         <div class="form-group">
                             <label for="recipient-name" class="col-form-label">Judul</label>
-                            <input type="text" name="judul_note_baru" class="form-control" required>
+                            <input type="text" name="judul_note_baru" class="form-control" id="recipient-name" required>
                         </div>
                         <div class="form-group">
                             <label for="message-text" class="col-form-label">Teks</label>
