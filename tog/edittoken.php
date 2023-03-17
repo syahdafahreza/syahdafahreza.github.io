@@ -1,16 +1,17 @@
 <?php
 include 'configdb-main.php';
 
-$id = $_GET['id_note'];
-$judul = $_GET['judul_note'];
-$isinote = $_GET['isi_note'];
+$id = $_GET['id_token'];
+$token = $_GET['input_token'];
+$claimby = $_GET['input_claimby'];
+$validuntil = $_GET['input_validuntil'];
 
 //query update
-$query = mysqli_query($mysqli,"UPDATE `notes` SET title='$ciphertext_juduledit' , text='$ciphertext_isinoteedit' WHERE id='$id' ");
+$query = mysqli_query($mysqli,"UPDATE `tokens` SET tokens='$token' , claimby='$claimby', validuntil='$validuntil' WHERE id='$id' ");
 
 if ($query) {
  # credirect ke page index
- header("location: notes.php");
+ header("location: token-manager.php");
 }
 else{
  echo "ERROR, data gagal diupdate". mysqli_error($mysqli);
