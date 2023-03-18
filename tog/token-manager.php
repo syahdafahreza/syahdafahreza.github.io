@@ -54,6 +54,8 @@ if (!$listalltoken2) {
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"
         type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css" rel="stylesheet">
+    </link>
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -612,7 +614,7 @@ if (!$listalltoken2) {
                     // alert('Checked!');
                     textinpCB<?php echo $listalltokenR2['id']; ?>.disabled = true;
                     textinpCB<?php echo $listalltokenR2['id']; ?>.placeholder = "NULL";
-                    textinpCB<?php echo $listalltokenR2['id']; ?>.value = null;
+                    textinpCB<?php echo $listalltokenR2['id']; ?>.value = NULL;
                 } else {
                     textinpCB<?php echo $listalltokenR2['id']; ?>.disabled = false;
                     textinpCB<?php echo $listalltokenR2['id']; ?>.placeholder = "Nama User...";
@@ -710,6 +712,9 @@ if (!$listalltoken2) {
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/b2e4954604.js" crossorigin="anonymous"></script>
 
+    <!-- Sweet Alert CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
+
     <!-- Zoom FAB Button Scripts -->
     <script>
         $('#zoomBtn').click(function () {
@@ -719,6 +724,23 @@ if (!$listalltoken2) {
             }
         });
     </script>
+
+    <!-- Memanggil Sweet Alert -->
+    <?php if (@$_SESSION['inptokensukses']) { ?>
+        <script>
+            swal("Berhasil!", "<?php echo $_SESSION['inptokensukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['inptokensukses']);
+    } ?>
+    <!-- Memanggil Sweet Alert -->
+    <?php if (@$_SESSION['deltokensukses']) { ?>
+        <script>
+            swal("Berhasil!", "<?php echo $_SESSION['deltokensukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['deltokensukses']);
+    } ?>
 
 </body>
 
