@@ -1,4 +1,6 @@
 <?php 
+include 'configdb-main.php';
+session_start();
 $token = $_POST['inputtoken'];
  
 if($token == ""){

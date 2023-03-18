@@ -54,11 +54,13 @@ if (isset($_GET['token'])) {
             } else {
                 trigger_error(mysqli_error($mysqli), E_USER_ERROR);
             }
-            echo "<script>alert('" . $rowtokenQ[1] . "');window.location = 'redeem.php';</script>";
-            header_remove();
+            $_SESSION["rdmtokensukses"] = 'Token ' . $token . ' Berhasil Di-redeem';
+            echo "<script>window.location = 'redeem.php';</script>";
+            // header("Location: redeem.php");
         } else {
             echo "<script>alert('Token telah kedaluwarsa, tidak valid, atau sudah di-claim. Silahkan input token lain!');window.location = 'redeem.php';</script>";
-            header_remove();
+            // $_SESSION["rdmtokengagal"] = 'Token ' . $token . ' telah kedaluwarsa, tidak valid, atau sudah di-claim';
+            // header("Location: redeem.php");
         }
     }
     // echo "<script>alert('".$rowtokenQ[1]."')</script>";
@@ -86,6 +88,8 @@ if (isset($_GET['token'])) {
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"
         type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css" rel="stylesheet">
+    </link>
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -441,7 +445,7 @@ if (isset($_GET['token'])) {
                             <div class="mb-4">
                                 <div class="card border-bottom-primary shadow h-100 py-2">
                                     <div class="card-body">
-                                        <form action="redeemT.php" method="POST">
+                                        <form action="redeemtoken.php" method="POST">
                                             <div class="row no-gutters align-items-center">
 
                                                 <div class="col mr-2">
@@ -631,6 +635,26 @@ if (isset($_GET['token'])) {
 
     <!-- Page level custom scripts -->
     <script src="js/demo/datatables-demo.js"></script>
+
+    <!-- Sweet Alert CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
+
+    <!-- Memanggil Sweet Alert -->
+    <?php if (@$_SESSION['rdmtokensukses']) { ?>
+        <script>
+            swal("Berhasil!", "<?php echo $_SESSION['rdmtokensukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['rdmtokensukses']);
+    } ?>
+    <!-- Memanggil Sweet Alert -->
+    <?php if (@$_SESSION['rdmtokengagal']) { ?>
+        <script>
+            swal("Maaf!", "<?php echo $_SESSION['rdmtokengagal']; ?>", "error");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['rdmtokengagal']);
+    } ?>
 
 </body>
 
