@@ -725,7 +725,7 @@ if (!$listalltoken2) {
         });
     </script>
 
-    <!-- Memanggil Sweet Alert -->
+    <!-- Memanggil Sweet Alert Input Token -->
     <?php if (@$_SESSION['inptokensukses']) { ?>
         <script>
             swal("Berhasil!", "<?php echo $_SESSION['inptokensukses']; ?>", "success");
@@ -733,13 +733,23 @@ if (!$listalltoken2) {
         <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
         <?php unset($_SESSION['inptokensukses']);
     } ?>
-    <!-- Memanggil Sweet Alert -->
+
+    <!-- Memanggil Sweet Alert Delete Token -->
     <?php if (@$_SESSION['deltokensukses']) { ?>
         <script>
             swal("Berhasil!", "<?php echo $_SESSION['deltokensukses']; ?>", "success");
         </script>
         <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
         <?php unset($_SESSION['deltokensukses']);
+    } ?>
+
+    <!-- Memanggil Sweet Alert Edit Token -->
+    <?php if (@$_SESSION['edittokensukses']) { ?>
+        <script>
+            swal("Berhasil!", "<?php echo $_SESSION['edittokensukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['edittokensukses']);
     } ?>
 
 </body>

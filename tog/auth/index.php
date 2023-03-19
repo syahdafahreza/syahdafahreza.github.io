@@ -46,6 +46,8 @@ if (isset($_POST['submit'])) {
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css" rel="stylesheet">
+    </link>
 
     <!-- Custom styles for this template-->
     <link href="/bspaste/css/sb-admin-2.min.css" rel="stylesheet">
@@ -55,7 +57,7 @@ if (isset($_POST['submit'])) {
 <body class="bg-gradient-primary">
 
     <!-- <div class="alert alert-warning" role="alert"> -->
-        <!-- <?php echo $_SESSION['error'] ?> -->
+    <!-- <?php echo $_SESSION['error'] ?> -->
     <!-- </div> -->
 
     <div class="container">
@@ -78,12 +80,14 @@ if (isset($_POST['submit'])) {
                                     <form action="" method="POST" class="user">
                                         <div class="form-group">
                                             <input type="email" name="email" class="form-control form-control-user"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Email" value="<?php echo $email; ?>" required>
+                                                id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email"
+                                                value="<?php echo $email; ?>" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" name="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Kata Sandi" value="<?php echo $_POST['password']; ?>" required>
+                                            <input type="password" name="password"
+                                                class="form-control form-control-user" id="exampleInputPassword"
+                                                placeholder="Kata Sandi" value="<?php echo $_POST['password']; ?>"
+                                                required>
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
@@ -100,14 +104,14 @@ if (isset($_POST['submit'])) {
                                         <!-- <a href="index.html" class="btn btn-facebook btn-user btn-block"> -->
                                         <!-- <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook -->
                                         <!-- </a> -->
-                                        </form>
-                                        <!-- <hr> -->
-                                        <div class="text-center">
-                                            <a class="small" href="forgot-password.php">Lupa Kata Sandi?</a>
-                                        </div>
-                                        <div class="text-center">
-                                            <a class="small" href="register.php">Buat akun!</a>
-                                        </div>
+                                    </form>
+                                    <!-- <hr> -->
+                                    <div class="text-center">
+                                        <a class="small" href="forgot-password.php">Lupa Kata Sandi?</a>
+                                    </div>
+                                    <div class="text-center">
+                                        <a class="small" href="register.php">Buat akun!</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -129,6 +133,18 @@ if (isset($_POST['submit'])) {
 
     <!-- Custom scripts for all pages-->
     <script src="/bspaste/js/sb-admin-2.min.js"></script>
+
+    <!-- Sweet Alert CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
+
+    <!-- Memanggil Sweet Alert Registrasi Akun Berhasil -->
+    <?php if (@$_SESSION['registersukses']) { ?>
+        <script>
+            swal("Berhasil!", "<?php echo $_SESSION['registersukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['registersukses']);
+    } ?>
 
 </body>
 

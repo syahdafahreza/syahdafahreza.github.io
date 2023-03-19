@@ -16,7 +16,7 @@ if ($_GET['act'] == 'tambahtoken') {
     if ($querytambah) {
         # credirect ke page index
         //set session sukses
-        $_SESSION["inptokensukses"] = 'Token '.$token.' Berhasil Disimpan';
+        $_SESSION["inptokensukses"] = 'Token '.$token.' berhasil disimpan';
         header("location: token-manager.php");
         
 
