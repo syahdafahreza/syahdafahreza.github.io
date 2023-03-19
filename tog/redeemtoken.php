@@ -18,6 +18,7 @@ if($token == ""){
 if (isset($_POST['submit'])) {
 
     $token = $_POST['inputtoken'];
+    $responsetoken = $_POST['rsptoken'];
     // echo "<script>alert('".$inputtokenQ."')</script>";
     $hasilkueritokenQ = mysqli_query($mysqli, "SELECT * FROM tokens WHERE tokens='$token' AND claimby is null;");
     $rowtokenQ = mysqli_fetch_row($hasilkueritokenQ);
@@ -26,7 +27,7 @@ if (isset($_POST['submit'])) {
     } else {
         if ($rowtokenQ[1] == $token) {
             //query update
-            $query = mysqli_query($mysqli, "UPDATE `tokens` SET `claimby`=$namauser,`claimdate`=NOW(), `validuntil`=DATE_ADD(NOW(), INTERVAL 1 DAY) WHERE `tokens`='$token'");
+            $query = mysqli_query($mysqli, "UPDATE `tokens` SET `claimby`=$namauser, `responsetokens`='$responsetoken' , `claimdate`=NOW(), `validuntil`=DATE_ADD(NOW(), INTERVAL 1 DAY) WHERE `tokens`='$token'");
             if ($query) {
                 # credirect ke page index
                 // header("location: notes.php");

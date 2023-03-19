@@ -37,6 +37,21 @@ if ($hasilkueritoken) {
 }
 
 
+function generateRandomString($length = 20)
+{
+    $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[random_int(0, $charactersLength - 1)];
+    }
+    return $randomString;
+}
+
+// Echo the random string.
+// Optionally, you can give it a desired string length.
+// echo generateRandomString();
+
 
 ?>
 
@@ -419,11 +434,11 @@ if ($hasilkueritoken) {
                                     <div class="card-body">
                                         <form action="redeemtoken.php" method="POST">
                                             <div class="row no-gutters align-items-center">
-
                                                 <div class="col mr-2">
-
                                                     <input type="text" name="inputtoken" class="form-control"
                                                         placeholder="Redeem token Anda disini" required>
+                                                    <input type="hidden" name="rsptoken" class="form-control"
+                                                        value="<?php echo generateRandomString() ?>">
                                                 </div>
                                                 <div class="col-auto">
                                                     <button class="btn btn-primary" name="submit">Redeem</button>
@@ -477,7 +492,7 @@ if ($hasilkueritoken) {
                                             if (date('Y-m-d') >= $querytokenR['validuntil']) {
                                                 echo '<td><button class="btn btn-danger" name="" disabled>Token Kedaluwarsa</button></td>';
                                             } else {
-                                                echo '<td><button class="btn btn-success" name="" data-toggle="modal" data-target="#inquiryModal' . $querytokenR['id'] . '">Gunakan Token</button></td>';
+                                                echo '<td><button class="btn btn-primary mr-2 mb-2" id="infotoken" onclick="infotoken' . $querytokenR['id'] . '()"><i class="fa-solid fa-eye"></i></button><button class="btn btn-success mr-2 mb-2" name="" data-toggle="modal" data-target="#inquiryModal' . $querytokenR['id'] . '"><i class="fa-brands fa-whatsapp"></i></button></td>';
                                             }
                                             ;
                                             echo '</tr>';
@@ -489,31 +504,70 @@ if ($hasilkueritoken) {
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h5 class="modal-title" id="exampleModalLabel">Ajukan Support
+                                                            <h5 class="modal-title" id="exampleModalLabel">Form Chat
+                                                                WhatsApp
                                                             </h5>
                                                             <button type="button" class="close" data-dismiss="modal"
                                                                 aria-label="Close"><span
                                                                     aria-hidden="true">&times;</span></button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <form role="form" action="kirimpesanwa.php" method="GET">
-                                                                <input type="hidden" name="usertoken"
-                                                                    value="<?php echo $querytokenR['tokens']; ?>">
-                                                                <div class="form-group">
-                                                                    <label for="recipient-name" class="col-form-label">Nama
-                                                                        Anda</label>
-                                                                    <input type="text" name="namauser" class="form-control"
-                                                                        id="recipient-name" value=""
-                                                                        placeholder="Nama Anda..." required>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="message-text"
-                                                                        class="col-form-label">Pesan</label>
-                                                                    <textarea class="form-control" name="pesanuser"
-                                                                        id="message-text"
-                                                                        placeholder="Silahkan tulis pesan Anda..."
-                                                                        required></textarea>
-                                                                </div>
+                                                            <div class="container-fluid">
+                                                                <form role="form" action="kirimpesanwa.php" method="GET">
+                                                                    <input type="hidden" name="namauser"
+                                                                        value="<?php echo $querytokenR['claimby']; ?>">
+                                                                    <input type="hidden" name="usertoken"
+                                                                        value="<?php echo $querytokenR['tokens']; ?>">
+                                                                    <input type="hidden" name="userresponsetoken"
+                                                                        value="<?php echo $querytokenR['responsetokens']; ?>">
+                                                                    <div class="row">
+                                                                        <div class="col-lg">
+                                                                            <div class="form-group">
+                                                                                <label for="nama-user"
+                                                                                    class="col-form-label">Nama
+                                                                                    Anda</label>
+                                                                                <input type="text" name=""
+                                                                                    class="form-control" id="nama-user"
+                                                                                    value="<?php echo $querytokenR['claimby'] ?>"
+                                                                                    placeholder="Nama Anda..." disabled>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col">
+                                                                            <div class="form-group">
+                                                                                <label for="nama-user"
+                                                                                    class="col-form-label">Token</label>
+                                                                                <input type="text" name=""
+                                                                                    class="form-control" id="nama-user"
+                                                                                    value="<?php echo $querytokenR['tokens'] ?>"
+                                                                                    placeholder="Token Anda..." disabled>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col">
+                                                                            <div class="form-group">
+                                                                                <label for="nama-user"
+                                                                                    class="col-form-label">Response
+                                                                                    Token</label>
+                                                                                <input type="text" name=""
+                                                                                    class="form-control" id="nama-user"
+                                                                                    value="<?php echo $querytokenR['responsetokens'] ?>"
+                                                                                    placeholder="Token Anda..." disabled>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col-lg">
+                                                                            <div class="form-group">
+                                                                                <label for="message-text"
+                                                                                    class="col-form-label">Pesan</label>
+                                                                                <input class="form-control" name="pesanuser" id="message-text"
+                                                                                    placeholder="Silahkan tulis pesan Anda..."
+                                                                                    required></textarea>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                            </div>
                                                         </div>
                                                         <div class="modal-footer">
                                                             <button type="button" class="btn btn-secondary"
@@ -524,6 +578,18 @@ if ($hasilkueritoken) {
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <!-- Memanggil Sweet Alert Show Info Token -->
+                                            <script>
+                                                function infotoken<?php echo $querytokenR['id'] ?>() {
+                                                    swal(
+                                                        'Informasi Token',
+                                                        '<h6 class="m-0 font-weight-bold text-primary">Nama User:</h6> <?php echo $querytokenR['claimby'] ?> <br> <h6 class="m-0 font-weight-bold text-primary">Token:</h6> <?php echo $querytokenR['tokens'] ?> <br> <h6 class="m-0 font-weight-bold text-primary">Response Token:</h6> <?php echo $querytokenR['responsetokens'] ?> <br> <h6 class="m-0 font-weight-bold text-primary">Valid Sampai:</h6> <?php echo $querytokenR['validuntil'] ?> <br><br> <h6 class="m-0 font-weight-bold text-danger">Mohon screenshot informasi ini dan disertakan di chat WhatsApp secara terpisah pada awal setiap session chat. Terimakasih!</h6>',
+                                                        'info'
+                                                    )
+                                                };
+                                            </script>
+
                                         <?php } ?>
 
                                         <!-- <tr> -->
@@ -611,7 +677,7 @@ if ($hasilkueritoken) {
     <!-- Sweet Alert CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
 
-    <!-- Memanggil Sweet Alert -->
+    <!-- Memanggil Sweet Alert Redeem Token Sukses -->
     <?php if (@$_SESSION['rdmtokensukses']) { ?>
         <script>
             swal("Berhasil!", "<?php echo $_SESSION['rdmtokensukses']; ?>", "success");
@@ -620,8 +686,16 @@ if ($hasilkueritoken) {
         <?php unset($_SESSION['rdmtokensukses']);
     } ?>
 
-    <!-- Memanggil Sweet Alert -->
+    <!-- Memanggil Sweet Alert Redeem Token Gagal -->
     <?php if (@$_SESSION['rdmtokengagal']) { ?>
+        <script>
+            swal("Maaf!", "<?php echo $_SESSION['rdmtokengagal']; ?>", "error");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['rdmtokengagal']);
+    } ?>
+    <!-- Memanggil Sweet Alert Show Info Token -->
+    <?php if (@$_SESSION['showinfotoken']) { ?>
         <script>
             swal("Maaf!", "<?php echo $_SESSION['rdmtokengagal']; ?>", "error");
         </script>
