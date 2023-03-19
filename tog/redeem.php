@@ -22,7 +22,7 @@ if (!$cektoken) {
 }
 
 // Query token berdasarkan current user. Dan dimiliki oleh current user atau tidak
-$querytoken = mysqli_query($mysqli, "SELECT @count:=@count+1, t. * FROM (SELECT * FROM `tokens` where claimby=$namauser) t, (SELECT @count:=0) z");
+$querytoken = mysqli_query($mysqli, "SELECT @count:=@count+1, t. * FROM (SELECT * FROM `tokens` where claimby=$namauser) t, (SELECT @count:=0) z ORDER by `claimdate` DESC");
 if (!$querytoken) {
     trigger_error(mysqli_error($mysqli), E_USER_ERROR);
 }
@@ -36,35 +36,7 @@ if ($hasilkueritoken) {
     // echo $rowtoken['tokens'];
 }
 
-if (isset($_GET['token'])) {
 
-    $token = $_GET['token'];
-    // echo "<script>alert('".$inputtokenQ."')</script>";
-    $hasilkueritokenQ = mysqli_query($mysqli, "SELECT * FROM tokens WHERE tokens='$token' AND claimby is null;");
-    $rowtokenQ = mysqli_fetch_row($hasilkueritokenQ);
-    if (!$hasilkueritokenQ) {
-        trigger_error(mysqli_error($mysqli), E_USER_ERROR);
-    } else {
-        if ($rowtokenQ[1] == $token) {
-            //query update
-            $query = mysqli_query($mysqli, "UPDATE `tokens` SET `claimby`=$namauser, `validuntil`=DATE_ADD(NOW(), INTERVAL 1 DAY) WHERE `tokens`='$token'");
-            if ($query) {
-                # credirect ke page index
-                // header("location: notes.php");
-            } else {
-                trigger_error(mysqli_error($mysqli), E_USER_ERROR);
-            }
-            $_SESSION["rdmtokensukses"] = 'Token ' . $token . ' Berhasil Di-redeem';
-            echo "<script>window.location = 'redeem.php';</script>";
-            // header("Location: redeem.php");
-        } else {
-            echo "<script>alert('Token telah kedaluwarsa, tidak valid, atau sudah di-claim. Silahkan input token lain!');window.location = 'redeem.php';</script>";
-            // $_SESSION["rdmtokengagal"] = 'Token ' . $token . ' telah kedaluwarsa, tidak valid, atau sudah di-claim';
-            // header("Location: redeem.php");
-        }
-    }
-    // echo "<script>alert('".$rowtokenQ[1]."')</script>";
-}
 
 ?>
 
@@ -433,7 +405,7 @@ if (isset($_GET['token'])) {
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Redeem Token</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Redeem</h1>
                         <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i -->
                         <!-- class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
                     </div>
@@ -647,6 +619,7 @@ if (isset($_GET['token'])) {
         <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
         <?php unset($_SESSION['rdmtokensukses']);
     } ?>
+
     <!-- Memanggil Sweet Alert -->
     <?php if (@$_SESSION['rdmtokengagal']) { ?>
         <script>

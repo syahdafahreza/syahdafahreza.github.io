@@ -4,19 +4,27 @@ include 'configdb-main.php';
 $id = $_GET['id_token'];
 $token = $_GET['input_token'];
 $claimby = $_GET['input_claimby'];
-$claimby2 = $claimby;
+$claimby2 = NULL;
 $validuntil = $_GET['input_validuntil'];
-$validuntil2 = $validuntil;
+$validuntil2 = NULL;
 
-if ($validuntil == null){
-    $query = mysqli_query($mysqli,"UPDATE `tokens` SET tokens='$token' , claimby='$claimby', validuntil=null WHERE id='$id' ");
+if ($claimby != null){
+    $claimby2 = "'".$claimby."' ";
 }else{
-    $query = mysqli_query($mysqli,"UPDATE `tokens` SET tokens='$token' , claimby='$claimby', validuntil='$validuntil' WHERE id='$id' ");
+    $claimby2 = 'NULL';
+}
+if ($validuntil != null){
+    $validuntil2 = "'".$validuntil."' ";
+}else{
+    $validuntil2 = 'NULL';
 }
 
+// echo "Claimby: ". $claimby2;
+// echo "Validuntil: ". $validuntil2;
 
+// die();
 //query update
-$query = mysqli_query($mysqli,"UPDATE `tokens` SET tokens='$token' , claimby='$claimby', validuntil='$validuntil' WHERE id='$id' ");
+$query = mysqli_query($mysqli,"UPDATE `tokens` SET tokens='$token' , claimby=$claimby2 , validuntil=$validuntil2 WHERE id='$id';");
 
 if ($query) {
  # credirect ke page index
