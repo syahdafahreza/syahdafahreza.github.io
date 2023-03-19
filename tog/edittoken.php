@@ -1,5 +1,6 @@
 <?php
 include 'configdb-main.php';
+session_start();
 
 $id = $_GET['id_token'];
 $token = $_GET['input_token'];
@@ -28,6 +29,7 @@ $query = mysqli_query($mysqli,"UPDATE `tokens` SET tokens='$token' , claimby=$cl
 
 if ($query) {
  # credirect ke page index
+ $_SESSION["edittokensukses"] = 'Token '.$token.' berhasil di edit';
  header("location: token-manager.php");
 }
 else{
