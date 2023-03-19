@@ -11,7 +11,7 @@ if ($_GET['act'] == 'tambahtoken') {
     $token = $_POST['inputtoken'];
 
     //query buat
-    $querytambah = mysqli_query($mysqli, "INSERT INTO `tokens` (id, tokens, claimby, validuntil) VALUES ('$idterakhir', '$token', NULL, NULL)");
+    $querytambah = mysqli_query($mysqli, "INSERT INTO `tokens` (id, tokens, claimby, makedate, validuntil) VALUES ('$idterakhir', '$token', NULL, NOW(), NULL)");
 
     if ($querytambah) {
         # credirect ke page index

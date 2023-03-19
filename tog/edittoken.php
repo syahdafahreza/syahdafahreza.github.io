@@ -4,6 +4,7 @@ session_start();
 
 $id = $_GET['id_token'];
 $token = $_GET['input_token'];
+$responsetoken = $_GET['input_response_token'];
 $claimby = $_GET['input_claimby'];
 $claimby2 = NULL;
 $validuntil = $_GET['input_validuntil'];
@@ -25,7 +26,7 @@ if ($validuntil != null){
 
 // die();
 //query update
-$query = mysqli_query($mysqli,"UPDATE `tokens` SET tokens='$token' , claimby=$claimby2 , validuntil=$validuntil2 WHERE id='$id';");
+$query = mysqli_query($mysqli,"UPDATE `tokens` SET tokens='$token' , responsetokens='$responsetoken' , claimby=$claimby2 , validuntil=$validuntil2 WHERE id='$id';");
 
 if ($query) {
  # credirect ke page index

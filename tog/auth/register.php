@@ -38,12 +38,12 @@ if (isset($_POST['submit'])) {
                 // echo "<script>alert('Woops! Terjadi kesalahan.')</script>";
             }
         } else {
-            $_SESSION['registergagal']= 'Email Sudah Terdaftar';
+            $_SESSION['registergagal'] = 'Email Sudah Terdaftar';
             // echo "<script>alert('Woops! Email Sudah Terdaftar.')</script>";
         }
 
     } else {
-        $_SESSION['registergagal']= 'Password Tidak Sesuai';
+        $_SESSION['registergagal'] = 'Password Tidak Sesuai';
         // echo "<script>alert('Password Tidak Sesuai')</script>";
     }
 }

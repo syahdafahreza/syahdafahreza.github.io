@@ -24,12 +24,12 @@ if ($userrole != 1) {
 }
 
 // List all tokens
-$listalltoken = mysqli_query($mysqli, "SELECT @count:=@count+1, t. * FROM (SELECT * FROM `tokens`) t, (SELECT @count:=0) z");
+$listalltoken = mysqli_query($mysqli, "SELECT @count:=@count+1, t. * FROM (SELECT * FROM `tokens`) t, (SELECT @count:=0) z ORDER BY `makedate` DESC");
 if (!$listalltoken) {
     trigger_error(mysqli_error($mysqli), E_USER_ERROR);
 }
 // List all tokens 2
-$listalltoken2 = mysqli_query($mysqli, "SELECT @count:=@count+1, t. * FROM (SELECT * FROM `tokens`) t, (SELECT @count:=0) z");
+$listalltoken2 = mysqli_query($mysqli, "SELECT @count:=@count+1, t. * FROM (SELECT * FROM `tokens`) t, (SELECT @count:=0) z ORDER BY `makedate` DESC");
 if (!$listalltoken2) {
     trigger_error(mysqli_error($mysqli), E_USER_ERROR);
 }
@@ -74,7 +74,8 @@ if (!$listalltoken2) {
         <a class="zoom-fab zoom-btn-large" id="zoomBtn"><i class="fa fa-bars"></i></a>
         <ul class="zoom-menu">
             <!-- <li><a class="zoom-fab-create zoom-btn-sm zoom-btn-success scale-transition scale-out" data-toggle="modal"data-target="#newnoteModal"><i class="fa fa-plus"></i></a></li> -->
-            <li><a class="zoom-fab zoom-btn-sm zoom-btn-danger scale-transition scale-out"><i
+            <li><a class="zoom-fab zoom-btn-sm zoom-btn-danger scale-transition scale-out" data-toggle="modal"
+                                data-target="#delalltokenModal"><i
                         class="fa fa-trash"></i></a></li>
         </ul>
     </div>
@@ -452,9 +453,11 @@ if (!$listalltoken2) {
                             <p class="mb-4">Di bawah ini adalah daftar token yang telah dibuat</p>
                         </div>
 
-
-                        <button href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"><i
-                                class="fas fa-trash fa-sm text-white"></i> Hapus Semua Token</button>
+                        <!-- <form method="POST" action="delalltoken.php"> -->
+                        <button class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm" data-toggle="modal"
+                                data-target="#delalltokenModal"><i
+                                class="fas fa-trash fa-sm text-white" ></i> Hapus Semua Token</button>
+                        <!-- </form> -->
                     </div>
 
 
@@ -470,6 +473,7 @@ if (!$listalltoken2) {
                                         <tr>
                                             <th>#</th>
                                             <th>Token</th>
+                                            <th>Response Token</th>
                                             <th>Diklaim Oleh</th>
                                             <th>Valid Sampai</th>
                                             <th>Aksi</th>
@@ -479,6 +483,7 @@ if (!$listalltoken2) {
                                         <tr>
                                             <th>#</th>
                                             <th>Token</th>
+                                            <th>Response Token</th>
                                             <th>Diklaim Oleh</th>
                                             <th>Valid Sampai</th>
                                             <th>Aksi</th>
@@ -491,6 +496,7 @@ if (!$listalltoken2) {
                                             echo '<tr>';
                                             echo '<td>' . $listalltokenR['@count:=@count+1'] . '</td>';
                                             echo '<td>' . $listalltokenR['tokens'] . '</td>';
+                                            echo '<td>' . $listalltokenR['responsetokens'] . '</td>';
                                             echo '<td>' . $listalltokenR['claimby'] . '</td>';
                                             echo '<td>' . $listalltokenR['validuntil'] . '</td>';
                                             echo '<td><button class="btn btn-warning mr-2 mb-2" name="" data-toggle="modal" data-target="#edittokenModal' . $listalltokenR['id'] . '"><i class="fa-solid fa-pen-to-square"></i></button><button class="btn btn-danger mr-2 mb-2" name="" data-toggle="modal" data-target="#deletetokenModal' . $listalltokenR['id'] . '"><i class="fa-solid fa-trash"></i></button></td>';
@@ -559,9 +565,14 @@ if (!$listalltoken2) {
                         <form role="form" action="edittoken.php" method="get">
                             <input type="hidden" name="id_token" value="<?php echo $listalltokenR2['id']; ?>">
                             <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Token</label>
-                                <input type="text" name="input_token" class="form-control" id="recipient-name"
+                                <label for="token-input-box" class="col-form-label">Token</label>
+                                <input type="text" name="input_token" class="form-control" id="token-input-box"
                                     value="<?php echo $listalltokenR2['tokens'] ?>" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="response-token-input-box" class="col-form-label">Response Token</label>
+                                <input type="text" name="input_response_token" class="form-control"
+                                    id="response-token-input-box" value="<?php echo $listalltokenR2['responsetokens'] ?>" required>
                             </div>
                             <div class="form-group">
                                 <div class="input-group mb-3">
@@ -669,6 +680,32 @@ if (!$listalltoken2) {
         </div>
     <?php } ?>
 
+    <!-- Delete All Token Confirmation Modal -->
+    <div class="modal fade" id="delalltokenModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Hapus Semua Token</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Semua token akan hilang selama-lamanya, sama seperti kenangan indah sang mantan.
+                    Ingin tetap menghapus token ini?
+                </div>
+                <form action="delalltoken.php" method="POST">
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                        <button type="submit" class="btn btn-danger">Hapus</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -741,6 +778,15 @@ if (!$listalltoken2) {
         </script>
         <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
         <?php unset($_SESSION['deltokensukses']);
+    } ?>
+
+    <!-- Memanggil Sweet Alert Delete Token -->
+    <?php if (@$_SESSION['delalltokensukses']) { ?>
+        <script>
+            swal("Berhasil!", "<?php echo $_SESSION['delalltokensukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['delalltokensukses']);
     } ?>
 
     <!-- Memanggil Sweet Alert Edit Token -->

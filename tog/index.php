@@ -104,14 +104,14 @@ if (!$adalahadmin) {
             <!-- Nav Item -->
             <li class="nav-item">
                 <a class="nav-link" href="/faq.php">
-                    <i class="fas fa-fw fa-question"></i>
+                <i class="fa-solid fa-circle-question"></i>
                     <span>FaQ</span></a>
             </li>
 
             <!-- Nav Item -->
             <li class="nav-item">
                 <a class="nav-link" href="/tog/tos.php">
-                    <i class="fas fa-fw fa-exclamation"></i>
+                <i class="fa-solid fa-triangle-exclamation"></i>
                     <span>Syarat & Ketentuan</span></a>
             </li>
 
