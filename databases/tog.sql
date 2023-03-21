@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 12, 2023 at 06:10 PM
+-- Generation Time: Mar 21, 2023 at 12:48 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -30,16 +30,12 @@ SET time_zone = "+00:00";
 CREATE TABLE `tokens` (
   `id` int(11) NOT NULL,
   `tokens` varchar(25) NOT NULL,
+  `responsetokens` varchar(25) NOT NULL,
   `claimby` varchar(64) DEFAULT NULL,
-  `validuntil` date NOT NULL
+  `makedate` date DEFAULT NULL,
+  `claimdate` date DEFAULT NULL,
+  `validuntil` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tokens`
---
-
-INSERT INTO `tokens` (`id`, `tokens`, `claimby`, `validuntil`) VALUES
-(1, '2N8GZVL07A', NULL, '2023-03-14');
 
 -- --------------------------------------------------------
 
@@ -54,14 +50,6 @@ CREATE TABLE `users` (
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `userrole`, `username`, `email`, `password`) VALUES
-(1, 1, 'Syahda Fahreza', 'syahdafahreza@gmail.com', '6c4afdb4860dd856c2c07c5d120a72f9'),
-(2, 3, 'Test User', 'testuser@gmail.com', 'e10adc3949ba59abbe56e057f20f883e');
 
 --
 -- Indexes for dumped tables
@@ -87,13 +75,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `tokens`
 --
 ALTER TABLE `tokens`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
