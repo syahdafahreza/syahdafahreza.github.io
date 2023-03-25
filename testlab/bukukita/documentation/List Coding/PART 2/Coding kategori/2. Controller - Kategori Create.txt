@@ -1,0 +1,21 @@
+	public function tambah() 
+	{
+		$data['title'] = 'Tambah Kategori';		
+		$this->view('templates/header', $data);
+		$this->view('templates/sidebar', $data);
+		$this->view('kategori/create', $data);
+		$this->view('templates/footer');
+	}
+
+	public function simpanKategori()
+	{		
+		if( $this->model('KategoriModel')->tambahKategori($_POST) > 0 ) {
+			Flasher::setMessage('Berhasil','ditambahkan','success');
+			header('location: '. base_url . '/kategori');
+			exit;			
+		}else{
+			Flasher::setMessage('Gagal','ditambahkan','danger');
+			header('location: '. base_url . '/kategori');
+			exit;	
+		}
+	}

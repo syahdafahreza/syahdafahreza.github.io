@@ -1,0 +1,21 @@
+	public function edit($id)
+	{
+		$data['title'] = 'Detail Kategori';
+		$data['kategori'] = $this->model('KategoriModel')->getKategoriById($id);
+		$this->view('templates/header', $data);
+		$this->view('templates/sidebar', $data);
+		$this->view('kategori/edit', $data);
+		$this->view('templates/footer');
+	}
+
+	public function updateKategori(){	
+		if( $this->model('KategoriModel')->updateDataKategori($_POST) > 0 ) {
+			Flasher::setMessage('Berhasil','diupdate','success');
+			header('location: '. base_url . '/kategori');
+			exit;			
+		}else{
+			Flasher::setMessage('Gagal','diupdate','danger');
+			header('location: '. base_url . '/kategori');
+			exit;	
+		}
+	}

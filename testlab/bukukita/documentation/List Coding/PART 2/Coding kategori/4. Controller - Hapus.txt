@@ -1,0 +1,11 @@
+	public function hapus($id){
+		if( $this->model('KategoriModel')->deleteKategori($id) > 0 ) {
+			Flasher::setMessage('Berhasil','dihapus','success');
+			header('location: '. base_url . '/kategori');
+			exit;			
+		}else{
+			Flasher::setMessage('Gagal','dihapus','danger');
+			header('location: '. base_url . '/kategori');
+			exit;	
+		}
+	}

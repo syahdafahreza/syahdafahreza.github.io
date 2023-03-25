@@ -1,0 +1,9 @@
+	public function tambahKategori($data)
+	{
+		$query = "INSERT INTO kategori (nama_kategori) VALUES(:nama_kategori)";
+		$this->db->query($query);
+		$this->db->bind('nama_kategori',$data['nama_kategori']);
+		$this->db->execute();
+
+		return $this->db->rowCount();
+	}
