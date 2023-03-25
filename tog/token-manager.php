@@ -572,7 +572,7 @@ if (!$listalltoken2) {
                             <div class="form-group mb-4">
                                 <label for="response-token-input-box" class="col-form-label">Response Token</label>
                                 <input type="text" name="input_response_token" class="form-control"
-                                    id="response-token-input-box" value="<?php echo $listalltokenR2['responsetokens'] ?>" required>
+                                    id="response-token-input-box" value="<?php echo $listalltokenR2['responsetokens'] ?>">
                             </div>
                             <div class="form-group">
                                 <div class="input-group mb-3">
