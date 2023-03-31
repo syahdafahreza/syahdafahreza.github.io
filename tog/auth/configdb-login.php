@@ -1,9 +1,9 @@
 <?php 
  
-$server = "localhost";
-$user = "root";
-$pass = "";
-$database = "tog";
+ $server = "sql306.epizy.com";
+ $user = "epiz_33317858";
+ $pass = "aRodYdr6aMF7L";
+ $database = "epiz_33317858_tog";
  
 $conn = mysqli_connect($server, $user, $pass, $database);
  
