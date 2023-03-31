@@ -1,5 +1,6 @@
 <?php
 include 'configdb-main.php';
+session_start();
 
 $id = $_GET['id_note'];
 
@@ -8,6 +9,7 @@ $query = mysqli_query($mysqli,"DELETE FROM `notes` WHERE id='$id' ");
 
 if ($query) {
  # credirect ke page index
+ $_SESSION['delnotesukses'] = 'Notes berhasil dihapus';
  header("location: notes.php");
 }
 else{

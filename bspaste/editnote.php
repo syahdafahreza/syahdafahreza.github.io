@@ -1,5 +1,6 @@
 <?php
 include 'configdb-main.php';
+session_start();
 
 $id = $_GET['id_note'];
 $judul = $_GET['judul_note'];
@@ -28,6 +29,7 @@ $query = mysqli_query($mysqli,"UPDATE `notes` SET title='$ciphertext_juduledit' 
 
 if ($query) {
  # credirect ke page index
+ $_SESSION['editnotesukses'] = 'Notes berhasil diedit';
  header("location: notes.php");
 }
 else{
