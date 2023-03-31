@@ -32,6 +32,9 @@ if (!$result) {
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"
+        type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -563,6 +566,9 @@ if (!$result) {
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
 
+    <!-- Sweet Alert CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
+
     <!-- Zoom FAB Button Scripts -->
     <script>
         $('#zoomBtn').click(function () {
@@ -572,6 +578,44 @@ if (!$result) {
             }
         });
     </script>
+
+    
+
+    <!-- Memanggil Sweet Alert Buat Note Sukses -->
+    <?php if (@$_SESSION['buatnotesukses']) { ?>
+        <script>
+            swal("Berhasil!", "<?php echo $_SESSION['buatnotesukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['buatnotesukses']);
+    } ?>
+
+    <!-- Memanggil Sweet Alert Edit Note Sukses -->
+    <?php if (@$_SESSION['editnotesukses']) { ?>
+        <script>
+            swal("Berhasil!", "<?php echo $_SESSION['editnotesukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['editnotesukses']);
+    } ?>
+
+    <!-- Memanggil Sweet Alert Delete Note Sukses -->
+    <?php if (@$_SESSION['delnotesukses']) { ?>
+        <script>
+            swal("Berhasil!", "<?php echo $_SESSION['delnotesukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['delnotesukses']);
+    } ?>
+
+    <!-- Memanggil Sweet Alert Delete All Note Sukses -->
+    <?php if (@$_SESSION['delallnotesukses']) { ?>
+        <script>
+            swal("Berhasil!", "<?php echo $_SESSION['delallnotesukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+        <?php unset($_SESSION['delallnotesukses']);
+    } ?>
 
 </body>
 

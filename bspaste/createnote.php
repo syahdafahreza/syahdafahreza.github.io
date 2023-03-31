@@ -1,5 +1,6 @@
 <?php
 include 'configdb-main.php';
+session_start();
 
 if ($_GET['act'] == 'tambahnotes') {
     $namauser = '\'' . $_POST['nama_user'] . "'";
@@ -32,6 +33,7 @@ if ($_GET['act'] == 'tambahnotes') {
 
     if ($querytambah) {
         # credirect ke page index
+        $_SESSION['buatnotesukses'] = 'Notes berhasil dibuat';
         header("location: notes.php");
     } else {
         echo "ERROR, data gagal diupdate" . mysqli_error($mysqli);

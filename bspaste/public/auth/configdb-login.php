@@ -1,6 +1,6 @@
 <?php 
  
- $server = "localhost";
+ $server = "sql306.epizy.com";
  $user = "epiz_33317858";
  $pass = "aRodYdr6aMF7L";
  $database = "epiz_33317858_np";
