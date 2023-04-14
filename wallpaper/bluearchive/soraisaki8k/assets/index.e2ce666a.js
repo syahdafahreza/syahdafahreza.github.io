@@ -61502,7 +61502,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                     event: function (K, et) {
                                         if (et.data.name.indexOf("MemorialLobby") >= 0) {
                                             let it = et.data.name.split("/");
-                                            (d.src = `sound/${it[it.length - 1]}.wav`),
+                                            (d.src = "sound/${it[it.length - 1]}.wav"),
                                                 d.play(),
                                                 e.language != "" &&
                                                 ((a.innerHTML = s[e.language][et.data.name]),
