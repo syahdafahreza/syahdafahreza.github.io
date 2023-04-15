@@ -61502,7 +61502,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                     event: function (K, et) {
                                         if (et.data.name.indexOf("MemorialLobby") >= 0) {
                                             let it = et.data.name.split("/");
-                                            (d.src = `sound/${it[it.length - 1]}.wav`),
+                                            (d.src = `./Sound/${it[it.length - 1]}.wav`),
                                                 d.play(),
                                                 e.language != "" &&
                                                 ((a.innerHTML = s[e.language][et.data.name]),
@@ -61547,7 +61547,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                 });
                         }),
                         L(),
-                        (p.src = "sound/Theme.wav"),
+                        (p.src = "./Sound/Theme.wav"),
                         (p.loop = !0),
                         (p.volume = e.bgmVolume),
                         p.play(),
