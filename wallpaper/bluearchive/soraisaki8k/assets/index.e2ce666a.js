@@ -61425,7 +61425,7 @@ PERFORMANCE OF THIS SOFTWARE.
                         scale: 0.45,
                         talkVolume: 0.5,
                         textPointX: 800,
-                        textPointY: 400,
+                        textPointY: 450,
                         textureResolution: "2k",
                         mouseTracking: !0,
                         panelDisplay: !0,
