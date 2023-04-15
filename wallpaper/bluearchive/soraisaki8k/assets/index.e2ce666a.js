@@ -61415,9 +61415,9 @@ PERFORMANCE OF THIS SOFTWARE.
                     touchBonePoint: { x: 0, y: 0 },
                     mouseLocalPoint: { x: 0, y: 0 },
                     linearAlgebraScale: 1.1,
-                }).value,
+                }).value, //Settings
                     e = mt({
-                        language: "ch",
+                        language: "en",
                         bgmVolume: 0.3,
                         fontSize: 18,
                         position: { x: 0, y: 0 },
@@ -61502,7 +61502,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                     event: function (K, et) {
                                         if (et.data.name.indexOf("MemorialLobby") >= 0) {
                                             let it = et.data.name.split("/");
-                                            (d.src = `./sound/${it[it.length - 1]}.wav`),
+                                            (d.src = `sound/${it[it.length - 1]}.wav`),
                                                 d.play(),
                                                 e.language != "" &&
                                                 ((a.innerHTML = s[e.language][et.data.name]),
@@ -61547,7 +61547,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                 });
                         }),
                         L(),
-                        (p.src = "./sound/Theme.wav"),
+                        (p.src = "sound/Theme.wav"),
                         (p.loop = !0),
                         (p.volume = e.bgmVolume),
                         p.play(),
