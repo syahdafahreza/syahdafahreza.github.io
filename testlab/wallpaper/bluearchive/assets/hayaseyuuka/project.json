@@ -1,0 +1,47 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "ported from game files",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"scale" : 
+			{
+				"fraction" : true,
+				"index" : 0,
+				"max" : 4,
+				"min" : 0.10000000000000001,
+				"order" : 100,
+				"precision" : 2,
+				"step" : 0.10000000000000001,
+				"text" : "Scale",
+				"type" : "slider",
+				"value" : 1.95
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"targetfps" : 
+			{
+				"fraction" : false,
+				"index" : 1,
+				"max" : 144,
+				"min" : 1,
+				"order" : 101,
+				"text" : "Target FPS",
+				"type" : "slider",
+				"value" : 30
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Anime" ],
+	"title" : "Blue Archive - Yuuka Theme",
+	"type" : "web",
+	"version" : 0
+}
