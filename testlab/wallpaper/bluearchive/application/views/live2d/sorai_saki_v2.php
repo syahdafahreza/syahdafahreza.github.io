@@ -64248,7 +64248,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 textPointY: 460,
                 textureResolution: "2k",
                 mouseTracking: !0,
-                panelDisplay: !0,
+                panelDisplay: !1,
                 mouseTrial: !1,
                 talkingInterval: 0,
               }).value,
