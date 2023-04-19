@@ -14,7 +14,7 @@ class sendmail extends CI_Controller {
             'mailtype'  => 'html',
             'charset'   => 'utf-8',
             'protocol'  => 'smtp',
-            'smtp_host' => 'smtp.gmail.com',
+            'smtp_host' => 'smtp.googlemail.com',
             'smtp_user' => 'maileragent.syahdafahreza@gmail.com',  // Email gmail
             'smtp_pass'   => 'projectSF@1911',  // Password gmail
             'smtp_crypto' => 'ssl',
@@ -46,6 +46,7 @@ class sendmail extends CI_Controller {
             echo 'Sukses! email berhasil dikirim.';
         } else {
             echo 'Error! email tidak dapat dikirim.';
+            echo $this->email->printDebugger();
         }
     }
 }
