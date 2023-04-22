@@ -56,6 +56,32 @@
     - <a href="#"></a>Ushio Noa
 
 - Trinity General School
+    - <a href="#"></a>Ajitani Hifumi
+    - <a href="#"></a>Aomori Mine
+    - <a href="#"></a>Asagao Hanae
+    - <a href="#"></a>Endo Shimiko
+    - <a href="#"></a>Hanekawa Hasumi
+    - <a href="#"></a>Ibaragi Yoshimi
+    - <a href="#"></a>Ichika
+    - <a href="#"></a>Iochi Mari
+    - <a href="#"></a>Kenzaki Tsurugi
+    - <a href="#"></a>Kirifuji Nagisa
+    - <a href="#"></a>Kozeki Ui
+    - <a href="#"></a>Kurimura Airi
+    - <a href="#"></a>Kyouyama Kazusa
+    - <a href="#"></a>Misono Mika
+    - <a href="#"></a>Morizuki Suzumi
+    - <a href="#"></a>Shimoe Koharu
+    - <a href="#"></a>Shirasu Azusa
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_swimsuit_v2/">Shirasu Azusa (Swimsuit)</a>
+    - <a href="#"></a>Shizuyama Mashiro
+    - <a href="#"></a>Sumi Serina
+    - <a href="#"></a>Urawa Hanako
+    - <a href="#"></a>Utazumi Sakurako
+    - <a href="#"></a>Uzawa Reisa
+    - <a href="#"></a>Wakaba Hinata
+    - <a href="#"></a>Yurizono Seia
+    - <a href="#"></a>Yutori Natsu
 - Hyakkiyako Alliance Academy
 - Shanhaijing Senior Secondary School
 - Red Winter Federal Academy
