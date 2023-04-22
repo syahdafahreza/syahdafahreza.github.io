@@ -1,5 +1,15 @@
 # Student List
 - Abydos High School
+    - Izayoi Nonomi
+    - Izayoi Nonomi (Swimsuit) -
+    - Kuromi Serika
+    - Kuromi Serika (Swimsuit)
+    - Okusora Ayane
+    - Okusora Ayane (Swimsuit)
+    - Sunaookami Shiroko
+    - Sunaookami Shiroko (Swimsuit)
+    - Takanashi Hoshino
+    - Takanashi Hoshino (Swimsuit)
 - Gehenna Academy
 - Millennium Science School
 - Trinity General School
