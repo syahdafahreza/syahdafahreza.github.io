@@ -1,10 +1,10 @@
 # Student List
 - Abydos High School
-    - <a href="#">Izayoi Nonomi</a>
-    - <a href="#">Kuromi Serika</a>
-    - <a href="#">Okusora Ayane</a>
-    - <a href="#">Sunaookami Shiroko</a>
-    - <a href="#">Takanashi Hoshino</a>
+    - <a href="#"></a>Izayoi Nonomi
+    - <a href="#"></a>Kuromi Serika
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/okusoraayane_v2/">Okusora Ayane</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunaookamishiroko_v2/">Sunaookami Shiroko</a>
+    - <a href="#"></a>Takanashi Hoshino
 - Gehenna Academy
     - <a href="#"></a>Aikiyo Fuuka
     - <a href="#"></a>Akashi Junko
