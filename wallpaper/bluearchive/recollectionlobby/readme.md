@@ -1,4 +1,4 @@
-#Student List
+# Student List
 - Abydos High School
 - Gehenna Academy
 - Millennium Science School
