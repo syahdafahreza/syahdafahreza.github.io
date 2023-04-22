@@ -1,15 +1,10 @@
 # Student List
 - Abydos High School
     - <a href="#">Izayoi Nonomi</a>
-    - <a href="#">Izayoi Nonomi (Swimsuit)</a>
     - <a href="#">Kuromi Serika</a>
-    - <a href="#">Kuromi Serika (Swimsuit)</a>
     - <a href="#">Okusora Ayane</a>
-    - <a href="#">Okusora Ayane (Swimsuit)</a>
     - <a href="#">Sunaookami Shiroko</a>
-    - <a href="#">Sunaookami Shiroko (Swimsuit)</a>
     - <a href="#">Takanashi Hoshino</a>
-    - <a href="#">Takanashi Hoshino (Swimsuit)</a>
 - Gehenna Academy
     - <a href="#"></a>Aikiyo Fuuka
     - <a href="#"></a>Akashi Junko
@@ -23,7 +18,7 @@
     - <a href="#"></a>Igusa Haruka
     - <a href="#"></a>Kasumi
     - <a href="#"></a>Kirara
-    - <a href="#">Kurodate Haruna</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurodateharuna_v2/">Kurodate Haruna</a>
     - <a href="#"></a>Natsume Iroha
     - <a href="#"></a>Onikata Kayoko
     - <a href="#"></a>Rikuhachima Aru
@@ -31,7 +26,8 @@
     - <a href="#"></a>Shimokura Megu
     - <a href="#"></a>Shiromi Iori
     - <a href="#"></a>Shishidou Izumi
-    - <a href="#">Sorasaki Hina</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sorasakihina_v2/">Sorasaki Hina</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sorasakihina_swimsuit_v2/">Sorasaki Hina (Swimsuit)</a>
     - <a href="#"></a>Ushimaki Juri
     - <a href="#"></a>Wanibuchi Akari
 - Millennium Science School
