@@ -1,0 +1,14 @@
+#Student List
+- Abydos High School
+- Gehenna Academy
+- Millennium Science School
+- Trinity General School
+- Hyakkiyako Alliance Academy
+- Shanhaijing Senior Secondary School
+- Red Winter Federal Academy
+- Valkyrie Police Academy
+- Arius Branch School
+- SRT Special Academy
+- Kronos School of Journalism (TBA)
+- Wild Hunt Academy of Arts (TBA)
+- Odyssey Maritime School (TBA)
