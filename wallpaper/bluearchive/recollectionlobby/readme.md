@@ -31,6 +31,30 @@
     - <a href="#"></a>Ushimaki Juri
     - <a href="#"></a>Wanibuchi Akari
 - Millennium Science School
+    - <a href="#"></a>Akeboshi Himari
+    - <a href="#"></a>Asuma Toki
+    - <a href="#"></a>Hanaoka Yuzu
+    - <a href="#">Hayase Yuuka</a>
+    - <a href="#"></a>Ichinose Asuna
+    - <a href="#"></a>Izumimoto Eimi
+    - <a href="#"></a>Kagami Chihiro
+    - <a href="#"></a>Kakudate Karin
+    - <a href="#"></a>Konuri Maki
+    - <a href="#"></a>Kurosaki Koyuki
+    - <a href="#"></a>Mikamo Neru
+    - <a href="#"></a>Murokasa Akane
+    - <a href="#"></a>Nekozuka Hibiki
+    - <a href="#"></a>Omagari Hare
+    - <a href="#"></a>Otohana Sumire
+    - <a href="#"></a>Otose Kotama
+    - <a href="#"></a>Saiba Midori
+    - <a href="#"></a>Saiba Momoi
+    - <a href="#"></a>Shiraishi Utaha
+    - <a href="#">Tendou Alice</a>
+    - <a href="#"></a>Toyomi Kotori
+    - <a href="#"></a>Tsukatsuki Rio
+    - <a href="#"></a>Ushio Noa
+
 - Trinity General School
 - Hyakkiyako Alliance Academy
 - Shanhaijing Senior Secondary School
