@@ -1,6 +1,6 @@
 # Student List
 - Abydos High School
-    - <a href="#">Key Features</a>
+    - <a href="#">Izayoi Nonomi</a>
     - <a href="#">Izayoi Nonomi (Swimsuit)</a>
     - <a href="#">Kuromi Serika</a>
     - <a href="#">Kuromi Serika (Swimsuit)</a>
