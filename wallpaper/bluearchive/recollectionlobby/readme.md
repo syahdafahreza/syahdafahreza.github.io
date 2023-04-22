@@ -11,6 +11,29 @@
     - <a href="#">Takanashi Hoshino</a>
     - <a href="#">Takanashi Hoshino (Swimsuit)</a>
 - Gehenna Academy
+    - <a href="#"></a>Aikiyo Fuuka
+    - <a href="#"></a>Akashi Junko
+    - <a href="#"></a>Amau Ako
+    - <a href="#"></a>Asagi Mutsuki
+    - <a href="#"></a>Erika
+    - <a href="#"></a>Hanuma Makoto
+    - <a href="#"></a>Himuro Sena
+    - <a href="#"></a>Hinomiya Chinatsu
+    - <a href="#"></a>Ibuki
+    - <a href="#"></a>Igusa Haruka
+    - <a href="#"></a>Kasumi
+    - <a href="#"></a>Kirara
+    - <a href="#">Kurodate Haruna</a>
+    - <a href="#"></a>Natsume Iroha
+    - <a href="#"></a>Onikata Kayoko
+    - <a href="#"></a>Rikuhachima Aru
+    - <a href="#"></a>Satsuki
+    - <a href="#"></a>Shimokura Megu
+    - <a href="#"></a>Shiromi Iori
+    - <a href="#"></a>Shishidou Izumi
+    - <a href="#">Sorasaki Hina</a>
+    - <a href="#"></a>Ushimaki Juri
+    - <a href="#"></a>Wanibuchi Akari
 - Millennium Science School
 - Trinity General School
 - Hyakkiyako Alliance Academy
