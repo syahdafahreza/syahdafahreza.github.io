@@ -12,8 +12,8 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asagimutsuki_v2/">Asagi Mutsuki</a>
     - <a href="#"></a>Erika
     - <a href="#"></a>Hanuma Makoto
-    - <a href="#"></a>Himuro Sena
-    - <a href="#"></a>Hinomiya Chinatsu
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/himurosena/">Himuro Sena (v1)</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hinomiyachinatsu_v2/">Hinomiya Chinatsu</a>
     - <a href="#"></a>Ibuki
     - <a href="#"></a>Igusa Haruka
     - <a href="#"></a>Kasumi
