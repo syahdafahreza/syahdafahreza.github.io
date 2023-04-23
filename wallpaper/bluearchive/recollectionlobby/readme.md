@@ -9,7 +9,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aikiyofuuka_v2/">Aikiyo Fuuka</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/akashijunko_v2/">Akashi Junko</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/amauako_v2/">Amau Ako</a>
-    - <a href="#"></a>Asagi Mutsuki
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asagimutsuki_v2/">Asagi Mutsuki</a>
     - <a href="#"></a>Erika
     - <a href="#"></a>Hanuma Makoto
     - <a href="#"></a>Himuro Sena
