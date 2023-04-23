@@ -4,7 +4,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kuromiserika_v2/">Kuromi Serika</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/okusoraayane_v2/">Okusora Ayane</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunaookamishiroko_v2/">Sunaookami Shiroko</a>
-    - <a href="#"></a>Takanashi Hoshino
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/takanashihoshino_v2/">Takanashi Hoshino</a>
 - Gehenna Academy
     - <a href="#"></a>Aikiyo Fuuka
     - <a href="#"></a>Akashi Junko
