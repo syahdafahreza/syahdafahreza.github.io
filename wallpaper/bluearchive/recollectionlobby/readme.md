@@ -1,6 +1,6 @@
 # Student List
 - Abydos High School
-    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/izayoinonomi_v2/"></a>Izayoi Nonomi
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/izayoinonomi_v2/">Izayoi Nonomi</a>
     - <a href="#"></a>Kuromi Serika
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/okusoraayane_v2/">Okusora Ayane</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunaookamishiroko_v2/">Sunaookami Shiroko</a>
