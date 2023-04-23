@@ -117,11 +117,19 @@
     - <a href="#"></a>Nemugaki Fubuki
     - <a href="#"></a>Ogata Kanna
 - Arius Branch School
-    - Hakari Atsuko
-    - Imashino Misaki
-    - Joumae Saori
-    - Tsuchinaga Hiyori
+    - <a href="#"></a>Hakari Atsuko
+    - <a href="#"></a>Imashino Misaki
+    - <a href="#"></a>Joumae Saori
+    - <a href="#"></a>Tsuchinaga Hiyori
 - SRT Special Academy
+    - <a href="#"></a>Kasumizawa Miyu
+    - <a href="#"></a>Kazekura Moe
+    - <a href="#"></a>Kurumi
+    - <a href="#"></a>Niko
+    - <a href="#"></a>Otogi
+    - <a href="#"></a>Sorai Saki
+    - <a href="#"></a>Tsukiyuki Miyako
+    - <a href="#"></a>Yukino
 - Kronos School of Journalism (TBA)
 - Wild Hunt Academy of Arts (TBA)
 - Odyssey Maritime School (TBA)
