@@ -1,0 +1,315 @@
+
+Fuuka_Scene.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 4, 2040
+  size: 2876, 2052
+  orig: 2920, 2052
+  offset: 44, 0
+  index: -1
+bg3
+  rotate: false
+  xy: 3180, 1466
+  size: 912, 478
+  orig: 912, 478
+  offset: 0, 0
+  index: -1
+burble_0
+  rotate: false
+  xy: 3066, 4056
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+burble_1
+  rotate: false
+  xy: 2882, 4042
+  size: 64, 50
+  orig: 64, 50
+  offset: 0, 0
+  index: -1
+cabbage1
+  rotate: true
+  xy: 132, 490
+  size: 476, 496
+  orig: 476, 496
+  offset: 0, 0
+  index: -1
+cabbage2
+  rotate: false
+  xy: 4, 1688
+  size: 348, 350
+  orig: 348, 350
+  offset: 0, 0
+  index: -1
+cabbage3
+  rotate: true
+  xy: 2698, 654
+  size: 240, 336
+  orig: 240, 336
+  offset: 0, 0
+  index: -1
+kinoko1
+  rotate: false
+  xy: 3840, 3818
+  size: 232, 276
+  orig: 232, 276
+  offset: 0, 0
+  index: -1
+kinoko2
+  rotate: false
+  xy: 4, 1452
+  size: 200, 264
+  orig: 200, 264
+  offset: 0, 0
+  index: -1
+kinoko3
+  rotate: false
+  xy: 2882, 3696
+  size: 222, 396
+  orig: 222, 396
+  offset: 0, 0
+  index: -1
+kinoko4
+  rotate: false
+  xy: 3824, 2422
+  size: 136, 276
+  orig: 136, 276
+  offset: 0, 0
+  index: -1
+kinoko5
+  rotate: true
+  xy: 1238, 232
+  size: 414, 418
+  orig: 414, 418
+  offset: 0, 0
+  index: -1
+meat1
+  rotate: true
+  xy: 500, 388
+  size: 510, 378
+  orig: 510, 378
+  offset: 0, 0
+  index: -1
+meat2
+  rotate: false
+  xy: 884, 498
+  size: 482, 444
+  orig: 482, 444
+  offset: 0, 0
+  index: -1
+nabe1
+  rotate: false
+  xy: 4, 1102
+  size: 2254, 936
+  orig: 2254, 936
+  offset: 0, 0
+  index: -1
+nabe2
+  rotate: true
+  xy: 2882, 1832
+  size: 2260, 986
+  orig: 2260, 986
+  offset: 0, 0
+  index: -1
+negi1
+  rotate: false
+  xy: 892, 272
+  size: 234, 238
+  orig: 234, 238
+  offset: 0, 0
+  index: -1
+negi2
+  rotate: false
+  xy: 3894, 3590
+  size: 196, 230
+  orig: 196, 230
+  offset: 0, 0
+  index: -1
+negi3
+  rotate: false
+  xy: 2882, 2088
+  size: 116, 218
+  orig: 116, 218
+  offset: 0, 0
+  index: -1
+negi4
+  rotate: false
+  xy: 2998, 1630
+  size: 158, 262
+  orig: 158, 262
+  offset: 0, 0
+  index: -1
+negi5
+  rotate: false
+  xy: 774, 326
+  size: 184, 262
+  orig: 184, 262
+  offset: 0, 0
+  index: -1
+negi6
+  rotate: false
+  xy: 4, 350
+  size: 308, 278
+  orig: 308, 278
+  offset: 0, 0
+  index: -1
+shiitake1
+  rotate: 180
+  xy: 2894, 824
+  size: 498, 448
+  orig: 498, 448
+  offset: 0, 0
+  index: -1
+shiitake2
+  rotate: false
+  xy: 2260, 824
+  size: 524, 402
+  orig: 524, 402
+  offset: 0, 0
+  index: -1
+shiitake3
+  rotate: 180
+  xy: 3622, 560
+  size: 468, 434
+  orig: 468, 434
+  offset: 0, 0
+  index: -1
+soup1
+  rotate: false
+  xy: 628, 1040
+  size: 1440, 252
+  orig: 1440, 252
+  offset: 0, 0
+  index: -1
+soup2
+  rotate: 180
+  xy: 1408, 542
+  size: 1736, 192
+  orig: 1738, 414
+  offset: 2, 222
+  index: -1
+soup3
+  rotate: false
+  xy: 4, 890
+  size: 1808, 214
+  orig: 1808, 428
+  offset: 0, 214
+  index: -1
+soup4
+  rotate: 180
+  xy: 272, 1164
+  size: 1760, 314
+  orig: 1770, 638
+  offset: 0, 324
+  index: -1
+soup5
+  rotate: 270
+  xy: 3588, 2054
+  size: 1820, 504
+  orig: 1820, 818
+  offset: 0, 314
+  index: -1
+steam1
+  rotate: false
+  xy: 2212, 1228
+  size: 780, 808
+  orig: 780, 808
+  offset: 0, 0
+  index: -1
+tofu1
+  rotate: true
+  xy: 2998, 1320
+  size: 300, 426
+  orig: 300, 426
+  offset: 0, 0
+  index: -1
+tofu2
+  rotate: true
+  xy: 1756, 1782
+  size: 256, 436
+  orig: 256, 436
+  offset: 0, 0
+  index: -1
+tofu3
+  rotate: true
+  xy: 3500, 340
+  size: 276, 418
+  orig: 276, 418
+  offset: 0, 0
+  index: -1
+tofu4
+  rotate: true
+  xy: 2098, 344
+  size: 200, 432
+  orig: 200, 432
+  offset: 0, 0
+  index: -1
+tofu5
+  rotate: true
+  xy: 3390, 3890
+  size: 204, 446
+  orig: 204, 446
+  offset: 0, 0
+  index: -1
+tofu6
+  rotate: true
+  xy: 2954, 346
+  size: 206, 404
+  orig: 206, 404
+  offset: 0, 0
+  index: -1
+tofu7
+  rotate: true
+  xy: 2502, 366
+  size: 202, 436
+  orig: 202, 436
+  offset: 0, 0
+  index: -1
+tofu8
+  rotate: true
+  xy: 1640, 364
+  size: 208, 436
+  orig: 208, 436
+  offset: 0, 0
+  index: -1
+vegetable1
+  rotate: false
+  xy: 1516, 738
+  size: 272, 194
+  orig: 272, 194
+  offset: 0, 0
+  index: -1
+vegetable2
+  rotate: false
+  xy: 3098, 432
+  size: 520, 444
+  orig: 520, 444
+  offset: 0, 0
+  index: -1
+vegetable3
+  rotate: 180
+  xy: 3390, 918
+  size: 702, 578
+  orig: 702, 578
+  offset: 0, 0
+  index: -1
+yubu1
+  rotate: 180
+  xy: 1792, 628
+  size: 572, 354
+  orig: 572, 354
+  offset: 0, 0
+  index: -1
+yubu2
+  rotate: false
+  xy: 3862, 2000
+  size: 230, 200
+  orig: 282, 200
+  offset: 0, 0
+  index: -1
+
