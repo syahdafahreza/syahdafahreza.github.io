@@ -8,7 +8,7 @@
 - Gehenna Academy
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aikiyofuuka_v2/">Aikiyo Fuuka</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/akashijunko_v2/">Akashi Junko</a>
-    - <a href="#"></a>Amau Ako
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/amauako_v2/">Amau Ako</a>
     - <a href="#"></a>Asagi Mutsuki
     - <a href="#"></a>Erika
     - <a href="#"></a>Hanuma Makoto
