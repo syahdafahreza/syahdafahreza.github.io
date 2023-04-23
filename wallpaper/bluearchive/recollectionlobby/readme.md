@@ -83,10 +83,44 @@
     - <a href="#"></a>Yurizono Seia
     - <a href="#"></a>Yutori Natsu
 - Hyakkiyako Alliance Academy
+    - <a href="#"></a>Asahina Pina
+    - <a href="#"></a>Chidori Michiru
+    - <a href="#"></a>Goryou Nagusa
+    - <a href="#"></a>Kasuga Tsubaki
+    - <a href="#"></a>Kawawa Shizuko
+    - <a href="#"></a>Kosaka Wakamo
+    - <a href="#"></a>Kuda Izuna
+    - <a href="#"></a>Kuwakami Kaho
+    - <a href="#"></a>Kuzunoha
+    - <a href="#"></a>Mizuha Mimori
+    - <a href="#"></a>Oono Tsukuyo
+    - <a href="#"></a>Umika
+    - <a href="#"></a>Waraku Chise
 - Shanhaijing Senior Secondary School
+    - <a href="#"></a>Kisaki
+    - <a href="#"></a>Mina
+    - <a href="#"></a>Rumi
+    - <a href="#"></a>Sunohara Kokona
+    - <a href="#"></a>Sunohara Shun
+    - <a href="#"></a>Yakushi Saya
 - Red Winter Federal Academy
+    - <a href="#"></a>Akiizumi Momiji
+    - <a href="#"></a>Amami Nodoka
+    - <a href="#"></a>Himeki Meru
+    - <a href="#"></a>Ikekura Marina
+    - <a href="#"></a>Mayoi Shigure
+    - <a href="#"></a>Renkawa Cherino
+    - <a href="#"></a>Sashiro Tomoe
+    - <a href="#"></a>Yasumori Minori
 - Valkyrie Police Academy
+    - <a href="#"></a>Nakatsukasa Kirino
+    - <a href="#"></a>Nemugaki Fubuki
+    - <a href="#"></a>Ogata Kanna
 - Arius Branch School
+    - Hakari Atsuko
+    - Imashino Misaki
+    - Joumae Saori
+    - Tsuchinaga Hiyori
 - SRT Special Academy
 - Kronos School of Journalism (TBA)
 - Wild Hunt Academy of Arts (TBA)
