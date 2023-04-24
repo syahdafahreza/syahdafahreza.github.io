@@ -13,6 +13,7 @@
     - <a href="#"></a>Erika
     - <a href="#"></a>Hanuma Makoto
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/himurosena/">Himuro Sena (v1)</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/himurosena_v2/">Himuro Sena</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hinomiyachinatsu_v2/">Hinomiya Chinatsu</a>
     - <a href="#"></a>Ibuki
     - <a href="#"></a>Igusa Haruka
