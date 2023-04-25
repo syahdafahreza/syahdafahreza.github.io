@@ -122,7 +122,7 @@
     - <a href="#"></a>Hakari Atsuko
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/imashinomisaki_v2/">Imashino Misaki</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/joumaesaori_v2/">Joumae Saori</a>
-    - <a href="#"></a>Tsuchinaga Hiyori
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tsuchinagahiyori_v2/">Tsuchinaga Hiyori</a>
 - SRT Special Academy
     - <a href="#"></a>Kasumizawa Miyu
     - <a href="#"></a>Kazekura Moe
