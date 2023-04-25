@@ -62,6 +62,7 @@
     - <a href="#"></a>Asagao Hanae
     - <a href="#"></a>Endo Shimiko
     - <a href="#"></a>Hanekawa Hasumi
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_gym_v2/">Hanekawa Hasumi (Gym)</a>
     - <a href="#"></a>Ibaragi Yoshimi
     - <a href="#"></a>Ichika
     - <a href="#"></a>Iochi Mari
