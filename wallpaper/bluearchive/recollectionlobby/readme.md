@@ -69,7 +69,7 @@
     - <a href="#"></a>Iochi Mari
     - <a href="#"></a>Kenzaki Tsurugi
     - <a href="#"></a>Kirifuji Nagisa
-    - <a href="#"></a>Kozeki Ui
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kozekiui_v2/">Kozeki Ui</a>
     - <a href="#"></a>Kurimura Airi
     - <a href="#"></a>Kyouyama Kazusa
     - <a href="#"></a>Misono Mika
