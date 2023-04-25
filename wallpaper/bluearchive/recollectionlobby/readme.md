@@ -40,7 +40,7 @@
     - <a href="#"></a>Izumimoto Eimi
     - <a href="#"></a>Kagami Chihiro
     - <a href="#"></a>Kakudate Karin
-    - <a href="#"></a>Konuri Maki
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/konurimaki_v2/">Konuri Maki</a>
     - <a href="#"></a>Kurosaki Koyuki
     - <a href="#"></a>Mikamo Neru
     - <a href="#"></a>Murokasa Akane
