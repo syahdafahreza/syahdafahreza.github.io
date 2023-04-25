@@ -113,6 +113,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ikekuramarina_v2/">Ikekura Marina</a>
     - <a href="#"></a>Mayoi Shigure
     - <a href="#"></a>Renkawa Cherino
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/renkawacherino_hotspring_v2/">Renkawa Cherino (Hot Spring)</a>
     - <a href="#"></a>Sashiro Tomoe
     - <a href="#"></a>Yasumori Minori
 - Valkyrie Police Academy
