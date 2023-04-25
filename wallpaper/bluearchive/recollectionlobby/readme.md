@@ -15,6 +15,7 @@
     - <a href="#"></a>Hanuma Makoto
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/himurosena_v2/">Himuro Sena</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hinomiyachinatsu_v2/">Hinomiya Chinatsu</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hinomiyachinatsu_hotspring_v2/">Hinomiya Chinatsu (Hot Spring)</a>
     - <a href="#"></a>Ibuki
     - <a href="#"></a>Igusa Haruka
     - <a href="#"></a>Kasumi
