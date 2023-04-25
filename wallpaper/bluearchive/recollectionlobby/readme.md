@@ -46,7 +46,7 @@
     - <a href="#"></a>Mikamo Neru
     - <a href="#"></a>Murokasa Akane
     - <a href="#"></a>Nekozuka Hibiki
-    - <a href="#"></a>Omagari Hare
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/omagarihare_v2/">Omagari Hare</a>
     - <a href="#"></a>Otohana Sumire
     - <a href="#"></a>Otose Kotama
     - <a href="#"></a>Saiba Midori
