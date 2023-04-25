@@ -75,7 +75,7 @@
     - <a href="#"></a>Shimoe Koharu
     - <a href="#"></a>Shirasu Azusa
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_swimsuit_v2/">Shirasu Azusa (Swimsuit)</a>
-    - <a href="#"></a>Shizuyama Mashiro
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_v2/">Shizuyama Mashiro</a>
     - <a href="#"></a>Sumi Serina
     - <a href="#"></a>Urawa Hanako
     - <a href="#"></a>Utazumi Sakurako
@@ -128,7 +128,7 @@
     - <a href="#"></a>Kurumi
     - <a href="#"></a>Niko
     - <a href="#"></a>Otogi
-    - <a href="#"></a>Sorai Saki
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/soraisaki_v2/">Sorai Saki</a>
     - <a href="#"></a>Tsukiyuki Miyako
     - <a href="#"></a>Yukino
 - Kronos School of Journalism (TBA)
