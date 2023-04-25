@@ -119,8 +119,8 @@
     - <a href="#"></a>Ogata Kanna
 - Arius Branch School
     - <a href="#"></a>Hakari Atsuko
-    - <a href="#"></a>Imashino Misaki
-    - <a href="#"></a>Joumae Saori
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/imashinomisaki_v2/">Imashino Misaki</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/joumaesaori_v2/">Joumae Saori</a>
     - <a href="#"></a>Tsuchinaga Hiyori
 - SRT Special Academy
     - <a href="#"></a>Kasumizawa Miyu
