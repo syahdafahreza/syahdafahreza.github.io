@@ -108,7 +108,7 @@
     - <a href="#"></a>Akiizumi Momiji
     - <a href="#"></a>Amami Nodoka
     - <a href="#"></a>Himeki Meru
-    - <a href="#"></a>Ikekura Marina
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ikekuramarina_v2/">Ikekura Marina</a>
     - <a href="#"></a>Mayoi Shigure
     - <a href="#"></a>Renkawa Cherino
     - <a href="#"></a>Sashiro Tomoe
