@@ -91,7 +91,7 @@
     - <a href="#"></a>Kawawa Shizuko
     - <a href="#"></a>Kosaka Wakamo
     - <a href="#"></a>Kuda Izuna
-    - <a href="#"></a>Kuwakami Kaho
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kuwakamikaho_v2/">Kuwakami Kaho</a>
     - <a href="#"></a>Kuzunoha
     - <a href="#"></a>Mizuha Mimori
     - <a href="#"></a>Oono Tsukuyo
