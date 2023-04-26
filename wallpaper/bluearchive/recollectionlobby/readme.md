@@ -29,6 +29,7 @@
     - <a href="#"></a>Satsuki
     - <a href="#"></a>Shimokura Megu
     - <a href="#"></a>Shiromi Iori
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shiromiiori_swimsuit_v2/">Shiromi Iori (Swimsuit)</a>
     - <a href="#"></a>Shishidou Izumi
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sorasakihina_v2/">Sorasaki Hina</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sorasakihina_swimsuit_v2/">Sorasaki Hina (Swimsuit)</a>
@@ -81,6 +82,7 @@
     - <a href="#"></a>Shirasu Azusa
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_swimsuit_v2/">Shirasu Azusa (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_v2/">Shizuyama Mashiro</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_swimsuit_v2/">Shizuyama Mashiro (Swimsuit)</a>
     - <a href="#"></a>Sumi Serina
     - <a href="#"></a>Urawa Hanako
     - <a href="#"></a>Utazumi Sakurako
