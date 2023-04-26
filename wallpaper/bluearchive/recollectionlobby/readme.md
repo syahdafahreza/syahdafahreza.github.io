@@ -100,7 +100,7 @@
     - <a href="#"></a>Chidori Michiru
     - <a href="#"></a>Goryou Nagusa
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/isamikaede_v2/">Isami Kaede</a>
-    - <a href="#"></a>Kasuga Tsubaki
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kasugatsubaki_v2/">Kasuga Tsubaki</a>
     - <a href="#"></a>Kawawa Shizuko
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kawawashizuko_swimsuit_v2/">Kawawa Shizuko (Swimsuit)</a>
     - <a href="#"></a>Kosaka Wakamo
