@@ -113,7 +113,7 @@
     - <a href="#"></a>Rumi
     - <a href="#"></a>Sunohara Kokona
     - <a href="#"></a>Sunohara Shun
-    - <a href="#"></a>Yakushi Saya
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/yakushisaya_v2/">Yakushi Saya</a>
 - Red Winter Federal Academy
     - <a href="#"></a>Akiizumi Momiji
     - <a href="#"></a>Amami Nodoka
