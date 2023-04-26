@@ -132,7 +132,7 @@
     - <a href="#"></a>Sashiro Tomoe
     - <a href="#"></a>Yasumori Minori
 - Valkyrie Police Academy
-    - <a href="#"></a>Nakatsukasa Kirino
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nakatsukasakirino_v2/">Nakatsukasa Kirino</a>
     - <a href="#"></a>Nemugaki Fubuki
     - <a href="#"></a>Ogata Kanna
 - Arius Branch School
