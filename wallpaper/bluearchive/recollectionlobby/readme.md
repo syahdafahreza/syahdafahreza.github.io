@@ -53,13 +53,15 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mikamoneru_bunny_v2/">Mikamo Neru (Bunny)</a>
     - <a href="#"></a>Murokasa Akane
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/murokasaakane_bunny_v2/">Murokasa Akane (Bunny)</a>
-    - <a href="#"></a>Nekozuka Hibiki
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nekozukahibiki_v2/">Nekozuka Hibiki</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nekozukahibiki_cheerleader_v2/">Nekozuka Hibiki (Cheerleader)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/omagarihare_v2/">Omagari Hare</a>
     - <a href="#"></a>Otohana Sumire
     - <a href="#"></a>Otose Kotama
     - <a href="#"></a>Saiba Midori
     - <a href="#"></a>Saiba Momoi
     - <a href="#"></a>Shiraishi Utaha
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shiraishiutaha_cheerleader_v2/">Shiraishi Utaha (Cheerleader)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tendoualice_v2/">Tendou Alice</a>
     - <a href="#"></a>Toyomi Kotori
     - <a href="#"></a>Tsukatsuki Rio
