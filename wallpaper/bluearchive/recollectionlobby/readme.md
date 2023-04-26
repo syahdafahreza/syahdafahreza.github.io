@@ -106,7 +106,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kudaizuna_v2/">Kuda Izuna</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kuwakamikaho_v2/">Kuwakami Kaho</a>
     - <a href="#"></a>Kuzunoha
-    - <a href="#"></a>Mizuha Mimori
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mizuhamimori_v2/">Mizuha Mimori</a>
     - <a href="#"></a>Oono Tsukuyo
     - <a href="#"></a>Umika
     - <a href="#"></a>Waraku Chise
