@@ -50,6 +50,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/konurimaki_v2/">Konuri Maki</a>
     - <a href="#"></a>Kurosaki Koyuki
     - <a href="#"></a>Mikamo Neru
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mikamoneru_bunny_v2/">Mikamo Neru (Bunny)</a>
     - <a href="#"></a>Murokasa Akane
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/murokasaakane_bunny_v2/">Murokasa Akane (Bunny)</a>
     - <a href="#"></a>Nekozuka Hibiki
