@@ -51,6 +51,7 @@
     - <a href="#"></a>Kurosaki Koyuki
     - <a href="#"></a>Mikamo Neru
     - <a href="#"></a>Murokasa Akane
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/murokasaakane_bunny_v2/">Murokasa Akane (Bunny)</a>
     - <a href="#"></a>Nekozuka Hibiki
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/omagarihare_v2/">Omagari Hare</a>
     - <a href="#"></a>Otohana Sumire
