@@ -24,6 +24,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurodateharuna_v2/">Kurodate Haruna</a>
     - <a href="#"></a>Natsume Iroha
     - <a href="#"></a>Onikata Kayoko
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/onikatakayoko_newyear_v2/">Onikata Kayoko (New Year)</a>
     - <a href="#"></a>Rikuhachima Aru
     - <a href="#"></a>Satsuki
     - <a href="#"></a>Shimokura Megu
