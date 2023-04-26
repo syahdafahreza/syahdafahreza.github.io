@@ -80,7 +80,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_gym_v2/">Iochi Mari (Gym)</a>
     - <a href="#"></a>Kenzaki Tsurugi
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kenzakitsurugi_swimsuit_v2/">Kenzaki Tsurugi (Swimsuit)</a>
-    - <a href="#"></a>Kirifuji Nagisa
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kirifujinagisa_v2/">Kirifuji Nagisa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kozekiui_v2/">Kozeki Ui</a>
     - <a href="#"></a>Kurimura Airi
     - <a href="#"></a>Kyouyama Kazusa
