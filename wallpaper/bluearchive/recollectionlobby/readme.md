@@ -18,6 +18,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hinomiyachinatsu_hotspring_v2/">Hinomiya Chinatsu (Hot Spring)</a>
     - <a href="#"></a>Ibuki
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/igusaharuka_v2/">Igusa Haruka</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/igusaharuka_newyear_v2/">Igusa Haruka (New Year)</a>
     - <a href="#"></a>Kasumi
     - <a href="#"></a>Kirara
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurodateharuna_v2/">Kurodate Haruna</a>
