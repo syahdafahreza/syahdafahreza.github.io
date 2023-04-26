@@ -99,6 +99,7 @@
     - <a href="#"></a>Asahina Pina
     - <a href="#"></a>Chidori Michiru
     - <a href="#"></a>Goryou Nagusa
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/isamikaede_v2/">Isami Kaede</a>
     - <a href="#"></a>Kasuga Tsubaki
     - <a href="#"></a>Kawawa Shizuko
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kawawashizuko_swimsuit_v2/">Kawawa Shizuko (Swimsuit)</a>
