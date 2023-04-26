@@ -68,6 +68,7 @@
     - <a href="#"></a>Ichika
     - <a href="#"></a>Iochi Mari
     - <a href="#"></a>Kenzaki Tsurugi
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kenzakitsurugi_swimsuit_v2/">Kenzaki Tsurugi (Swimsuit)</a>
     - <a href="#"></a>Kirifuji Nagisa
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kozekiui_v2/">Kozeki Ui</a>
     - <a href="#"></a>Kurimura Airi

@@ -1,0 +1,161 @@
+
+CH0060BG_home.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG/big_wave
+  rotate: 180
+  xy: 2104, 2376
+  size: 1500, 1632
+  orig: 1500, 1632
+  offset: 0, 0
+  index: -1
+BG/far_wave
+  rotate: 180
+  xy: 2008, 36
+  size: 1600, 1812
+  orig: 1600, 1812
+  offset: 0, 0
+  index: -1
+BG/far_wave_back
+  rotate: false
+  xy: 1348, 2078
+  size: 2000, 1930
+  orig: 2000, 1930
+  offset: 0, 0
+  index: -1
+BG/hair_31
+  rotate: false
+  xy: 864, 642
+  size: 500, 368
+  orig: 500, 368
+  offset: 0, 0
+  index: -1
+BG/hair_32
+  rotate: false
+  xy: 544, 488
+  size: 500, 522
+  orig: 500, 522
+  offset: 0, 0
+  index: -1
+BG/sand _1
+  rotate: 180
+  xy: 2204, 1076
+  size: 1366, 1448
+  orig: 1500, 1448
+  offset: 134, 0
+  index: -1
+BG/sand_2
+  rotate: false
+  xy: 2814, 688
+  size: 1100, 1386
+  orig: 1100, 1386
+  offset: 0, 0
+  index: -1
+BG/sand_BG
+  rotate: false
+  xy: 4, 1012
+  size: 2000, 1424
+  orig: 2000, 1424
+  offset: 0, 0
+  index: -1
+BG/sand__wave_1
+  rotate: false
+  xy: 2614, 2448
+  size: 1390, 1560
+  orig: 1390, 1564
+  offset: 0, 0
+  index: -1
+BG/sand__wave_2
+  rotate: true
+  xy: 786, 56
+  size: 1190, 1524
+  orig: 1190, 1524
+  offset: 0, 0
+  index: -1
+BG/small_wave_1
+  rotate: false
+  xy: 1858, 72
+  size: 300, 448
+  orig: 300, 448
+  offset: 0, 0
+  index: -1
+BG/small_wave_2
+  rotate: false
+  xy: 3120, 2510
+  size: 650, 856
+  orig: 650, 856
+  offset: 0, 0
+  index: -1
+BG/small_wave_3
+  rotate: false
+  xy: 4, 2532
+  size: 296, 294
+  orig: 300, 294
+  offset: 0, 0
+  index: -1
+BG/small_wave_back
+  rotate: false
+  xy: 2204, 2344
+  size: 450, 450
+  orig: 450, 450
+  offset: 0, 0
+  index: -1
+BG/small_wave_back 2
+  rotate: false
+  xy: 4, 334
+  size: 800, 674
+  orig: 800, 674
+  offset: 0, 0
+  index: -1
+BG/small_wave_back 3
+  rotate: true
+  xy: 1288, 476
+  size: 450, 334
+  orig: 450, 334
+  offset: 0, 0
+  index: -1
+BG/water_00
+  rotate: false
+  xy: 4, 2440
+  size: 2200, 1568
+  orig: 2200, 1568
+  offset: 0, 0
+  index: -1
+BG/water_Light_00
+  rotate: false
+  xy: 3224, 3380
+  size: 750, 630
+  orig: 750, 630
+  offset: 0, 0
+  index: -1
+BG/water_Light_01
+  rotate: true
+  xy: 564, 46
+  size: 300, 370
+  orig: 300, 370
+  offset: 0, 0
+  index: -1
+BG/water_Light_02_00
+  rotate: false
+  xy: 2458, 2048
+  size: 354, 294
+  orig: 356, 294
+  offset: 0, 0
+  index: -1
+BG/water_Light_02_01
+  rotate: false
+  xy: 4, 120
+  size: 426, 464
+  orig: 428, 464
+  offset: 2, 0
+  index: -1
+BG/water_Light_02_02
+  rotate: false
+  xy: 3554, 2974
+  size: 350, 402
+  orig: 350, 402
+  offset: 0, 0
+  index: -1
+
