@@ -42,6 +42,7 @@
     - <a href="#"></a>Hanaoka Yuzu
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hayaseyuuka_v2/">Hayase Yuuka</a>
     - <a href="#"></a>Ichinose Asuna
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ichinoseasuna_bunny_v2/">Ichinose Asuna (Bunny)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/izumimotoeimi_v2/">Izumimoto Eimi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kagamichihiro_v2/">Kagami Chihiro</a>
     - <a href="#"></a>Kakudate Karin
