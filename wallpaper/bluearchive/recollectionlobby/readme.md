@@ -48,7 +48,7 @@
     - <a href="#"></a>Kakudate Karin
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kakudatekarin_bunny_v2/">Kakudate Karin (Bunny)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/konurimaki_v2/">Konuri Maki</a>
-    - <a href="#"></a>Kurosaki Koyuki
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurosakikoyuki_v2/">Kurosaki Koyuki</a>
     - <a href="#"></a>Mikamo Neru
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mikamoneru_bunny_v2/">Mikamo Neru (Bunny)</a>
     - <a href="#"></a>Murokasa Akane
