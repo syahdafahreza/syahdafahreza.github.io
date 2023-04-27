@@ -38,7 +38,7 @@
     - <a href="#"></a>Wanibuchi Akari
 - Millennium Science School
     - <a href="#"></a>Akeboshi Himari
-    - <a href="#"></a>Asuma Toki
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asumatoki_v2/">Asuma Toki</a>
     - <a href="#"></a>Hanaoka Yuzu
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hayaseyuuka_v2/">Hayase Yuuka</a>
     - <a href="#"></a>Ichinose Asuna
@@ -133,7 +133,7 @@
     - <a href="#"></a>Yasumori Minori
 - Valkyrie Police Academy
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nakatsukasakirino_v2/">Nakatsukasa Kirino</a>
-    - <a href="#"></a>Nemugaki Fubuki
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nemugakifubuki_v2/">Nemugaki Fubuki</a>
     - <a href="#"></a>Ogata Kanna
 - Arius Branch School
     - <a href="#"></a>Hakari Atsuko
