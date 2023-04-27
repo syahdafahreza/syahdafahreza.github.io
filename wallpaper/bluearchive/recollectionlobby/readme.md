@@ -24,9 +24,9 @@
     - <a href="#"></a>Kirara
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurodateharuna_v2/">Kurodate Haruna</a>
     - <a href="#"></a>Natsume Iroha
-    - <a href="#"></a>Onikata Kayoko
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/onikatakayoko_v2/">Onikata Kayoko</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/onikatakayoko_newyear_v2/">Onikata Kayoko (New Year)</a>
-    - <a href="#"></a>Rikuhachima Aru
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/rikuhachimaaru_v2/">Rikuhachima Aru</a>
     - <a href="#"></a>Satsuki
     - <a href="#"></a>Shimokura Megu
     - <a href="#"></a>Shiromi Iori
@@ -76,14 +76,14 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_gym_v2/">Hanekawa Hasumi (Gym)</a>
     - <a href="#"></a>Ibaragi Yoshimi
     - <a href="#"></a>Ichika
-    - <a href="#"></a>Iochi Mari
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_v2/">Iochi Mari</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_gym_v2/">Iochi Mari (Gym)</a>
     - <a href="#"></a>Kenzaki Tsurugi
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kenzakitsurugi_swimsuit_v2/">Kenzaki Tsurugi (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kirifujinagisa_v2/">Kirifuji Nagisa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kozekiui_v2/">Kozeki Ui</a>
     - <a href="#"></a>Kurimura Airi
-    - <a href="#"></a>Kyouyama Kazusa
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kyouyamakazusa_v2/">Kyouyama Kazusa</a>
     - <a href="#"></a>Misono Mika
     - <a href="#"></a>Morizuki Suzumi
     - <a href="#"></a>Shimoe Koharu
@@ -93,11 +93,11 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_swimsuit_v2/">Shizuyama Mashiro (Swimsuit)</a>
     - <a href="#"></a>Sumi Serina
     - <a href="#"></a>Urawa Hanako
-    - <a href="#"></a>Utazumi Sakurako
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/utazumisakurako_v2/">Utazumi Sakurako</a>
     - <a href="#"></a>Uzawa Reisa
-    - <a href="#"></a>Wakaba Hinata
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/wakabahinata_v2/">Wakaba Hinata</a>
     - <a href="#"></a>Yurizono Seia
-    - <a href="#"></a>Yutori Natsu
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/yutorinatsu_v2/">Yutori Natsu</a>
 - Hyakkiyako Alliance Academy
     - <a href="#"></a>Asahina Pina
     - <a href="#"></a>Chidori Michiru
