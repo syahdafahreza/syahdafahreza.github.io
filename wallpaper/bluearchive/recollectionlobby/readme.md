@@ -28,30 +28,31 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/onikatakayoko_newyear_v2/">Onikata Kayoko (New Year)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/rikuhachimaaru_v2/">Rikuhachima Aru</a>
     - <a href="#"></a>Satsuki
-    - <a href="#"></a>Shimokura Megu
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shimokuramegu_v2/">Shimokura Megu</a>
     - <a href="#"></a>Shiromi Iori
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shiromiiori_swimsuit_v2/">Shiromi Iori (Swimsuit)</a>
     - <a href="#"></a>Shishidou Izumi
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shishidouizumi_swimsuit_v2/">Shishidou Izumi (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sorasakihina_v2/">Sorasaki Hina</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sorasakihina_swimsuit_v2/">Sorasaki Hina (Swimsuit)</a>
     - <a href="#"></a>Ushimaki Juri
-    - <a href="#"></a>Wanibuchi Akari
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/wanibuchiakari_v2/">Wanibuchi Akari</a>
 - Millennium Science School
     - <a href="#"></a>Akeboshi Himari
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asumatoki_v2/">Asuma Toki</a>
     - <a href="#"></a>Hanaoka Yuzu
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hayaseyuuka_v2/">Hayase Yuuka</a>
-    - <a href="#"></a>Ichinose Asuna
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ichinoseasuna_v2/">Ichinose Asuna</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ichinoseasuna_bunny_v2/">Ichinose Asuna (Bunny)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/izumimotoeimi_v2/">Izumimoto Eimi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kagamichihiro_v2/">Kagami Chihiro</a>
-    - <a href="#"></a>Kakudate Karin
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kakudatekarin_v2/">Kakudate Karin</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kakudatekarin_bunny_v2/">Kakudate Karin (Bunny)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/konurimaki_v2/">Konuri Maki</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurosakikoyuki_v2/">Kurosaki Koyuki</a>
-    - <a href="#"></a>Mikamo Neru
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mikamoneru_v2/">Mikamo Neru</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mikamoneru_bunny_v2/">Mikamo Neru (Bunny)</a>
-    - <a href="#"></a>Murokasa Akane
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/murokasaakane_v2/">Murokasa Akane</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/murokasaakane_bunny_v2/">Murokasa Akane (Bunny)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nekozukahibiki_v2/">Nekozuka Hibiki</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nekozukahibiki_cheerleader_v2/">Nekozuka Hibiki (Cheerleader)</a>
@@ -68,8 +69,8 @@
     - <a href="#"></a>Ushio Noa
 
 - Trinity General School
-    - <a href="#"></a>Ajitani Hifumi
-    - <a href="#"></a>Aomori Mine
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ajitanihifumi_v2/">Ajitani Hifumi</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aomorimine_v2/">Aomori Mine</a>
     - <a href="#"></a>Asagao Hanae
     - <a href="#"></a>Endo Shimiko
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_v2/">Hanekawa Hasumi</a>
@@ -84,15 +85,15 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kozekiui_v2/">Kozeki Ui</a>
     - <a href="#"></a>Kurimura Airi
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kyouyamakazusa_v2/">Kyouyama Kazusa</a>
-    - <a href="#"></a>Misono Mika
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/misonomika_v2/">Misono Mika</a>
     - <a href="#"></a>Morizuki Suzumi
-    - <a href="#"></a>Shimoe Koharu
-    - <a href="#"></a>Shirasu Azusa
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shimoekoharu_v2/">Shimoe Koharu</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_v2/">Shirasu Azusa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_swimsuit_v2/">Shirasu Azusa (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_v2/">Shizuyama Mashiro</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_swimsuit_v2/">Shizuyama Mashiro (Swimsuit)</a>
     - <a href="#"></a>Sumi Serina
-    - <a href="#"></a>Urawa Hanako
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/urawahanako_v2/">Urawa Hanako</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/utazumisakurako_v2/">Utazumi Sakurako</a>
     - <a href="#"></a>Uzawa Reisa
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/wakabahinata_v2/">Wakaba Hinata</a>
@@ -134,7 +135,7 @@
 - Valkyrie Police Academy
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nakatsukasakirino_v2/">Nakatsukasa Kirino</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nemugakifubuki_v2/">Nemugaki Fubuki</a>
-    - <a href="#"></a>Ogata Kanna
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ogatakanna_v2/">Ogata Kanna</a>
 - Arius Branch School
     - <a href="#"></a>Hakari Atsuko
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/imashinomisaki_v2/">Imashino Misaki</a>
