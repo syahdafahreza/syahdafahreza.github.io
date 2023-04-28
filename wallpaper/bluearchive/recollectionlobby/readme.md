@@ -9,7 +9,9 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/takanashihoshino_v2/">Takanashi Hoshino</a>
 - Gehenna Academy
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aikiyofuuka_v2/">Aikiyo Fuuka</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aikiyofuuka_newyear_v2/">Aikiyo Fuuka (New Year)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/akashijunko_v2/">Akashi Junko</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/akashijunko_newyear_v2/">Akashi Junko (New Year)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/amauako_v2/">Amau Ako</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asagimutsuki_v2/">Asagi Mutsuki</a>
     - <a href="#"></a>Erika
@@ -23,7 +25,8 @@
     - <a href="#"></a>Kasumi
     - <a href="#"></a>Kirara
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurodateharuna_v2/">Kurodate Haruna</a>
-    - <a href="#"></a>Natsume Iroha
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurodateharuna_newyear_v2/">Kurodate Haruna (New Year)</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/natsumeiroha_v2/">Natsume Iroha</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/onikatakayoko_v2/">Onikata Kayoko</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/onikatakayoko_newyear_v2/">Onikata Kayoko (New Year)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/rikuhachimaaru_v2/">Rikuhachima Aru</a>
@@ -35,7 +38,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shishidouizumi_swimsuit_v2/">Shishidou Izumi (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sorasakihina_v2/">Sorasaki Hina</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sorasakihina_swimsuit_v2/">Sorasaki Hina (Swimsuit)</a>
-    - <a href="#"></a>Ushimaki Juri
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ushimakijuri_v2/">Ushimaki Juri</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/wanibuchiakari_v2/">Wanibuchi Akari</a>
 - Millennium Science School
     - <a href="#"></a>Akeboshi Himari
@@ -114,7 +117,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mizuhamimori_v2/">Mizuha Mimori</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/oonotsukuyo_v2/">Oono Tsukuyo</a>
     - <a href="#"></a>Umika
-    - <a href="#"></a>Waraku Chise
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/warakuchise_v2/">Waraku Chise</a>
 - Shanhaijing Senior Secondary School
     - <a href="#"></a>Kisaki
     - <a href="#"></a>Mina
@@ -143,7 +146,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tsuchinagahiyori_v2/">Tsuchinaga Hiyori</a>
 - SRT Special Academy
     - <a href="#"></a>Kasumizawa Miyu
-    - <a href="#"></a>Kazekura Moe
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kazekuramoe_v2/">Kazekura Moe</a>
     - <a href="#"></a>Kurumi
     - <a href="#"></a>Niko
     - <a href="#"></a>Otogi
