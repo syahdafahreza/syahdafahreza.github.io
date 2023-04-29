@@ -123,6 +123,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/oonotsukuyo_v2/">Oono Tsukuyo</a>
     - <a href="#"></a>Umika
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/warakuchise_v2/">Waraku Chise</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/warakuchise_swimsuit_v2/">Waraku Chise (Swimsuit)</a>
 - Shanhaijing Senior Secondary School
     - <a href="#"></a>Kisaki
     - <a href="#"></a>Mina
