@@ -62117,7 +62117,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                         ),
                                         vt(
                                           rt,
-                                          { label: "8k", size: "large" },
+                                          { label: "8k", disabled: "", size: "large" },
                                           {
                                             default: xt(() => [Ke("8K")]),
                                             _: 1,
