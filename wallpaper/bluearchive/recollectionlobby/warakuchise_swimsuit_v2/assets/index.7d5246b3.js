@@ -61686,7 +61686,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                     ),
                                     yt(
                                       nt,
-                                      { label: "8k", size: "large" },
+                                      { label: "8k", disabled: "", size: "large" },
                                       { default: Et(() => [rr("8K")]), _: 1 }
                                     ),
                                   ]),

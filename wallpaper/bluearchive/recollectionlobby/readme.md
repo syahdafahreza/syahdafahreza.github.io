@@ -75,6 +75,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ushionoa_v2/">Ushio Noa</a>
 - Trinity General School
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ajitanihifumi_v2/">Ajitani Hifumi</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ajitanihifumi_swimsuit_v2/">Ajitani Hifumi (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aomorimine_v2/">Aomori Mine</a>
     - <a href="#"></a>Asagao Hanae
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asagaohanae_xmas_v2/">Asagao Hanae (Xmas)</a>
