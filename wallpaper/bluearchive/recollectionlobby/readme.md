@@ -43,8 +43,9 @@
 - Millennium Science School
     - <a href="#"></a>Akeboshi Himari
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asumatoki_v2/">Asuma Toki</a>
-    - <a href="#"></a>Hanaoka Yuzu
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanaokayuzu_v2/">Hanaoka Yuzu</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hayaseyuuka_v2/">Hayase Yuuka</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hayaseyuuka_gym_v2/">Hayase Yuuka (Gym)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ichinoseasuna_v2/">Ichinose Asuna</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ichinoseasuna_bunny_v2/">Ichinose Asuna (Bunny)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/izumimotoeimi_v2/">Izumimoto Eimi</a>
@@ -69,8 +70,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tendoualice_v2/">Tendou Alice</a>
     - <a href="#"></a>Toyomi Kotori
     - <a href="#"></a>Tsukatsuki Rio
-    - <a href="#"></a>Ushio Noa
-
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ushionoa_v2/">Ushio Noa</a>
 - Trinity General School
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ajitanihifumi_v2/">Ajitani Hifumi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aomorimine_v2/">Aomori Mine</a>
@@ -122,7 +122,7 @@
     - <a href="#"></a>Kisaki
     - <a href="#"></a>Mina
     - <a href="#"></a>Rumi
-    - <a href="#"></a>Sunohara Kokona
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunoharakokona_v2/">Sunohara Kokona</a>
     - <a href="#"></a>Sunohara Shun
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/yakushisaya_v2/">Yakushi Saya</a>
 - Red Winter Federal Academy
@@ -145,13 +145,13 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/joumaesaori_v2/">Joumae Saori</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tsuchinagahiyori_v2/">Tsuchinaga Hiyori</a>
 - SRT Special Academy
-    - <a href="#"></a>Kasumizawa Miyu
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kasumizawamiyu_v2/">Kasumizawa Miyu</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kazekuramoe_v2/">Kazekura Moe</a>
     - <a href="#"></a>Kurumi
     - <a href="#"></a>Niko
     - <a href="#"></a>Otogi
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/soraisaki_v2/">Sorai Saki</a>
-    - <a href="#"></a>Tsukiyuki Miyako
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tsukiyukimiyako_v2/">Tsukiyuki Miyako</a>
     - <a href="#"></a>Yukino
 - Kronos School of Journalism (TBA)
 - Wild Hunt Academy of Arts (TBA)
