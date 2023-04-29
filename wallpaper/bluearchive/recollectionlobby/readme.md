@@ -14,6 +14,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/akashijunko_newyear_v2/">Akashi Junko (New Year)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/amauako_v2/">Amau Ako</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asagimutsuki_v2/">Asagi Mutsuki</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asagimutsuki_newyear_v2/">Asagi Mutsuki (New Year)</a>
     - <a href="#"></a>Erika
     - <a href="#"></a>Hanuma Makoto
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/himurosena_v2/">Himuro Sena</a>
@@ -30,6 +31,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/onikatakayoko_v2/">Onikata Kayoko</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/onikatakayoko_newyear_v2/">Onikata Kayoko (New Year)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/rikuhachimaaru_v2/">Rikuhachima Aru</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/rikuhachimaaru_newyear_v2/">Rikuhachima Aru (New Year)</a>
     - <a href="#"></a>Satsuki
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shimokuramegu_v2/">Shimokura Megu</a>
     - <a href="#"></a>Shiromi Iori
@@ -63,8 +65,8 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/omagarihare_v2/">Omagari Hare</a>
     - <a href="#"></a>Otohana Sumire
     - <a href="#"></a>Otose Kotama
-    - <a href="#"></a>Saiba Midori
-    - <a href="#"></a>Saiba Momoi
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/saibamidori_v2/">Saiba Midori</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/saibamomoi_v2/">Saiba Momoi</a>
     - <a href="#"></a>Shiraishi Utaha
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shiraishiutaha_cheerleader_v2/">Shiraishi Utaha (Cheerleader)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tendoualice_v2/">Tendou Alice</a>
@@ -75,6 +77,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ajitanihifumi_v2/">Ajitani Hifumi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aomorimine_v2/">Aomori Mine</a>
     - <a href="#"></a>Asagao Hanae
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asagaohanae_xmas_v2/">Asagao Hanae (Xmas)</a>
     - <a href="#"></a>Endo Shimiko
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_v2/">Hanekawa Hasumi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_gym_v2/">Hanekawa Hasumi (Gym)</a>
@@ -96,6 +99,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_v2/">Shizuyama Mashiro</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_swimsuit_v2/">Shizuyama Mashiro (Swimsuit)</a>
     - <a href="#"></a>Sumi Serina
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sumiserina_xmas_v2/">Sumi Serina (Xmas)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/urawahanako_v2/">Urawa Hanako</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/utazumisakurako_v2/">Utazumi Sakurako</a>
     - <a href="#"></a>Uzawa Reisa
