@@ -116,6 +116,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kawawashizuko_swimsuit_v2/">Kawawa Shizuko (Swimsuit)</a>
     - <a href="#"></a>Kosaka Wakamo
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kudaizuna_v2/">Kuda Izuna</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kudaizuna_swimsuit_v2/">Kuda Izuna (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kuwakamikaho_v2/">Kuwakami Kaho</a>
     - <a href="#"></a>Kuzunoha
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mizuhamimori_v2/">Mizuha Mimori</a>
