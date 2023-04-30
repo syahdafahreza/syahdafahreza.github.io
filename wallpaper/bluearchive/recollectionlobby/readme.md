@@ -5,8 +5,11 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kuromiserika_v2/">Kuromi Serika</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kuromiserika_newyear_v2/">Kuromi Serika (New Year)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/okusoraayane_v2/">Okusora Ayane</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/okusoraayane_swimsuit_v2/">Okusora Ayane (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunaookamishiroko_v2/">Sunaookami Shiroko</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunaookamishiroko_riding_v2/">Sunaookami Shiroko (Riding)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/takanashihoshino_v2/">Takanashi Hoshino</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/takanashihoshino_swimsuit_v2/">Takanashi Hoshino (Swimsuit)</a>
 - Gehenna Academy
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aikiyofuuka_v2/">Aikiyo Fuuka</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aikiyofuuka_newyear_v2/">Aikiyo Fuuka (New Year)</a>
@@ -34,7 +37,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/rikuhachimaaru_newyear_v2/">Rikuhachima Aru (New Year)</a>
     - <a href="#"></a>Satsuki
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shimokuramegu_v2/">Shimokura Megu</a>
-    - <a href="#"></a>Shiromi Iori
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shiromiiori_v2/">Shiromi Iori</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shiromiiori_swimsuit_v2/">Shiromi Iori (Swimsuit)</a>
     - <a href="#"></a>Shishidou Izumi
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shishidouizumi_swimsuit_v2/">Shishidou Izumi (Swimsuit)</a>
@@ -43,7 +46,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ushimakijuri_v2/">Ushimaki Juri</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/wanibuchiakari_v2/">Wanibuchi Akari</a>
 - Millennium Science School
-    - <a href="#"></a>Akeboshi Himari
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/akeboshihimari_v2/">Akeboshi Himari</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asumatoki_v2/">Asuma Toki</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanaokayuzu_v2/">Hanaoka Yuzu</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hayaseyuuka_v2/">Hayase Yuuka</a>
@@ -77,7 +80,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ajitanihifumi_v2/">Ajitani Hifumi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ajitanihifumi_swimsuit_v2/">Ajitani Hifumi (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/aomorimine_v2/">Aomori Mine</a>
-    - <a href="#"></a>Asagao Hanae
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asagaohanae_v2/">Asagao Hanae</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asagaohanae_xmas_v2/">Asagao Hanae (Xmas)</a>
     - <a href="#"></a>Endo Shimiko
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_v2/">Hanekawa Hasumi</a>
@@ -99,7 +102,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_swimsuit_v2/">Shirasu Azusa (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_v2/">Shizuyama Mashiro</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_swimsuit_v2/">Shizuyama Mashiro (Swimsuit)</a>
-    - <a href="#"></a>Sumi Serina
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sumiserina_v2/">Sumi Serina</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sumiserina_xmas_v2/">Sumi Serina (Xmas)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/urawahanako_v2/">Urawa Hanako</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/utazumisakurako_v2/">Utazumi Sakurako</a>
@@ -109,7 +112,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/yutorinatsu_v2/">Yutori Natsu</a>
 - Hyakkiyako Alliance Academy
     - <a href="#"></a>Asahina Pina
-    - <a href="#"></a>Chidori Michiru
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/chidorimichiru_v2/">Chidori Michiru</a>
     - <a href="#"></a>Goryou Nagusa
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/isamikaede_v2/">Isami Kaede</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kasugatsubaki_v2/">Kasuga Tsubaki</a>
@@ -137,7 +140,7 @@
     - <a href="#"></a>Amami Nodoka
     - <a href="#"></a>Himeki Meru
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ikekuramarina_v2/">Ikekura Marina</a>
-    - <a href="#"></a>Mayoi Shigure
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mayoishigure_v2/">Mayoi Shigure</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/renkawacherino_v2/">Renkawa Cherino</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/renkawacherino_hotspring_v2/">Renkawa Cherino (Hot Spring)</a>
     - <a href="#"></a>Sashiro Tomoe
@@ -147,7 +150,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nemugakifubuki_v2/">Nemugaki Fubuki</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ogatakanna_v2/">Ogata Kanna</a>
 - Arius Branch School
-    - <a href="#"></a>Hakari Atsuko
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hakariatsuko_v2/">Hakari Atsuko</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/imashinomisaki_v2/">Imashino Misaki</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/joumaesaori_v2/">Joumae Saori</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tsuchinagahiyori_v2/">Tsuchinaga Hiyori</a>
