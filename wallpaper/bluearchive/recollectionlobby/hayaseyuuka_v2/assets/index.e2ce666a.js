@@ -62188,7 +62188,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                         ),
                                         vt(
                                           st,
-                                          { label: "4k", size: "large" },
+                                          { label: "4k", disabled: "", size: "large" },
                                           {
                                             default: wt(() => [Ke("4K")]),
                                             _: 1,

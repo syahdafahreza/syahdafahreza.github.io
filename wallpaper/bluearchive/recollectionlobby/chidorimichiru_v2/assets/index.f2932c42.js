@@ -61242,7 +61242,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                     ),
                                     _t(
                                       A,
-                                      { label: "4k", size: "large" },
+                                      { label: "4k", disabled: "", size: "large" },
                                       { default: Pt(() => [tr("4K")]), _: 1 }
                                     ),
                                     _t(

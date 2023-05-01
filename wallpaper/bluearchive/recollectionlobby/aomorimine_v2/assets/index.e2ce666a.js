@@ -62153,7 +62153,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                         ),
                                         vt(
                                           it,
-                                          { label: "4k", size: "large" },
+                                          { label: "4k", disabled: "", size: "large" },
                                           {
                                             default: wt(() => [rr("4K")]),
                                             _: 1,

@@ -62109,7 +62109,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                         ),
                                         vt(
                                           rt,
-                                          { label: "4k", size: "large" },
+                                          { label: "4k", disabled: "", size: "large" },
                                           {
                                             default: xt(() => [Ke("4K")]),
                                             _: 1,

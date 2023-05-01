@@ -61681,7 +61681,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                     ),
                                     yt(
                                       nt,
-                                      { label: "4k", size: "large" },
+                                      { label: "4k", disabled: "", size: "large" },
                                       { default: Et(() => [rr("4K")]), _: 1 }
                                     ),
                                     yt(
