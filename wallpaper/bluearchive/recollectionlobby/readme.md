@@ -48,7 +48,9 @@
 - Millennium Science School
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/akeboshihimari_v2/">Akeboshi Himari</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asumatoki_v2/">Asuma Toki</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/asumatoki_bunny_v2/">Asuma Toki (Bunny)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanaokayuzu_v2/">Hanaoka Yuzu</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanaokayuzu_maid_v2/">Hanaoka Yuzu (Maid)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hayaseyuuka_v2/">Hayase Yuuka</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hayaseyuuka_gym_v2/">Hayase Yuuka (Gym)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ichinoseasuna_v2/">Ichinose Asuna</a>
@@ -73,6 +75,7 @@
     - <a href="#"></a>Shiraishi Utaha
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shiraishiutaha_cheerleader_v2/">Shiraishi Utaha (Cheerleader)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tendoualice_v2/">Tendou Alice</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tendoualice_maid_v2/">Tendou Alice (Maid)</a>
     - <a href="#"></a>Toyomi Kotori
     - <a href="#"></a>Tsukatsuki Rio
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ushionoa_v2/">Ushio Noa</a>
