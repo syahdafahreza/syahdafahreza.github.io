@@ -137,7 +137,7 @@
     - <a href="#"></a>Mina
     - <a href="#"></a>Rumi
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunoharakokona_v2/">Sunohara Kokona</a>
-    - <a href="#"></a>Sunohara Shun
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunoharashun_v2/">Sunohara Shun</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/yakushisaya_v2/">Yakushi Saya</a>
 - Red Winter Federal Academy
     - <a href="#"></a>Akiizumi Momiji
