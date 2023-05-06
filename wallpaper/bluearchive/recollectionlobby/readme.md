@@ -93,14 +93,14 @@
     - <a href="#"></a>Ichika
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_v2/">Iochi Mari</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_gym_v2/">Iochi Mari (Gym)</a>
-    - <a href="#"></a>Kenzaki Tsurugi
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kenzakitsurugi_v2/">Kenzaki Tsurugi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kenzakitsurugi_swimsuit_v2/">Kenzaki Tsurugi (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kirifujinagisa_v2/">Kirifuji Nagisa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kozekiui_v2/">Kozeki Ui</a>
     - <a href="#"></a>Kurimura Airi
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kyouyamakazusa_v2/">Kyouyama Kazusa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/misonomika_v2/">Misono Mika</a>
-    - <a href="#"></a>Morizuki Suzumi
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/morizukisuzumi_v2/">Morizuki Suzumi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shimoekoharu_v2/">Shimoe Koharu</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_v2/">Shirasu Azusa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_swimsuit_v2/">Shirasu Azusa (Swimsuit)</a>
@@ -168,6 +168,8 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/soraisaki_v2/">Sorai Saki</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tsukiyukimiyako_v2/">Tsukiyuki Miyako</a>
     - <a href="#"></a>Yukino
+- Special Characters
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hatsunemiku_v2/">Hatsune Miku</a>
 - Kronos School of Journalism (TBA)
 - Wild Hunt Academy of Arts (TBA)
 - Odyssey Maritime School (TBA)
