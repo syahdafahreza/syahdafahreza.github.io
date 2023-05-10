@@ -89,7 +89,7 @@
     - <a href="#"></a>Endo Shimiko
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_v2/">Hanekawa Hasumi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_gym_v2/">Hanekawa Hasumi (Gym)</a>
-    - <a href="#"></a>Ibaragi Yoshimi
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ibaragiyoshimi_v2/">Ibaragi Yoshimi</a> (In progress...)
     - <a href="#"></a>Ichika
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_v2/">Iochi Mari</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_gym_v2/">Iochi Mari (Gym)</a>
@@ -97,7 +97,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kenzakitsurugi_swimsuit_v2/">Kenzaki Tsurugi (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kirifujinagisa_v2/">Kirifuji Nagisa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kozekiui_v2/">Kozeki Ui</a>
-    - <a href="#"></a>Kurimura Airi
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurimuraairi_v2/">Kurimura Airi</a> (In progress...)
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kyouyamakazusa_v2/">Kyouyama Kazusa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/misonomika_v2/">Misono Mika</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/morizukisuzumi_v2/">Morizuki Suzumi</a>
