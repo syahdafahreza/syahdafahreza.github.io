@@ -61424,7 +61424,7 @@ PERFORMANCE OF THIS SOFTWARE.
             linearAlgebraScale: 1.1,
             talkCount: 0,
           }).value, //Initial Settings
-          e = mt({ //NOT DONE YET!
+          e = mt({
             language: "en",
             bgmVolume: 0.2,
             fontSize: 18,
@@ -61432,8 +61432,8 @@ PERFORMANCE OF THIS SOFTWARE.
             rotation: 0,
             scale: 0.45,
             talkVolume: 0.5,
-            textPointX: 700,
-            textPointY: 500,
+            textPointX: 575,
+            textPointY: 465,
             textureResolution: "2k",
             mouseTracking: !0,
             panelDisplay: !1,

@@ -97,7 +97,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kenzakitsurugi_swimsuit_v2/">Kenzaki Tsurugi (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kirifujinagisa_v2/">Kirifuji Nagisa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kozekiui_v2/">Kozeki Ui</a>
-    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurimuraairi_v2/">Kurimura Airi</a> (In progress...)
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurimuraairi_v2/">Kurimura Airi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kyouyamakazusa_v2/">Kyouyama Kazusa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/misonomika_v2/">Misono Mika</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/morizukisuzumi_v2/">Morizuki Suzumi</a>
