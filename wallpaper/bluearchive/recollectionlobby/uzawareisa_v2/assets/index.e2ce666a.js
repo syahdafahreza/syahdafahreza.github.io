@@ -61424,16 +61424,16 @@ PERFORMANCE OF THIS SOFTWARE.
             linearAlgebraScale: 1.1,
             talkCount: 0,
           }).value, //Initial Settings
-          e = mt({ //NOT DONE YET!
-            language: "en",
+          e = mt({
+            language: "ch",
             bgmVolume: 0.2,
             fontSize: 18,
             position: { x: 0, y: 0 },
             rotation: 0,
-            scale: 0.45,
+            scale: 0.47,
             talkVolume: 0.5,
-            textPointX: 600,
-            textPointY: 500,
+            textPointX: 748,
+            textPointY: 600,
             textureResolution: "2k",
             mouseTracking: !0,
             panelDisplay: !1,
@@ -62186,8 +62186,6 @@ PERFORMANCE OF THIS SOFTWARE.
                                           rt,
                                           {
                                             label: "en",
-                                            disabled:
-                                              !C(r).language.includes("en"),
                                             size: "large",
                                           },
                                           {
