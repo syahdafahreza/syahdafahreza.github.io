@@ -89,7 +89,7 @@
     - <a href="#"></a>Endo Shimiko
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_v2/">Hanekawa Hasumi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_gym_v2/">Hanekawa Hasumi (Gym)</a>
-    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ibaragiyoshimi_v2/">Ibaragi Yoshimi</a> (In progress...)
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ibaragiyoshimi_v2/">Ibaragi Yoshimi</a>
     - <a href="#"></a>Ichika
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_v2/">Iochi Mari</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_gym_v2/">Iochi Mari (Gym)</a>
