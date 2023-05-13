@@ -61433,7 +61433,7 @@ PERFORMANCE OF THIS SOFTWARE.
             scale: 0.47,
             talkVolume: 0.5,
             textPointX: 748,
-            textPointY: 600,
+            textPointY: 570,
             textureResolution: "2k",
             mouseTracking: !0,
             panelDisplay: !1,
