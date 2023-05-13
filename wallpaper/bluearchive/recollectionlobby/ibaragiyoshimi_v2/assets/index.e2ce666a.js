@@ -61424,7 +61424,7 @@ PERFORMANCE OF THIS SOFTWARE.
             linearAlgebraScale: 1.1,
             talkCount: 0,
           }).value, //Initial Settings
-          e = mt({ //NOT DONE YET!
+          e = mt({
             language: "en",
             bgmVolume: 0.2,
             fontSize: 18,
