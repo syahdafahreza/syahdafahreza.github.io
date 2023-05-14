@@ -110,7 +110,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sumiserina_xmas_v2/">Sumi Serina (Xmas)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/urawahanako_v2/">Urawa Hanako</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/utazumisakurako_v2/">Utazumi Sakurako</a>
-    - <a href="uzawareisa_v2">Uzawa Reisa</a> (In progress...)
+    - <a href="uzawareisa_v2">Uzawa Reisa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/wakabahinata_v2/">Wakaba Hinata</a>
     - <a href="#"></a>Yurizono Seia
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/yutorinatsu_v2/">Yutori Natsu</a>
