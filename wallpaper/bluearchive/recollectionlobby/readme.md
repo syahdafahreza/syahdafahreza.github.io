@@ -122,7 +122,8 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kasugatsubaki_v2/">Kasuga Tsubaki</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kawawashizuko_v2/">Kawawa Shizuko</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kawawashizuko_swimsuit_v2/">Kawawa Shizuko (Swimsuit)</a>
-    - <a href="#"></a>Kosaka Wakamo
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kosakawakamo_v2/">Kosaka Wakamo</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kosakawakamo_swimsuit_v2/">Kosaka Wakamo (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kudaizuna_v2/">Kuda Izuna</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kudaizuna_swimsuit_v2/">Kuda Izuna (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kuwakamikaho_v2/">Kuwakami Kaho</a>
@@ -148,7 +149,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mayoishigure_v2/">Mayoi Shigure</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/renkawacherino_v2/">Renkawa Cherino</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/renkawacherino_hotspring_v2/">Renkawa Cherino (Hot Spring)</a>
-    - <a href="#"></a>Sashiro Tomoe
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sashirotomoe_v2/">Sashiro Tomoe</a>
     - <a href="#"></a>Yasumori Minori
 - Valkyrie Police Academy
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nakatsukasakirino_v2/">Nakatsukasa Kirino</a>
