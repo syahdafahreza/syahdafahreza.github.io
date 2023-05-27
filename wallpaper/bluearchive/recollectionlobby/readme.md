@@ -134,9 +134,9 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/warakuchise_v2/">Waraku Chise</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/warakuchise_swimsuit_v2/">Waraku Chise (Swimsuit)</a>
 - Shanhaijing Senior Secondary School
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/akeshirorumi_v2/">Akeshiro Rumi</a>
     - <a href="#"></a>Kisaki
-    - <a href="#"></a>Mina
-    - <a href="#"></a>Rumi
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/konoemina_v2/">Konoe Mina</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunoharakokona_v2/">Sunohara Kokona</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunoharashun_v2/">Sunohara Shun</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunoharashun_small_v2/">Sunohara Shun (Small)</a>
