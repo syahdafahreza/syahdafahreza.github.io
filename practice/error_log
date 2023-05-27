@@ -1,6 +1,0 @@
-[18-Sep-2021 11:57:20 Asia/jakarta] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/syad8577/public_html/practice/index.php on line 2
-[18-Sep-2021 11:57:20 Asia/jakarta] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/syad8577/public_html/practice/index.php on line 2
-[18-Sep-2021 11:57:20 Asia/jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function OpenCon() in /home/syad8577/public_html/practice/index.php:4
-Stack trace:
-#0 {main}
-  thrown in /home/syad8577/public_html/practice/index.php on line 4

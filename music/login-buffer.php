@@ -1,1 +1,0 @@
-<?php include_once('config.php'); if(isset($_SESSION['id']) and $_SESSION['id']!=""){}else{ header('location: '.HOME_URL.'');exit();}
