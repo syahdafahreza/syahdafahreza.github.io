@@ -357,18 +357,13 @@ if (!$adalahadmin) {
 
                             ?>
                             <!-- Dropdown - User Information -->
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                                aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#"><i
-                                        class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>Profil</a>
-                                <a class="dropdown-item" href="#"><i
-                                        class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>Pengaturan</a>
-                                <a class="dropdown-item" href="#"><i
-                                        class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>Log Aktivitas</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"><i
-                                        class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Keluar</a>
-                            </div>
+                            <!-- <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown"> -->
+                                <!-- <a class="dropdown-item" href="#"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>Profil</a> -->
+                                <!-- <a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>Pengaturan</a> -->
+                                <!-- <a class="dropdown-item" href="#"><i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>Log Aktivitas</a> -->
+                                <!-- <div class="dropdown-divider"></div> -->
+                                <!-- <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Keluar</a> -->
+                            <!-- </div> -->
                         </li>
 
                     </ul>
