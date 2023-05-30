@@ -29,9 +29,11 @@ class Dashboard extends CI_Controller
 
 			}
 		} else {
-			echo "not login!";
-			$this->load->view('templates/sidebar');
+			// echo $this->session->userdata('username');
+			// echo "not login!";
+			// $this->load->view('templates/sidebarguest');
 			// $this->load->view('dashboard');
+			redirect('auth');
 		}
 
 		// $this->load->view('templates/sidebar');
