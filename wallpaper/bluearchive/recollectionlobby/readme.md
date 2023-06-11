@@ -150,7 +150,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/renkawacherino_v2/">Renkawa Cherino</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/renkawacherino_hotspring_v2/">Renkawa Cherino (Hot Spring)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sashirotomoe_v2/">Sashiro Tomoe</a>
-    - <a href="#"></a>Yasumori Minori
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/yasumoriminori_v2/">Yasumori Minori</a>
 - Valkyrie Police Academy
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nakatsukasakirino_v2/">Nakatsukasa Kirino</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nemugakifubuki_v2/">Nemugaki Fubuki</a>
