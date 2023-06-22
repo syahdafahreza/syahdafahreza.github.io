@@ -162,6 +162,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tsuchinagahiyori_v2/">Tsuchinaga Hiyori</a>
 - SRT Special Academy
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kasumizawamiyu_v2/">Kasumizawa Miyu</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kasumizawamiyu_swimsuit_v2/">Kasumizawa Miyu (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kazekuramoe_v2/">Kazekura Moe</a>
     - <a href="#"></a>Kurumi
     - <a href="#"></a>Niko
