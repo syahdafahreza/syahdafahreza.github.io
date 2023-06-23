@@ -168,7 +168,9 @@
     - <a href="#"></a>Niko
     - <a href="#"></a>Otogi
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/soraisaki_v2/">Sorai Saki</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/soraisaki_swimsuit_v2/">Sorai Saki (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tsukiyukimiyako_v2/">Tsukiyuki Miyako</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tsukiyukimiyako_swimsuit_v2/">Tsukiyuki Miyako (Swimsuit)</a>
     - <a href="#"></a>Yukino
 - Special Characters
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hatsunemiku_v2/">Hatsune Miku</a>
