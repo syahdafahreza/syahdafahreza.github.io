@@ -9,6 +9,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/okusoraayane_swimsuit_v2/">Okusora Ayane (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunaookamishiroko_v2/">Sunaookami Shiroko</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunaookamishiroko_riding_v2/">Sunaookami Shiroko (Riding)</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunaookamishiroko_swimsuit_v2/">Sunaookami Shiroko (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/takanashihoshino_v2/">Takanashi Hoshino</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/takanashihoshino_swimsuit_v2/">Takanashi Hoshino (Swimsuit)</a>
 - Gehenna Academy
@@ -143,7 +144,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/yakushisaya_v2/">Yakushi Saya</a>
 - Red Winter Federal Academy
     - <a href="#"></a>Akiizumi Momiji
-    - <a href="#"></a>Amami Nodoka
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/amaminodoka_v2/">Amami Nodoka</a>
     - <a href="#"></a>Himeki Meru
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ikekuramarina_v2/">Ikekura Marina</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mayoishigure_v2/">Mayoi Shigure</a>
