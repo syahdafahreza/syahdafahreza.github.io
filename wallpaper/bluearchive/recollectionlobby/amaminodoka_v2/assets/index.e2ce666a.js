@@ -61425,7 +61425,7 @@ PERFORMANCE OF THIS SOFTWARE.
             talkCount: 0,
           }).value, //Initial Settings
           e = mt({ 
-            language: "ch",
+            language: "en",
             bgmVolume: 0.2,
             fontSize: 18,
             position: { x: 0, y: 0 },
