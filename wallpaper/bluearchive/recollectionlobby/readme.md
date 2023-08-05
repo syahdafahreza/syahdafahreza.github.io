@@ -98,11 +98,13 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kenzakitsurugi_swimsuit_v2/">Kenzaki Tsurugi (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kirifujinagisa_v2/">Kirifuji Nagisa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kozekiui_v2/">Kozeki Ui</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kozekiui_swimsuit_v2/">Kozeki Ui (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurimuraairi_v2/">Kurimura Airi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kyouyamakazusa_v2/">Kyouyama Kazusa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/misonomika_v2/">Misono Mika</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/morizukisuzumi_v2/">Morizuki Suzumi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shimoekoharu_v2/">Shimoe Koharu</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shimoekoharu_swimsuit_v2/">Shimoe Koharu (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_v2/">Shirasu Azusa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_swimsuit_v2/">Shirasu Azusa (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shizuyamamashiro_v2/">Shizuyama Mashiro</a>
@@ -110,9 +112,11 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sumiserina_v2/">Sumi Serina</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sumiserina_xmas_v2/">Sumi Serina (Xmas)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/urawahanako_v2/">Urawa Hanako</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/urawahanako_swimsuit_v2/">Urawa Hanako (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/utazumisakurako_v2/">Utazumi Sakurako</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/uzawareisa_v2">Uzawa Reisa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/wakabahinata_v2/">Wakaba Hinata</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/wakabahinata_swimsuit_v2/">Wakaba Hinata (Swimsuit)</a>
     - <a href="#"></a>Yurizono Seia
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/yutorinatsu_v2/">Yutori Natsu</a>
 - Hyakkiyako Alliance Academy
@@ -145,6 +149,7 @@
 - Red Winter Federal Academy
     - <a href="#"></a>Akiizumi Momiji
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/amaminodoka_v2/">Amami Nodoka</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/amaminodoka_hotspring_v2/">Amami Nodoka (Hot Spring)</a>
     - <a href="#"></a>Himeki Meru
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ikekuramarina_v2/">Ikekura Marina</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mayoishigure_v2/">Mayoi Shigure</a>
