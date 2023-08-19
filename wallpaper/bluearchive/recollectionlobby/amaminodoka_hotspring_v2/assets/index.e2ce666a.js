@@ -61430,7 +61430,7 @@ PERFORMANCE OF THIS SOFTWARE.
             fontSize: 18,
             position: { x: 0, y: 835 },
             rotation: 0,
-            scale: 0.45,
+            scale: 0.46,
             talkVolume: 0.5,
             textPointX: 880,
             textPointY: 400,
