@@ -148,10 +148,10 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/sunoharashun_small_v2/">Sunohara Shun (Small)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/yakushisaya_v2/">Yakushi Saya</a>
 - Red Winter Federal Academy
-    - <a href="#"></a>Akiizumi Momiji
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/akiizumimomiji_v2/">Akiizumi Momiji</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/amaminodoka_v2/">Amami Nodoka</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/amaminodoka_hotspring_v2/">Amami Nodoka (Hot Spring)</a>
-    - <a href="#"></a>Himeki Meru
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/himekimeru_v2/">Himeki Meru</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ikekuramarina_v2/">Ikekura Marina</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/mayoishigure_v2/">Mayoi Shigure</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/renkawacherino_v2/">Renkawa Cherino</a>
