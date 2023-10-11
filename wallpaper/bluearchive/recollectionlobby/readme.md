@@ -31,6 +31,7 @@
     - <a href="#"></a>Kasumi
     - <a href="#"></a>Kirara
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurodateharuna_v2/">Kurodate Haruna</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurodateharuna_gym_v2/">Kurodate Haruna (Gym) -Coming Soon</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kurodateharuna_newyear_v2/">Kurodate Haruna (New Year)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/natsumeiroha_v2/">Natsume Iroha</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/onikatakayoko_v2/">Onikata Kayoko</a>
@@ -79,6 +80,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tendoualice_v2/">Tendou Alice</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/tendoualice_maid_v2/">Tendou Alice (Maid)</a>
     - <a href="#"></a>Toyomi Kotori
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/toyomikotori_v2/">Toyomi Kotori (Gym) -Coming Soon</a>
     - <a href="#"></a>Tsukatsuki Rio
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ushionoa_v2/">Ushio Noa</a>
 - Trinity General School
@@ -91,7 +93,6 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_v2/">Hanekawa Hasumi</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/hanekawahasumi_gym_v2/">Hanekawa Hasumi (Gym)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/ibaragiyoshimi_v2/">Ibaragi Yoshimi</a>
-    - <a href="#"></a>Ichika
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_v2/">Iochi Mari</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/iochimari_gym_v2/">Iochi Mari (Gym)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kenzakitsurugi_v2/">Kenzaki Tsurugi</a>
@@ -103,6 +104,7 @@
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/kyouyamakazusa_v2/">Kyouyama Kazusa</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/misonomika_v2/">Misono Mika</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/morizukisuzumi_v2/">Morizuki Suzumi</a>
+    - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/nakamasaichika_v2/">Nakamasa Ichika -Coming Soon</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shimoekoharu_v2/">Shimoe Koharu</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shimoekoharu_swimsuit_v2/">Shimoe Koharu (Swimsuit)</a>
     - <a href="https://syahdafahreza.github.io/wallpaper/bluearchive/recollectionlobby/shirasuazusa_v2/">Shirasu Azusa</a>
